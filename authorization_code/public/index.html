@@ -35,16 +35,16 @@
       <h1>Logged in as {{display_name}}</h1>
       <div class="media">
         <div class="pull-left">
-          <img class="media-object" width="150" src="{{image.url}}" />
+          <img class="media-object" width="150" src="{{images.0.url}}" />
         </div>
         <div class="media-body">
           <dl class="dl-horizontal">
             <dt>Display name</dt><dd>{{display_name}}</dd>
             <dt>Id</dt><dd>{{id}}</dd>
             <dt>Email</dt><dd>{{email}}</dd>
-            <dt>Spotify URI</dt><dd><a href="{{self.uri}}">{{self.uri}}</a></dd>
-            <dt>Link</dt><dd><a href="{{self.web}}">{{self.web}}</a></dd>
-            <dt>Profile Image</dt><dd><a href="{{image.url}}">{{image.url}}</a></dd>
+            <dt>Spotify URI</dt><dd><a href="{{external_urls.spotify}}">{{external_urls.spotify}}</a></dd>
+            <dt>Link</dt><dd><a href="{{href}}">{{href}}</a></dd>
+            <dt>Profile Image</dt><dd><a href="{{images.0.url}}">{{images.0.url}}</a></dd>
           </dl>
         </div>
       </div>

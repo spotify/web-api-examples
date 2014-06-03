@@ -10,14 +10,14 @@
 var request = require('request'); // "Request" library
 
 var client_id = '03ffe0cac0a0401aa6673c3cf6d02ced'; // Your client id
-var secret_key = 'a57c43efb9644574a96d6623fb8bfbc2'; // Your secret key
+var client_secret = 'a57c43efb9644574a96d6623fb8bfbc2'; // Your client secret
 var redirect_uri = 'http://localhost:8888/callback'; // Your redirect uri
 
 // your application requests authorization
 var authOptions = {
   url: 'https://accounts.spotify.com/api/token',
   headers: {
-    'Authorization': 'Basic ' + (new Buffer(client_id + ':' + secret_key).toString('base64'))
+    'Authorization': 'Basic ' + (new Buffer(client_id + ':' + client_secret).toString('base64'))
   },
   form: {
     grant_type: 'client_credentials'

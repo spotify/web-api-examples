@@ -12,7 +12,7 @@ var request = require('request'); // "Request" library
 var querystring = require('querystring');
 
 var client_id = '03ffe0cac0a0401aa6673c3cf6d02ced'; // Your client id
-var secret_key = 'a57c43efb9644574a96d6623fb8bfbc2'; // Your secret key
+var client_secret = 'a57c43efb9644574a96d6623fb8bfbc2'; // Your client secret
 var redirect_uri = 'http://localhost:8888/callback'; // Your redirect uri
 
 var app = express();
@@ -38,16 +38,16 @@ app.get('/callback', function(req, res) {
   var code = req.query.code;
   var authOptions = {
     url: 'https://accounts.spotify.com/api/token',
-    headers: {
-      'Authorization': 'Basic ' + (new Buffer(client_id + ':' + secret_key).toString('base64'))
-    },
     form: {
       code: code,
       redirect_uri: redirect_uri,
-      grant_type: 'authorization_code'
+      grant_type: 'authorization_code',
+      client_id: client_id,
+      client_secret: client_secret
     },
     json: true
   };
+
   request.post(authOptions, function(error, response, body) {
     if (!error && response.statusCode === 200) {
 
@@ -81,7 +81,7 @@ app.get('/refresh_token', function(req, res) {
   var refresh_token = req.query.refresh_token;
   var authOptions = {
     url: 'https://accounts.spotify.com/api/token',
-    headers: { 'Authorization': 'Basic ' + (new Buffer(client_id + ':' + secret_key).toString('base64')) },
+    headers: { 'Authorization': 'Basic ' + (new Buffer(client_id + ':' + client_secret).toString('base64')) },
     form: {
       grant_type: 'refresh_token',
       refresh_token: refresh_token
@@ -99,4 +99,5 @@ app.get('/refresh_token', function(req, res) {
   });
 });
 
+console.log('Listening on 8888');
 app.listen(8888);
