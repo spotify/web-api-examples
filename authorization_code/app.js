@@ -4,7 +4,7 @@
  * the Spotify Accounts.
  *
  * For more information, read
- * https://developer.spotify.com/spotify-web-api/authorization-guide/#authorization_code_flow
+ * https://developer.spotify.com/web-api/authorization-guide/#authorization_code_flow
  */
 
 var express = require('express'); // Express web server framework

@@ -1,6 +1,6 @@
 # Spotify Accounts Authentication Examples
 
-This project contains basic demos showing the different oAuth2 flows for [authenticating against the Spotify Web API](https://developer.spotify.com/spotify-web-api/authorization-guide/).
+This project contains basic demos showing the different oAuth2 flows for [authenticating against the Spotify Web API](https://developer.spotify.com/web-api/authorization-guide/).
 
 These examples cover:
 
