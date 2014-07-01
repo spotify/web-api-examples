@@ -95,12 +95,13 @@
         if (error) {
           alert('There was an error during the authentication');
         } else {
-          oauthPlaceholder.innerHTML = oauthTemplate({
-            access_token: access_token,
-            refresh_token: refresh_token
-          });
-
           if (access_token) {
+            // render oauth info
+            oauthPlaceholder.innerHTML = oauthTemplate({
+              access_token: access_token,
+              refresh_token: refresh_token
+            });
+
             $.ajax({
                 url: 'https://api.spotify.com/v1/me',
                 headers: {
@@ -114,6 +115,7 @@
                 }
             });
           } else {
+              // render initial screen
               $('#login').show();
               $('#loggedin').hide();
           }
