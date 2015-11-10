@@ -82,13 +82,13 @@
             userProfileTemplate = Handlebars.compile(userProfileSource),
             userProfilePlaceholder = document.getElementById('user-profile');
 
-            oauthSource = document.getElementById('oauth-template').innerHTML,
+        var oauthSource = document.getElementById('oauth-template').innerHTML,
             oauthTemplate = Handlebars.compile(oauthSource),
             oauthPlaceholder = document.getElementById('oauth');
 
         var params = getHashParams();
 
-        var access_token = params.access_token
+        var access_token = params.access_token,
             refresh_token = params.refresh_token,
             error = params.error;
 
