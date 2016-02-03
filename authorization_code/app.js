@@ -89,7 +89,7 @@ app.get('/callback', (req, res) => {
 app.get('/refresh_token', (req, res) => {
   const { refresh_token } = req.query;
   if (refresh_token) {
-    spotifyApi.setAccessToken(refresh_token);
+    spotifyApi.setRefreshToken(refresh_token);
   }
   spotifyApi.refreshAccessToken().then(({body}) =>  {
     res.send({
