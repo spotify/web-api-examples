@@ -1,3 +1,5 @@
+'use-strict'
+
 /**
  * This is an example of a basic node.js script that performs
  * the Client Credentials oAuth2 flow to authenticate against
@@ -7,38 +9,23 @@
  * https://developer.spotify.com/web-api/authorization-guide/#client_credentials_flow
  */
 
-var request = require('request'); // "Request" library
+const Spotify = require('spotify-web-api-node');
 
-var client_id = '03ffe0cac0a0401aa6673c3cf6d02ced'; // Your client id
-var client_secret = 'a57c43efb9644574a96d6623fb8bfbc2'; // Your client secret
-var redirect_uri = 'http://localhost:8888/callback'; // Your redirect uri
+const CLIENT_ID = '03ffe0cac0a0401aa6673c3cf6d02ced';
+const CLIENT_SECRET = 'a57c43efb9644574a96d6623fb8bfbc2';
 
-// your application requests authorization
-var authOptions = {
-  url: 'https://accounts.spotify.com/api/token',
-  headers: {
-    'Authorization': 'Basic ' + (new Buffer(client_id + ':' + client_secret).toString('base64'))
-  },
-  form: {
-    grant_type: 'client_credentials'
-  },
-  json: true
-};
+// configure spotify
+const spotifyApi = new Spotify({
+  clientId: CLIENT_ID,
+  clientSecret: CLIENT_SECRET
+});
 
-request.post(authOptions, function(error, response, body) {
-  if (!error && response.statusCode === 200) {
-
-    // use the access token to access the Spotify Web API
-    var token = body.access_token;
-    var options = {
-      url: 'https://api.spotify.com/v1/users/jmperezperez',
-      headers: {
-        'Authorization': 'Bearer ' + token
-      },
-      json: true
-    };
-    request.get(options, function(error, response, body) {
-      console.log(body);
-    });
-  }
+// use the access token to access the Spotify Web API
+spotifyApi.clientCredentialsGrant().then(({ body }) => {
+  spotifyApi.setAccessToken(body.access_token);
+  return spotifyApi.getUser('jmperezperez');
+}).then(({ body }) => {
+  console.log(body);
+}).catch(err => {
+  console.error('error getting user info', err);
 });
