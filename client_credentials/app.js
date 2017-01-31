@@ -7,6 +7,12 @@
  * https://developer.spotify.com/web-api/authorization-guide/#client_credentials_flow
  */
 
+var express = require('express'); // Express web server framework
+var app = express();
+app.use(express.static(__dirname + '/public'));
+console.log('Listening on 8888');
+app.listen(8888);
+
 var request = require('request'); // "Request" library
 
 var client_id = '9439aa5f970441a7b1cd191978b6f521'; // Your client id
@@ -38,6 +44,7 @@ request.post(authOptions, function(error, response, body) {
     };
     request.get(options, function(error, response, body) {
       console.log(body);
-    });
+		});
   }
 });
+
