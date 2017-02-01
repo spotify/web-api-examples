@@ -9,14 +9,20 @@
 
 var express = require('express'); // Express web server framework
 var app = express();
+
+app.get('/', function (req, res) {
+  res.send(data)
+})
+
 app.use(express.static(__dirname + '/public'));
+
 console.log('Listening on 8888');
-app.listen(8888);
 
 var request = require('request'); // "Request" library
-
 var client_id = '9439aa5f970441a7b1cd191978b6f521'; // Your client id
 var client_secret = 'e00e65589eb34fdb9eb90b85be0e2fab'; // Your secret
+
+var data = '';
 
 // your application requests authorization
 var authOptions = {
@@ -43,8 +49,10 @@ request.post(authOptions, function(error, response, body) {
       json: true
     };
     request.get(options, function(error, response, body) {
-      console.log(body);
+			data  = body;
+			console.log(data);
 		});
-  }
+	}
 });
 
+app.listen(8888);
