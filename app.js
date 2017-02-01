@@ -10,7 +10,7 @@
 var express = require('express'); // Express web server framework
 var app = express();
 
-app.get('/', function (req, res) {
+app.get('/data.json', function (req, res) {
   res.send(data)
 })
 
