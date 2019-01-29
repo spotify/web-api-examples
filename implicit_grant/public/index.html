@@ -119,6 +119,7 @@
                 },
                 success: function(response) {
                   userProfilePlaceholder.innerHTML = userProfileTemplate(response);
+                  oauthPlaceholder.innerHTML = oauthTemplate(params);
 
                   $('#login').hide();
                   $('#loggedin').show();
