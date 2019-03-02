@@ -14,8 +14,9 @@ var querystring = require('querystring');
 var cookieParser = require('cookie-parser');
 
 var client_id = '8fc273ab9c6046aabb27a2a00c760ff5'; // Your client id
-var client_secret = ''; // Your secret
+var client_secret = '2ffb16a11f644f1f987bc1fb8bc81f75'; // Your secret
 var redirect_uri = 'http://localhost:8888/callback'; // Your redirect uri
+
 
 /**
  * Generates a random string containing numbers and letters
@@ -46,7 +47,7 @@ app.get('/login', function(req, res) {
   res.cookie(stateKey, state);
 
   // your application requests authorization
-  var scope = 'user-read-private user-read-email';
+  var scope = 'user-read-private user-read-email playlist-modify';
   res.redirect('https://accounts.spotify.com/authorize?' +
     querystring.stringify({
       response_type: 'code',
@@ -99,7 +100,18 @@ app.get('/callback', function(req, res) {
           json: true
         };
 		var rpm = 120;		//TODO: GET RPM AS INPUT
-		var rpmtest = {
+		var playlist = '2RdMT12TLFq16p3foNYELU';
+
+		var newPL = {
+			url: 'https://api.spotify.com/v1/playlists',
+            headers: { 'Authorization': 'Bearer ' + access_token,
+		 				'Accept': 'application/json',
+						'Content-Type': 'application/json',
+						'data' :  '{\"name\":\"TEST1\",\"description\":\"henlo\",\"public\":\"false\"}'
+					},
+            json: true
+		};
+		var gettracks = {
 			url: 'https://api.spotify.com/v1/recommendations?limit=10&market=ES&seed_artists=4NHQUGzhtTLFvgF5SZesLK&seed_genres=classical%2Ccountry&seed_tracks=0c6xIDDpzE81m2q797ordA&target_tempo=' + rpm,
             headers: { 'Authorization': 'Bearer ' + access_token,
 		 				'Accept': 'application/json',
@@ -108,11 +120,53 @@ app.get('/callback', function(req, res) {
             json: true
 		};
 
-        // use the access token to access the Spotify Web API
-        request.get(rpmtest, function(error, response, body) {
-          console.log(body);
-        });
 
+		var parsed = [];
+
+        // use the access token to access the Spotify Web API
+		// request.post(newPL, function(error, response, body0){
+		// 	console.log(body0);
+	        request.get(gettracks, function(error, response, body1) {
+	          console.log(body1);
+			  	parsed = body1;
+				// console.log(parsed);
+				// var uris = [];
+				// var names = [];
+				console.log("PARSED:");
+				console.log(parsed);
+				console.log("PARSED.TRACKS:");
+				console.log(parsed.tracks);
+				// alert("right before");
+				parsed.tracks.forEach(function(track){
+					var addtrack = {
+						url: 'https://api.spotify.com/v1/playlists/' + playlist + '/tracks?uris='+ track.uri,
+			            headers: { 'Authorization': 'Bearer ' + access_token,
+					 				'Accept': 'application/json',
+									'Content-Type': 'application/json'
+								},
+			            json: true
+					};
+					request.post(addtrack, function(error, response, body2){
+						console.log(body2);
+					});
+					// alert("in foreach");
+					// names.push(track.name);
+					// uris.push(track.uri);
+					// var html = "<a href=" + track.uri + ">" + track.name + "</a>";
+					// console.log(html);
+					// window.document.getElementById("unique").innerHTML = html;
+
+				});
+			// console.log(uris);
+			// uris.forEach(function(uri){
+				// var a = window.document.createElement('a');
+				// a.setAttribute('href', uri);
+				// var d = window.document.getElementById('unique');
+				// window.document.d.appendChild(a);
+			 });
+        // });
+
+			//array[tracks objects]	track objects have uri
         // we can also pass the token to the browser to make requests from there
         res.redirect('/#' +
           querystring.stringify({
