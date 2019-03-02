@@ -13,9 +13,9 @@ var cors = require('cors');
 var querystring = require('querystring');
 var cookieParser = require('cookie-parser');
 
-var client_id = 'CLIENT_ID'; // Your client id
-var client_secret = 'CLIENT_SECRET'; // Your secret
-var redirect_uri = 'REDIRECT_URI'; // Your redirect uri
+var client_id = '8fc273ab9c6046aabb27a2a00c760ff5'; // Your client id
+var client_secret = '2ffb16a11f644f1f987bc1fb8bc81f75'; // Your secret
+var redirect_uri = 'http://localhost:8888/callback'; // Your redirect uri
 
 /**
  * Generates a random string containing numbers and letters
@@ -87,6 +87,7 @@ app.get('/callback', function(req, res) {
     };
 
     request.post(authOptions, function(error, response, body) {
+
       if (!error && response.statusCode === 200) {
 
         var access_token = body.access_token,
@@ -97,9 +98,18 @@ app.get('/callback', function(req, res) {
           headers: { 'Authorization': 'Bearer ' + access_token },
           json: true
         };
+		var rpm = 120;		//TODO: GET RPM AS INPUT
+		var rpmtest = {
+			url: 'https://api.spotify.com/v1/recommendations?limit=10&market=ES&seed_artists=4NHQUGzhtTLFvgF5SZesLK&seed_genres=classical%2Ccountry&seed_tracks=0c6xIDDpzE81m2q797ordA&target_tempo=' + rpm,
+            headers: { 'Authorization': 'Bearer ' + access_token,
+		 				'Accept': 'application/json',
+						'Content-Type': 'application/json'
+					},
+            json: true
+		};
 
         // use the access token to access the Spotify Web API
-        request.get(options, function(error, response, body) {
+        request.get(rpmtest, function(error, response, body) {
           console.log(body);
         });
 
