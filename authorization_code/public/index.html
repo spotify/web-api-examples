@@ -20,10 +20,22 @@
     <div class="container">
       <div id="login">
         <h1>This is an example of the Authorization Code flow</h1>
+
+        <form action="/login" method="post">
+          RPM:<br>
+          <input type="text" name="RPM" id="rpmInput"><br>
+          Frequency:<br>
+          <input type="text" name="freq" id="freqInput"><br>
+          NumSongs:<br>
+          <input type="text" name="numSongs" id="numSongsInput"><br>
+          <button type="submit">Submit</button>
+        </form>
+
         <a href="/login" class="btn btn-primary">Log in with Spotify</a>
       </div>
       <div id="loggedin">
         <div id="user-profile">
+
         </div>
         <div id="oauth">
         </div>
@@ -46,6 +58,7 @@
             <dt>Link</dt><dd><a href="{{href}}">{{href}}</a></dd>
             <dt>Profile Image</dt><dd class="clearfix"><a href="{{images.0.url}}">{{images.0.url}}</a></dd>
             <dt>Country</dt><dd>{{country}}</dd>
+            <dt>RPM</dt><dd>{{RPM}}</dd>
           </dl>
         </div>
       </div>
@@ -139,4 +152,3 @@
     </script>
   </body>
 </html>
-
