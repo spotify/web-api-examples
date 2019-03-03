@@ -20,6 +20,7 @@
     <div class="container">
       <div id="login">
         <h1>Welcome to our app! Please enter an RPM for your playlist.</h1>
+		<h3>Note: only certain rpm's may be inputted.</h3>
 
         <form action="/login" method="post">
           RPM:<br>
@@ -43,7 +44,10 @@
     </div>
 
     <script id="user-profile-template" type="text/x-handlebars-template">
-      <h1>Logged in as {{display_name}}</h1>
+		<div>
+			<h1 style='text-align:center'>Go check out your playlist!</h1>
+		</div>
+      <!-- <h1>Logged in as {{display_name}}</h1>
       <div class="media">
         <div class="pull-left">
           <img class="media-object" width="150" src="{{images.0.url}}" />
@@ -60,7 +64,7 @@
             <dt>RPM</dt><dd>{{RPM}}</dd>
           </dl>
         </div>
-      </div>
+      </div> -->
     </script>
 
     <script id="oauth-template" type="text/x-handlebars-template">
