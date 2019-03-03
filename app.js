@@ -17,8 +17,8 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser')
 
 var client_id = '8fc273ab9c6046aabb27a2a00c760ff5'; // Your client id
-var client_secret = '39bf2b74a0b64ccf9e92e7404bec20e4'; // Your secret
-var redirect_uri = 'http://localhost:8888/callback'; // Your redirect uri
+var client_secret = '---------------------------------'; // Your secret
+var redirect_uri = 'https://rpmusic.appspot.com/callback'; // Your redirect uri
 
 /**
  * Generates a random string containing numbers and letters
@@ -257,4 +257,5 @@ app.get('/refresh_token', function(req, res) {
 });
 
 console.log('Listening on 8888');
-app.listen(8888);
+const PORT = process.env.PORT || 8080;
+app.listen(PORT);
