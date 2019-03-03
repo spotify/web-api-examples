@@ -8,6 +8,7 @@
     "cors": "^2.8.4",
     "express": "~4.16.0",
     "fetch": "^1.1.0",
+    "nodemon": "^1.18.10",
     "querystring": "~0.2.0",
     "request": "~2.83.0",
     "spotify-web-api-node": "^4.0.0"
