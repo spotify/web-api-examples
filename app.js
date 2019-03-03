@@ -17,9 +17,9 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser')
 
 var client_id = '8fc273ab9c6046aabb27a2a00c760ff5'; // Your client id
-var client_secret = '-----------------------------'; // Your secret
+var client_secret = '------------------------' // Your secret
 var redirect_uri = 'https://rpmusic.appspot.com/callback'; // Your redirect uri
-// var local_redirect_uri = 'localhost:8080/callback'; // Your redirect uri
+// var redirect_uri = 'http://localhost:8080/callback'; // Your redirect uri
 
 /**
  * Generates a random string containing numbers and letters
@@ -48,7 +48,6 @@ app.use(express.static(__dirname + '/public'))
 var inputs = [];
 app.post('/login', function(req, res) {
 	inputs = req.body;
-  // TODO: GET RPM
   console.log('HIT LOGIN REDIRECT', req.body)
 
   var state = generateRandomString(16);
