@@ -7,24 +7,71 @@
       #login, #loggedin {
         display: none;
       }
+	  body{
+		  color: white;
+		  background-color: black;
+		  font-family: spotify-circular,spotify-circular-arabic,spotify-circular-hebrew,Helvetica Neue,Helvetica,Arial,Hiragino Kaku Gothic Pro,Meiryo,MS Gothic,sans-serif;
+		  font-style: normal;
+		  font-weight: 400;
+	  }
+	  h1{
+
+	  }
+	  button{
+		  font-family: proxima-nova, sans-serif;
+		  background-color: #1db954;
+		  border-radius: 45%;
+		  border: none;
+		  min-width: 130px;
+	      white-space: normal;
+	      will-change: transform;
+	      line-height: 1.6;
+		  margin: 10%;
+	      vertical-align: middle;
+		  font-size: 80%;
+		  padding: 7px 22px;
+		  touch-action: manipulation;
+		background-image: none;
+		border: 0;
+		border-radius: 500px;
+		text-align:center;
+		/* text-align: center	!important; */
+	  }
       .text-overflow {
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
         width: 500px;
       }
+	  input{
+		  position: fixed;
+		  margin: 20px;
+		    background-color: #282828;
+		    padding: 16px;
+			font-size: 14px;
+	    line-height: 20px;
+	    letter-spacing: .015em;
+	    font-weight: var(--glue-font-weight-normal);
+	    color: #b3b3b3;
+	    text-transform: none;
+		width:90%;
+		font-family: proxima-nova, sans-serif;
+		font-weight: bold;
+	  }
     </style>
   </head>
 
   <body>
     <div class="container">
       <div id="login">
-        <h1>Welcome to our app! Please enter an RPM for your playlist.</h1>
-		<h3>Note: only certain rpm's may be inputted.</h3>
-
+		 <div style='text-align:center'>
+	        <h1 >Welcome to RPMusic! <br>Please enter an RPM for your playlist.</h1>
+			<h3>Note: only certain rpm's may be inputted.</h3>
+  			RPM:<br>
+		</div>
         <form action="/login" method="post">
-          RPM:<br>
-          <input type="text" name="RPM" id="rpmInput" value='135'><br>
+
+          <input type="text" name="RPM" id="rpmInput" value='135'><br><br>
           <!-- Frequency:<br>
           <input type="text" name="freq" id="freqInput"><br>
           NumSongs:<br>
@@ -76,7 +123,7 @@
     </script>
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0-alpha.1/handlebars.min.js"></script>
-    <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script>
       (function() {
 
