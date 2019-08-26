@@ -1,1 +1,5 @@
+.directory
+.DS_Store
+desktop.ini
 node_modules/
+package-lock.json
