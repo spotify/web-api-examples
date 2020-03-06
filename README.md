@@ -1,4 +1,10 @@
-# Spotify Accounts Authentication Examples
+# Spotify Accounts Authentication Examples (Updated)
+
+## Note
+
+**As of Feb 11th 2020, request is fully deprecated. No new changes are expected land. In fact, none have landed for some time.**
+
+In these examples, I replaced the request by using axios and I also rewrite the code to ES6.
 
 This project contains basic demos showing the different OAuth 2.0 flows for [authenticating against the Spotify Web API](https://developer.spotify.com/web-api/authorization-guide/).
 
