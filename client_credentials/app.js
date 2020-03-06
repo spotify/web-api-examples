@@ -6,38 +6,29 @@
  * For more information, read
  * https://developer.spotify.com/web-api/authorization-guide/#client_credentials_flow
  */
+const axios = require('axios');
 
-var request = require('request'); // "Request" library
+const client_id = 'CLIENT_ID'; // Your client id
+const client_secret = 'CLIENT_SECRET'; // Your secret
 
-var client_id = 'CLIENT_ID'; // Your client id
-var client_secret = 'CLIENT_SECRET'; // Your secret
-
-// your application requests authorization
-var authOptions = {
-  url: 'https://accounts.spotify.com/api/token',
-  headers: {
-    'Authorization': 'Basic ' + (new Buffer(client_id + ':' + client_secret).toString('base64'))
-  },
-  form: {
-    grant_type: 'client_credentials'
-  },
-  json: true
+const params = {
+  client_id,
+  client_secret,
+  grant_type: "client_credentials"
 };
 
-request.post(authOptions, function(error, response, body) {
-  if (!error && response.statusCode === 200) {
-
-    // use the access token to access the Spotify Web API
-    var token = body.access_token;
-    var options = {
-      url: 'https://api.spotify.com/v1/users/jmperezperez',
-      headers: {
-        'Authorization': 'Bearer ' + token
-      },
-      json: true
-    };
-    request.get(options, function(error, response, body) {
-      console.log(body);
-    });
+axios({
+  method: "post",
+  url: 'https://accounts.spotify.com/api/token',
+  params,
+  headers: {
+    "Content-Type": "application/x-www-form-urlencoded"
   }
-});
+}).then(response=>{
+  const token = response.data.access_token
+  axios({
+    method:"get",
+    url: 'https://api.spotify.com/v1/users/jmperezperez',
+    headers: {'Authorization': 'Bearer ' + token},
+  }).then(response=>console.log(response.data)).catch(err=>console.error(err))
+}).catch(error=>console.error(error))
