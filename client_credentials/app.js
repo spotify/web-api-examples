@@ -31,7 +31,7 @@ request.post(authOptions, function(error, response, body) {
     // use the access token to access the Spotify Web API
     var token = body.access_token;
     var options = {
-      url: 'https://api.spotify.com/v1/users/menef7463',
+      url: 'https://api.spotify.com/v1/users/menefee7463',
       headers: {
         'Authorization': 'Bearer ' + token
       },
