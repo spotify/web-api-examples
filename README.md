@@ -35,7 +35,7 @@ export REDIRECT_URI=YOUR_URI
 
 OR
 
-Set environment variables in a `.env` file in directories with an `app.js` file.
+Set environment variables in a `.env` file in the `authorization_code` and `client_credentials` directories.
 
 ##### Example
 ```bash
