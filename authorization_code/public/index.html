@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>Example of the Authorization Code flow with Spotify</title>
+    <title>Spotify In-Playlist Search</title>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
     <style type="text/css">
       #login, #loggedin {
@@ -19,12 +19,22 @@
   <body>
     <div class="container">
       <div id="login">
-        <h1>This is an example of the Authorization Code flow</h1>
+        <h1>Spotify In-Playlist Search</h1>
         <a href="/login" class="btn btn-primary">Log in with Spotify</a>
       </div>
       <div id="loggedin">
         <div id="user-profile">
         </div>
+        <div>
+          <form>
+            <label for="song-name">Song Name</label>
+            <input name="song-name" id="song-name-field" type="text" />
+          </form>
+        </div>
+        <pre id="user-playlists">
+        </pre>
+        <pre id="user-playlists-tracks">
+        </pre>
         <div id="oauth">
         </div>
         <button class="btn btn-default" id="obtain-new-token">Obtain new token using the refresh token</button>
@@ -64,6 +74,50 @@
     <script>
       (function() {
 
+        let playlists = [];
+        let playlistTrackUrls = [];
+        let playlistTracks = [];
+
+        function recursivelyGetPlaylists(url = 'https://api.spotify.com/v1/me/playlists') {
+          $.ajax({
+            url,
+            headers: {
+              'Authorization': 'Bearer ' + access_token
+            },
+            success: function(response) {
+              if (response.items) playlists.push(...response.items);
+              userPlaylistsPlaceholder.textContent = JSON.stringify(playlists, null, 2);
+              if (response.next) recursivelyGetPlaylists(response.next);
+              else {
+                playlistTrackUrls = playlists.map(({ tracks }) => tracks.href);
+                getPlaylistsTracks();
+              }
+
+            }
+          });
+        }
+
+        function getPlaylistsTracks() {
+          playlistTrackUrls.forEach((url, index) => {
+            $.ajax({
+            url,
+            headers: {
+              'Authorization': 'Bearer ' + access_token
+            },
+            success: function(response) {
+              if (response.items) playlistTracks.push(response.items.map(({ track }) => `${playlists[index].name} -- ${track.name}`));
+              userPlaylistsTracksPlaceholder.textContent = JSON.stringify(playlistTracks, null, 2);
+              // TODO: recurse:
+              // if (response.next) recursivelyGetPlaylists(response.next);
+              // else {
+              //   playlistTrackUrls = playlists.map(({ tracks }) => tracks.href);
+              //   console.log(playlistTrackUrls);
+              // }
+            }
+          });
+          })
+        }
+
         /**
          * Obtains parameters from the hash of the URL
          * @return Object
@@ -80,7 +134,14 @@
 
         var userProfileSource = document.getElementById('user-profile-template').innerHTML,
             userProfileTemplate = Handlebars.compile(userProfileSource),
+            songNameField = document.getElementById('song-name-field'),
+            userPlaylistsPlaceholder = document.getElementById('user-playlists'),
+            userPlaylistsTracksPlaceholder = document.getElementById('user-playlists-tracks'),
             userProfilePlaceholder = document.getElementById('user-profile');
+
+        songNameField.addEventListener("change", (event) => {
+          console.log('changed', event, event.target.value)
+        })
 
         var oauthSource = document.getElementById('oauth-template').innerHTML,
             oauthTemplate = Handlebars.compile(oauthSource),
@@ -112,8 +173,16 @@
 
                   $('#login').hide();
                   $('#loggedin').show();
+                },
+                error: function(response) {
+                  if (response.status === 401) {
+                    $('#login').show();
+                    $('#loggedin').hide();
+                  }
                 }
             });
+
+            recursivelyGetPlaylists();
           } else {
               // render initial screen
               $('#login').show();
