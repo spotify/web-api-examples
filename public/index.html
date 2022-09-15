@@ -198,32 +198,39 @@
         if (error) {
           alert('There was an error during the authentication');
         } else {
-          if (access_token) {
-            $.ajax({
-                url: 'https://api.spotify.com/v1/me',
-                headers: {
-                  'Authorization': 'Bearer ' + access_token
-                },
-                success: function(response) {
-                  userProfilePlaceholder.innerHTML = userProfileTemplate(response);
+          $.ajax({
+            url: '/refresh_token',
+            xhrFields: { withCredentials: true },
+          }).done(function(data) {
+            access_token = data.access_token;
 
-                  $('#login').hide();
-                  $('#loggedin').show();
-                },
-                error: function(response) {
-                  if (response.status === 401) {
-                    $('#login').show();
-                    $('#loggedin').hide();
+            if (access_token) {
+              $.ajax({
+                  url: 'https://api.spotify.com/v1/me',
+                  headers: {
+                    'Authorization': 'Bearer ' + access_token
+                  },
+                  success: function(response) {
+                    userProfilePlaceholder.innerHTML = userProfileTemplate(response);
+
+                    $('#login').hide();
+                    $('#loggedin').show();
+                  },
+                  error: function(response) {
+                    if (response.status === 401) {
+                      $('#login').show();
+                      $('#loggedin').hide();
+                    }
                   }
-                }
-            });
+              });
 
-            recursivelyGetPlaylists();
-          } else {
-              // render initial screen
-              $('#login').show();
-              $('#loggedin').hide();
-          }
+              recursivelyGetPlaylists();
+            } else {
+                // render initial screen
+                $('#login').show();
+                $('#loggedin').hide();
+            }
+          });
         }
       })();
     </script>
