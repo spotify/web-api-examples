@@ -9,5 +9,8 @@
     "express": "~4.16.0",
     "querystring": "~0.2.0",
     "request": "~2.83.0"
+  },
+  "scripts": {
+    "start": "node app.js"
   }
 }
