@@ -29,6 +29,9 @@
           <label for="song-name">Song Name</label>
           <input name="song-name" id="song-name-field" type="text" />
         </div>
+        <div id="loading">
+          Still loading playlists
+        </div>
         <pre id="matching-playlists-tracks">
         </pre>
         <pre id="user-playlists">
@@ -99,7 +102,10 @@
         function getPlaylistTracks(index) {
           const rateLimitWindowSeconds = 30;
 
-          if (index >= playlistTrackUrls.length) return;
+          if (index >= playlistTrackUrls.length) {
+            loadingDiv.textContent = 'Done loading playlist tracks!';
+            return;
+          }
 
           const url = playlistTrackUrls[index];
           $.ajax({
@@ -108,11 +114,13 @@
               'Authorization': 'Bearer ' + access_token
             },
             success: function(response) {
-              if (response.items) playlistTracks.push({
-                playlist: playlists[index],
-                tracks: response.items.map(({ track }) => track),
-              });
-              searchPlaylistsForSong();
+              if (response.items) {
+                playlistTracks.push({
+                  playlist: playlists[index],
+                  tracks: response.items.map(({ track }) => track),
+                });
+                searchPlaylistsForSong();
+              }
               // TODO: recurse:
               // if (response.next) recursivelyGetPlaylists(response.next);
               // else {
@@ -149,6 +157,7 @@
 
         var userProfileSource = document.getElementById('user-profile-template').innerHTML,
             userProfileTemplate = Handlebars.compile(userProfileSource),
+            loadingDiv = document.getElementById('loading'),
             songNameField = document.getElementById('song-name-field'),
             matchingPlaylistsTracksPlaceholder = document.getElementById('matching-playlists-tracks'),
             userProfilePlaceholder = document.getElementById('user-profile');
