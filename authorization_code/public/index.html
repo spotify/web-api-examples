@@ -26,11 +26,11 @@
         <div id="user-profile">
         </div>
         <div>
-          <form>
-            <label for="song-name">Song Name</label>
-            <input name="song-name" id="song-name-field" type="text" />
-          </form>
+          <label for="song-name">Song Name</label>
+          <input name="song-name" id="song-name-field" type="text" />
         </div>
+        <pre id="matching-playlists-tracks">
+        </pre>
         <pre id="user-playlists">
         </pre>
         <pre id="user-playlists-tracks">
@@ -86,7 +86,6 @@
             },
             success: function(response) {
               if (response.items) playlists.push(...response.items);
-              userPlaylistsPlaceholder.textContent = JSON.stringify(playlists, null, 2);
               if (response.next) recursivelyGetPlaylists(response.next);
               else {
                 playlistTrackUrls = playlists.map(({ tracks }) => tracks.href);
@@ -97,25 +96,41 @@
           });
         }
 
-        function getPlaylistsTracks() {
-          playlistTrackUrls.forEach((url, index) => {
-            $.ajax({
+        function getPlaylistTracks(index) {
+          const rateLimitWindowSeconds = 30;
+
+          if (index >= playlistTrackUrls.length) return;
+
+          const url = playlistTrackUrls[index];
+          $.ajax({
             url,
             headers: {
               'Authorization': 'Bearer ' + access_token
             },
             success: function(response) {
-              if (response.items) playlistTracks.push(response.items.map(({ track }) => `${playlists[index].name} -- ${track.name}`));
-              userPlaylistsTracksPlaceholder.textContent = JSON.stringify(playlistTracks, null, 2);
+              if (response.items) playlistTracks.push({
+                playlist: playlists[index],
+                tracks: response.items.map(({ track }) => track),
+              });
+              searchPlaylistsForSong();
               // TODO: recurse:
               // if (response.next) recursivelyGetPlaylists(response.next);
               // else {
               //   playlistTrackUrls = playlists.map(({ tracks }) => tracks.href);
               //   console.log(playlistTrackUrls);
               // }
+              getPlaylistTracks(index + 1);
+            },
+            error: function(response) {
+              if (response.status === 429) {
+                setTimeout(() => getPlaylistTracks(index), rateLimitWindowSeconds*1000)
+              }
             }
           });
-          })
+        }
+
+        function getPlaylistsTracks() {
+          getPlaylistTracks(0);
         }
 
         /**
@@ -135,13 +150,29 @@
         var userProfileSource = document.getElementById('user-profile-template').innerHTML,
             userProfileTemplate = Handlebars.compile(userProfileSource),
             songNameField = document.getElementById('song-name-field'),
-            userPlaylistsPlaceholder = document.getElementById('user-playlists'),
-            userPlaylistsTracksPlaceholder = document.getElementById('user-playlists-tracks'),
+            matchingPlaylistsTracksPlaceholder = document.getElementById('matching-playlists-tracks'),
             userProfilePlaceholder = document.getElementById('user-profile');
 
-        songNameField.addEventListener("change", (event) => {
-          console.log('changed', event, event.target.value)
-        })
+
+        const searchPlaylistsForSong = () => {
+          if (songNameField.value === '') return;
+
+          const matchingPlaylists = playlistTracks.map(({playlist, tracks}) => {
+            return {
+              playlist: playlist.name,
+              tracks: tracks.map(({name, artists}) => {
+                return {
+                  name,
+                  artists: artists.map(({name}) => name),
+                };
+              }).filter(({name, artists}) => (`${name} ${artists.join(' ')}`.toLowerCase().includes(songNameField.value)))
+            };
+          }).filter(({playlist, tracks}) => tracks.length > 0);
+
+          matchingPlaylistsTracksPlaceholder.textContent = JSON.stringify(matchingPlaylists, null, 2);
+        }
+
+        songNameField.addEventListener("change", searchPlaylistsForSong)
 
         var oauthSource = document.getElementById('oauth-template').innerHTML,
             oauthTemplate = Handlebars.compile(oauthSource),
