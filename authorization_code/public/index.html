@@ -35,6 +35,7 @@
         <div>
           <button id="reload-playlists-button">Reload Playlists</button>
         </div>
+        <!-- TODO: add simple links for each matching playlist <a href={url}>{name}</a> -->
         <pre id="matching-playlists-tracks">
         </pre>
         <div id="oauth">
@@ -179,7 +180,7 @@
                   name,
                   artists: artists.map(({name}) => name),
                 };
-              }).filter(({name, artists}) => (`${name} ${artists.join(' ')}`.toLowerCase().includes(songNameField.value)))
+              }).filter(({name, artists}) => (`${name} ${artists.join(' ')}`.toLowerCase().includes(songNameField.value))) // TODO: add search by album name
             };
           }).filter(({playlist, tracks}) => tracks.length > 0);
 
