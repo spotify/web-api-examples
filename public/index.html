@@ -40,7 +40,6 @@
         </pre>
         <div id="oauth">
         </div>
-        <button class="btn btn-default" id="obtain-new-token">Obtain new token using the refresh token</button>
       </div>
     </div>
 
@@ -62,14 +61,6 @@
           </dl>
         </div>
       </div>
-    </script>
-
-    <script id="oauth-template" type="text/x-handlebars-template">
-      <h2>oAuth info</h2>
-      <dl class="dl-horizontal">
-        <dt>Access token</dt><dd class="text-overflow">{{access_token}}</dd>
-        <dt>Refresh token</dt><dd class="text-overflow">{{refresh_token}}</dd>
-      </dl>
     </script>
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0-alpha.1/handlebars.min.js"></script>
@@ -198,10 +189,6 @@
         }
         reloadPlaylistsButton.addEventListener("click", reloadPlaylists);
 
-        var oauthSource = document.getElementById('oauth-template').innerHTML,
-            oauthTemplate = Handlebars.compile(oauthSource),
-            oauthPlaceholder = document.getElementById('oauth');
-
         var params = getHashParams();
 
         var access_token = params.access_token,
@@ -212,12 +199,6 @@
           alert('There was an error during the authentication');
         } else {
           if (access_token) {
-            // render oauth info
-            oauthPlaceholder.innerHTML = oauthTemplate({
-              access_token: access_token,
-              refresh_token: refresh_token
-            });
-
             $.ajax({
                 url: 'https://api.spotify.com/v1/me',
                 headers: {
@@ -243,21 +224,6 @@
               $('#login').show();
               $('#loggedin').hide();
           }
-
-          document.getElementById('obtain-new-token').addEventListener('click', function() {
-            $.ajax({
-              url: '/refresh_token',
-              data: {
-                'refresh_token': refresh_token
-              }
-            }).done(function(data) {
-              access_token = data.access_token;
-              oauthPlaceholder.innerHTML = oauthTemplate({
-                access_token: access_token,
-                refresh_token: refresh_token
-              });
-            });
-          }, false);
         }
       })();
     </script>
