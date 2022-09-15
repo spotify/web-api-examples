@@ -114,10 +114,10 @@
               'Authorization': 'Bearer ' + access_token
             },
             success: function(response) {
-              if (response.items) {
+              if (response.items && response.items[0]) {
                 playlistTracks.push({
                   playlist: playlists[index],
-                  tracks: response.items.map(({ track }) => track),
+                  tracks: response.items.map(({ track }) => track).filter(track => !!track),
                 });
                 searchPlaylistsForSong();
               }
