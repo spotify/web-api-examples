@@ -167,6 +167,7 @@
           if (songNameField.value === '') return;
 
           const matchingPlaylists = playlistTracks.map(({playlist, tracks}) => {
+            if (!playlist) return {};
             return {
               playlist: {
                 name: playlist.name,
@@ -179,7 +180,7 @@
                 };
               }).filter(({name, artists}) => (`${name} ${artists.join(' ')}`.toLowerCase().includes(songNameField.value))) // TODO: add search by album name
             };
-          }).filter(({playlist, tracks}) => tracks.length > 0);
+          }).filter(({playlist, tracks}) => !!playlist && tracks.length > 0);
 
           matchingPlaylistsTracksPlaceholder.textContent = JSON.stringify(matchingPlaylists, null, 2);
 
