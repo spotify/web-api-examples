@@ -29,13 +29,16 @@
           <label for="song-name">Song Name</label>
           <input name="song-name" id="song-name-field" type="text" />
         </div>
-        <div id="loading">
-          Still loading playlists
-        </div>
         <div>
           <button id="reload-playlists-button">Reload Playlists</button>
         </div>
-        <h3>Matching Playlists</h3>
+        <h3>Matching Playlists
+          <div>
+            <small id="loading">
+              (Still loading more playlists)
+            </small>
+          </div>
+        </h3>
         <div id="matching-playlists-links">
         </div>
         <pre id="matching-playlists-tracks">
@@ -96,7 +99,7 @@
           const rateLimitWindowSeconds = 30;
 
           if (index >= playlistTrackUrls.length) {
-            loadingDiv.textContent = 'Done loading playlist tracks!';
+            loadingDiv.textContent = '(Done loading)';
             return;
           }
 
@@ -194,7 +197,7 @@
         songNameField.addEventListener("change", searchPlaylistsForSong);
 
         const reloadPlaylists = () => {
-          loadingDiv.textContent = 'Still loading playlists';
+          loadingDiv.textContent = '(Still loading more playlists)';
           playlists = [];
           playlistTrackUrls = [];
           playlistTracks = [];
