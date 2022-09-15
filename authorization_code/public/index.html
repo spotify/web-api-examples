@@ -32,6 +32,9 @@
         <div id="loading">
           Still loading playlists
         </div>
+        <div>
+          <button id="reload-playlists-button">Reload Playlists</button>
+        </div>
         <pre id="matching-playlists-tracks">
         </pre>
         <div id="oauth">
@@ -157,6 +160,7 @@
             userProfileTemplate = Handlebars.compile(userProfileSource),
             loadingDiv = document.getElementById('loading'),
             songNameField = document.getElementById('song-name-field'),
+            reloadPlaylistsButton = document.getElementById('reload-playlists-button'),
             matchingPlaylistsTracksPlaceholder = document.getElementById('matching-playlists-tracks'),
             userProfilePlaceholder = document.getElementById('user-profile');
 
@@ -179,7 +183,16 @@
           matchingPlaylistsTracksPlaceholder.textContent = JSON.stringify(matchingPlaylists, null, 2);
         }
 
-        songNameField.addEventListener("change", searchPlaylistsForSong)
+        songNameField.addEventListener("change", searchPlaylistsForSong);
+
+        const reloadPlaylists = () => {
+          loadingDiv.textContent = 'Still loading playlists';
+          playlists = [];
+          playlistTrackUrls = [];
+          playlistTracks = [];
+          recursivelyGetPlaylists();
+        }
+        reloadPlaylistsButton.addEventListener("click", reloadPlaylists);
 
         var oauthSource = document.getElementById('oauth-template').innerHTML,
             oauthTemplate = Handlebars.compile(oauthSource),
