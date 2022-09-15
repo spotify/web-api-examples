@@ -132,6 +132,8 @@
             error: function(response) {
               if (response.status === 429) {
                 setTimeout(() => getPlaylistTracks(index), rateLimitWindowSeconds*1000)
+              } else {
+                getPlaylistTracks(index + 1);
               }
             }
           });
