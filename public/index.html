@@ -126,6 +126,7 @@
               getPlaylistTracks(index + 1);
             },
             error: function(response) {
+              // TODO: handle other errors
               if (response.status === 429) {
                 setTimeout(() => getPlaylistTracks(index), rateLimitWindowSeconds*1000)
               } else {
