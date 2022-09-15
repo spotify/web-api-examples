@@ -35,7 +35,9 @@
         <div>
           <button id="reload-playlists-button">Reload Playlists</button>
         </div>
-        <!-- TODO: add simple links for each matching playlist <a href={url}>{name}</a> -->
+        <h3>Matching Playlists</h3>
+        <div id="matching-playlists-links">
+        </div>
         <pre id="matching-playlists-tracks">
         </pre>
         <div id="oauth">
@@ -153,6 +155,7 @@
             loadingDiv = document.getElementById('loading'),
             songNameField = document.getElementById('song-name-field'),
             reloadPlaylistsButton = document.getElementById('reload-playlists-button'),
+            matchingPlaylistsLinksPlaceholder = document.getElementById('matching-playlists-links'),
             matchingPlaylistsTracksPlaceholder = document.getElementById('matching-playlists-tracks'),
             userProfilePlaceholder = document.getElementById('user-profile');
 
@@ -176,6 +179,16 @@
           }).filter(({playlist, tracks}) => tracks.length > 0);
 
           matchingPlaylistsTracksPlaceholder.textContent = JSON.stringify(matchingPlaylists, null, 2);
+
+          matchingPlaylistsLinksPlaceholder.innerHTML = '';
+          matchingPlaylists.forEach(({ playlist, tracks }) => {
+            const linkDiv = document.createElement('div');
+            const link = document.createElement('a');
+            link.setAttribute('href', playlist.url);
+            link.innerText = playlist.name;
+            linkDiv.appendChild(link);
+            matchingPlaylistsLinksPlaceholder.appendChild(linkDiv);
+          });
         }
 
         songNameField.addEventListener("change", searchPlaylistsForSong);
