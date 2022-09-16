@@ -3,6 +3,16 @@ import { ajax } from "jquery";
 import './App.css';
 import { Button, Input, Label } from 'reactstrap';
 
+/* TODO: store previous versions and don't reload same version
+Use the snapshot_id
+Playlist APIs expose a snapshot_id that corresponds to the version of the
+playlist that you are working with. Downloading a playlist can be expensive
+so some apps may want to store and refer to the snapshot_id to avoid refreshing
+an entire playlist that has not changed. You can learn more about snapshot_id in
+our Working with Playlists guide.
+https://developer.spotify.com/documentation/general/guides/working-with-playlists/
+*/
+
 function usePrevious<T>(value: T) {
   const ref = useRef<T>();
   useEffect(() => {
@@ -11,6 +21,10 @@ function usePrevious<T>(value: T) {
   return ref.current; //in the end, return the current ref value.
 }
 
+// TODO: use retry-after instead of this constant
+/* The header of the 429 response will normally include a Retry-After header
+with a value in seconds. Consider waiting for the number of seconds specified in
+Retry-After before your app calls the Web API again.*/
 const rateLimitWindowSeconds = 30;
 
 function App() {
