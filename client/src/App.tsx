@@ -190,31 +190,26 @@ function App() {
             <h3>Matching Playlists</h3>
             {
               loading && (
-                loadingPlaylists ? (
-                  <div>
-                    <small>
-                      (Still loading more playlists)
-                    </small>
-                    <Spinner
-                      size="sm"
-                      className="ml-2"
-                      style={{ color: '#1DB954' }}
-                    >
-                    </Spinner>
+                <div>
+                  <small>
+                    (Still loading more playlists)
+                  </small>
+                  <Spinner
+                    size="sm"
+                    className="ml-2"
+                    style={{ color: '#1DB954' }}
+                  >
+                  </Spinner>
+                  <div className="text-center">
+                    Searching {playlistIndex} / {playlists.length} playlists
                   </div>
-                ) : (
-                  <div>
-                    <div className="text-center">
-                      Searching {playlistIndex} / {playlists.length} playlists
-                    </div>
-                    <Progress
-                      animated
-                      value={playlistIndex}
-                      max={playlists.length}
-                      barStyle={{ backgroundColor: '#1DB954' }}
-                    />
-                  </div>
-                )
+                  <Progress
+                    animated
+                    value={playlistIndex}
+                    max={playlists.length}
+                    barStyle={{ backgroundColor: '#1DB954' }}
+                  />
+                </div>
               )
             }
             <div id="matching-playlists-links">
