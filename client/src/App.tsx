@@ -27,6 +27,8 @@ with a value in seconds. Consider waiting for the number of seconds specified in
 Retry-After before your app calls the Web API again.*/
 const rateLimitWindowSeconds = 30;
 
+const spotifyGreen = '#1DB954';
+
 function App() {
   const [accessToken, setAccessToken] = useState('');
   const previousAccessToken = usePrevious(accessToken);
@@ -197,7 +199,7 @@ function App() {
                   <Spinner
                     size="sm"
                     className="ml-2"
-                    style={{ color: '#1DB954' }}
+                    style={{ color: spotifyGreen }}
                   >
                   </Spinner>
                   <div className="text-center">
@@ -207,7 +209,7 @@ function App() {
                     animated
                     value={playlistIndex}
                     max={playlists.length}
-                    barStyle={{ backgroundColor: '#1DB954' }}
+                    barStyle={{ backgroundColor: spotifyGreen }}
                   />
                 </div>
               )
