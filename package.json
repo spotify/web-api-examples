@@ -12,6 +12,10 @@
     "request": "~2.83.0"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "node server/app.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "engines": {
+    "node": "15.11.0"
   }
 }

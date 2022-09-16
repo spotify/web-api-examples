@@ -8,6 +8,7 @@
  */
 
 var express = require('express'); // Express web server framework
+const path = require('path');
 var request = require('request'); // "Request" library
 var cors = require('cors');
 var querystring = require('querystring');
@@ -37,7 +38,7 @@ var stateKey = 'spotify_auth_state';
 
 var app = express();
 
-app.use(express.static(__dirname + '/public'))
+app.use(express.static(path.resolve(__dirname, '../client/build')))
    .use(cors())
    .use(cookieParser());
 
@@ -139,6 +140,10 @@ app.get('/refresh_token', function(req, res) {
       });
     }
   });
+});
+
+app.get('*', (req, res) => {
+  res.sendFile(path.resolve(__dirname, '../client/build', 'index.html'));
 });
 
 const port = process.env.PORT || 8888
