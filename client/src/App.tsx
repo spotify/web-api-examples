@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { ajax } from "jquery";
 import './App.css';
-import { Button, Input, Label } from 'reactstrap';
+import { Button, Input, Label, Spinner } from 'reactstrap';
 
 /* TODO: store previous versions and don't reload same version
 Use the snapshot_id
@@ -196,11 +196,22 @@ function App() {
           <Button id="reload-playlists-button" onClick={() => reloadPlaylists()}>Reload Playlists</Button>
         </div>
         <h3>Matching Playlists
-          <div>
-            <small id="loading">
-              {loading ? '(Still loading more playlists)' : '(Done loading)'}
-            </small>
-          </div>
+        {
+          loading && (
+            <div>
+              <Spinner
+                color="primary"
+                size="sm"
+                style={{ color: '#1DB954' }}
+              >
+                (Still loading more playlists)
+              </Spinner>
+              <small id="loading">
+                (Still loading more playlists)
+              </small>
+            </div>
+          )
+        }
         </h3>
         <div id="matching-playlists-links">
           {matchingPlaylists.map(({ playlist, tracks }) => (
