@@ -71,12 +71,6 @@ function App() {
         xhrFields: { withCredentials: true },
       }).done(function(data) {
         setAccessToken(data.access_token);
-
-        if (!data.access_token) {
-            // render initial screen
-            $('#login').show();
-            $('#loggedin').hide();
-        }
       });
     } else {
       ajax({
@@ -86,14 +80,11 @@ function App() {
         },
         success: function(response) {
           setProfileInfo(response);
-          $('#login').hide();
-          $('#loggedin').show();
           recursivelyGetPlaylists();
         },
         error: function(response) {
           if (response.status === 401) {
-            $('#login').show();
-            $('#loggedin').hide();
+            setAccessToken('');
           }
         }
       });
@@ -178,49 +169,54 @@ function App() {
 
   return (
     <div className="container">
-      <div id="login">
-        <h1>Spotify In-Playlist Search</h1>
-        <a href="/login" className="btn btn-primary">Log in with Spotify</a>
-      </div>
-      <div id="loggedin">
-        {
-          (profileInfo.external_urls?.spotify && profileInfo.display_name) && (
-            <h1>Logged in as <a target="_blank" href={profileInfo.external_urls?.spotify} rel="noreferrer">{profileInfo.display_name}</a></h1>
-          )
-        }
-        <div>
-          <Label for="song-name">Song Name</Label>
-          <Input name="song-name" id="song-name-field" type="text" value={searchTerm} onInput={(e) => setSearchTerm((e.target as HTMLInputElement).value)} />
-        </div>
-        <div>
-          <Button id="reload-playlists-button" onClick={() => reloadPlaylists()}>Reload Playlists</Button>
-        </div>
-        <h3>Matching Playlists
-        {
-          loading && (
+      {
+        accessToken ? (
+          <div>
+            {
+              (profileInfo.external_urls?.spotify && profileInfo.display_name) && (
+                <h1>Logged in as <a target="_blank" href={profileInfo.external_urls?.spotify} rel="noreferrer">{profileInfo.display_name}</a></h1>
+              )
+            }
             <div>
-              <Spinner
-                color="primary"
-                size="sm"
-                style={{ color: '#1DB954' }}
-              >
-                (Still loading more playlists)
-              </Spinner>
-              <small id="loading">
-                (Still loading more playlists)
-              </small>
+              <Label for="song-name">Song Name</Label>
+              <Input name="song-name" id="song-name-field" type="text" value={searchTerm} onInput={(e) => setSearchTerm((e.target as HTMLInputElement).value)} />
             </div>
-          )
-        }
-        </h3>
-        <div id="matching-playlists-links">
-          {matchingPlaylists.map(({ playlist, tracks }) => (
             <div>
-              <a target="_blank" href={playlist?.url} rel="noreferrer">{playlist?.name} - {(tracks || []).map(({ name }) => name).join(' - ')}</a>
+              <Button id="reload-playlists-button" onClick={() => reloadPlaylists()}>Reload Playlists</Button>
             </div>
-          ))}
+            <h3>Matching Playlists
+            {
+              loading && (
+                <div>
+                  <Spinner
+                    color="primary"
+                    size="sm"
+                    style={{ color: '#1DB954' }}
+                  >
+                    (Still loading more playlists)
+                  </Spinner>
+                  <small id="loading">
+                    (Still loading more playlists)
+                  </small>
+                </div>
+              )
+            }
+            </h3>
+            <div id="matching-playlists-links">
+              {matchingPlaylists.map(({ playlist, tracks }) => (
+                <div>
+                  <a target="_blank" href={playlist?.url} rel="noreferrer">{playlist?.name} - {(tracks || []).map(({ name }) => name).join(' - ')}</a>
+                </div>
+              ))}
+            </div>
+          </div>
+        ) : (
+        <div>
+          <h1>Spotify In-Playlist Search</h1>
+          <a href="/login" className="btn btn-primary">Log in with Spotify</a>
         </div>
-      </div>
+        )
+      }
     </div>
   );
 }
