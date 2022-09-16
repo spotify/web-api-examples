@@ -15,6 +15,8 @@ function App() {
   const [accessToken, setAccessToken] = useState('');
   const previousAccessToken = usePrevious(accessToken);
 
+  const [profileInfo, setProfileInfo] = useState<{ display_name?: string, external_urls?: { spotify: string }}>({});
+
   const [playlists, setPlaylists] = useState<{ name: string, external_urls: { spotify: string }, tracks: { href: string }; }[]>([]);
   const [playlistsTracks, setPlaylistsTracks] = useState<{ playlist: { name: string, external_urls: { spotify: string } }, tracks: { name: string, artists: { name: string }[] }[] }[]>([]);
 
@@ -67,6 +69,7 @@ function App() {
           'Authorization': 'Bearer ' + accessToken
         },
         success: function(response) {
+          setProfileInfo(response);
           $('#login').hide();
           $('#loggedin').show();
           recursivelyGetPlaylists();
@@ -158,6 +161,11 @@ function App() {
         <a href="/login" className="btn btn-primary">Log in with Spotify</a>
       </div>
       <div id="loggedin">
+        {
+          (profileInfo.external_urls?.spotify && profileInfo.display_name) && (
+            <h1>Logged in as <a target="_blank" href={profileInfo.external_urls?.spotify} rel="noreferrer">{profileInfo.display_name}</a></h1>
+          )
+        }
         <div>
           <Label for="song-name">Song Name</Label>
           <Input name="song-name" id="song-name-field" type="text" value={searchTerm} onInput={(e) => setSearchTerm((e.target as HTMLInputElement).value)} />

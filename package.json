@@ -13,6 +13,7 @@
   },
   "scripts": {
     "start": "node server/app.js",
+    "heroku-prebuild": "cd client && npm install && npm run build",
     "build": "cd client && npm install && npm run build"
   },
   "engines": {
