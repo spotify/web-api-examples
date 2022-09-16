@@ -1,4 +1,5 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
+import { ajax } from "jquery";
 import './App.css';
 import { Button, Input, Label } from 'reactstrap';
 
@@ -47,7 +48,7 @@ function App() {
     if (previousAccessToken) return;
 
     if (!accessToken){
-      $.ajax({
+      ajax({
         url: '/refresh_token',
         xhrFields: { withCredentials: true },
       }).done(function(data) {
@@ -60,7 +61,7 @@ function App() {
         }
       });
     } else {
-      $.ajax({
+      ajax({
         url: 'https://api.spotify.com/v1/me',
         headers: {
           'Authorization': 'Bearer ' + accessToken
@@ -89,7 +90,7 @@ function App() {
     }
 
     const url = playlists[index].tracks.href;
-    $.ajax({
+    ajax({
       url,
       headers: {
         'Authorization': 'Bearer ' + accessToken
@@ -125,7 +126,7 @@ function App() {
   }, [loadingPlaylists, playlists, memoizedGetPlaylistTracks])
 
   function recursivelyGetPlaylists(url = 'https://api.spotify.com/v1/me/playlists') {
-    $.ajax({
+    ajax({
       url,
       headers: {
         'Authorization': 'Bearer ' + accessToken
