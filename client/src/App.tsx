@@ -11,6 +11,8 @@ function usePrevious<T>(value: T) {
   return ref.current; //in the end, return the current ref value.
 }
 
+const rateLimitWindowSeconds = 30;
+
 function App() {
   const [accessToken, setAccessToken] = useState('');
   const previousAccessToken = usePrevious(accessToken);
@@ -85,8 +87,6 @@ function App() {
   }, [accessToken])  // eslint-disable-line react-hooks/exhaustive-deps
 
   const memoizedGetPlaylistTracks = useCallback((index: number) => {
-    const rateLimitWindowSeconds = 30;
-
     if (index >= playlists.length) {
       setLoading(false);
       return;
@@ -142,6 +142,14 @@ function App() {
             setLoadingPlaylists(false);
           }
         } else console.error('response to recursivelyGetPlaylists had no items')
+      },
+      error: function(response) {
+        // TODO: handle other errors
+        if (response.status === 429) {
+          setTimeout(() => recursivelyGetPlaylists(url), rateLimitWindowSeconds*1000)
+        } else {
+          console.error('unknown error in recursivelyGetPlaylists', response)
+        }
       }
     });
   }
