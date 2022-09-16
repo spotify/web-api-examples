@@ -184,24 +184,22 @@ function App() {
             <div>
               <Button id="reload-playlists-button" onClick={() => reloadPlaylists()}>Reload Playlists</Button>
             </div>
-            <h3>Matching Playlists
+            <h3>Matching Playlists</h3>
             {
               loading && (
                 <div>
-                  <Spinner
-                    color="primary"
-                    size="sm"
-                    style={{ color: '#1DB954' }}
-                  >
-                    (Still loading more playlists)
-                  </Spinner>
-                  <small id="loading">
+                  <small>
                     (Still loading more playlists)
                   </small>
+                  <Spinner
+                    size="sm"
+                    className="ml-2"
+                    style={{ color: '#1DB954' }}
+                  >
+                  </Spinner>
                 </div>
               )
             }
-            </h3>
             <div id="matching-playlists-links">
               {matchingPlaylists.map(({ playlist, tracks }) => (
                 <div>
