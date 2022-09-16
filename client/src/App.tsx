@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { ajax } from "jquery";
 import './App.css';
-import { Button, Input, Label, Spinner } from 'reactstrap';
+import { Button, Input, Label, Progress, Spinner } from 'reactstrap';
 
 /* TODO: store previous versions and don't reload same version
 Use the snapshot_id
@@ -35,6 +35,8 @@ function App() {
 
   const [playlists, setPlaylists] = useState<{ name: string, external_urls: { spotify: string }, tracks: { href: string }; }[]>([]);
   const [playlistsTracks, setPlaylistsTracks] = useState<{ playlist: { name: string, external_urls: { spotify: string } }, tracks: { name: string, artists: { name: string }[] }[] }[]>([]);
+
+  const [playlistIndex, setPlaylistIndex] = useState(0);
 
   const [loading, setLoading] = useState(true);
   const [loadingPlaylists, setLoadingPlaylists] = useState(true);
@@ -98,6 +100,7 @@ function App() {
     }
 
     const url = playlists[index].tracks.href;
+    setPlaylistIndex(index);
     ajax({
       url,
       headers: {
@@ -187,17 +190,31 @@ function App() {
             <h3>Matching Playlists</h3>
             {
               loading && (
-                <div>
-                  <small>
-                    (Still loading more playlists)
-                  </small>
-                  <Spinner
-                    size="sm"
-                    className="ml-2"
-                    style={{ color: '#1DB954' }}
-                  >
-                  </Spinner>
-                </div>
+                loadingPlaylists ? (
+                  <div>
+                    <small>
+                      (Still loading more playlists)
+                    </small>
+                    <Spinner
+                      size="sm"
+                      className="ml-2"
+                      style={{ color: '#1DB954' }}
+                    >
+                    </Spinner>
+                  </div>
+                ) : (
+                  <div>
+                    <div className="text-center">
+                      Searching {playlistIndex} / {playlists.length} playlists
+                    </div>
+                    <Progress
+                      animated
+                      value={playlistIndex}
+                      max={playlists.length}
+                      barStyle={{ backgroundColor: '#1DB954' }}
+                    />
+                  </div>
+                )
               )
             }
             <div id="matching-playlists-links">
