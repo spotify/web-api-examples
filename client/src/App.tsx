@@ -195,7 +195,6 @@ function App() {
             <div>
               <Button id="reload-playlists-button" onClick={() => reloadPlaylists()}>Reload Playlists</Button>
             </div>
-            <h3>Matching Playlists</h3>
             {
               loadingPlaylists && (
                 <div>
@@ -227,6 +226,7 @@ function App() {
               max={playlists.length}
               barStyle={{ backgroundColor: spotifyGreen }}
             />
+            <h3>Matching Playlists</h3>
             <div id="matching-playlists-links">
               {matchingPlaylists.map(({ playlist, tracks }) => ( // TODO: put matching songs in a hideable element with more intuitive/readable layout
                 <div>
