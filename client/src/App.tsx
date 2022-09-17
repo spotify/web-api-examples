@@ -105,7 +105,7 @@ function App() {
       return;
     }
 
-    const url = playlists[index].tracks.href;
+    const url = `${playlists[index].tracks.href}?fields=items(track(name,artists(name)))`;
     setPlaylistIndex(index);
     ajax({
       url,
