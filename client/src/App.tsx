@@ -227,7 +227,7 @@ function App() {
               barStyle={{ backgroundColor: spotifyGreen }}
             />
             <div id="matching-playlists-links">
-              {matchingPlaylists.map(({ playlist, tracks }) => (
+              {matchingPlaylists.map(({ playlist, tracks }) => ( // TODO: put matching songs in a hideable element with more intuitive/readable layout
                 <div>
                   <a target="_blank" href={playlist?.url} rel="noreferrer">{playlist?.name}</a>
                   : {(tracks || []).map(({ name, album }) => `${name} - ${album}`).join(', ')}
