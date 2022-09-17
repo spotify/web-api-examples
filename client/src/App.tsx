@@ -2,6 +2,7 @@ import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { ajax } from "jquery";
 import './App.css';
 import { Alert, Button, Input, Label, Progress, Spinner } from 'reactstrap';
+import MatchingPlaylist from './MatchingPlaylist';
 
 /* TODO: store previous versions and don't reload same version
 Use the snapshot_id
@@ -228,11 +229,8 @@ function App() {
             />
             <h3>Matching Playlists</h3>
             <div id="matching-playlists-links">
-              {matchingPlaylists.map(({ playlist, tracks }) => ( // TODO: put matching songs in a hideable element with more intuitive/readable layout
-                <div>
-                  <a target="_blank" href={playlist?.url} rel="noreferrer">{playlist?.name}</a>
-                  : {(tracks || []).map(({ name, album }) => `${name} - ${album}`).join(', ')}
-                </div>
+              {matchingPlaylists.map(({ playlist, tracks }) => (
+                <MatchingPlaylist playlist={playlist} tracks={tracks} />
               ))}
             </div>
           </div>
