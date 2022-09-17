@@ -22,6 +22,8 @@ function usePrevious<T>(value: T) {
 }
 
 // TODO: use retry-after instead of this constant
+// UPDATE: for some reason I can't access this header, either through ajax or
+// fetch, even though access-control-allow-headers includes it
 /* The header of the 429 response will normally include a Retry-After header
 with a value in seconds. Consider waiting for the number of seconds specified in
 Retry-After before your app calls the Web API again.*/
