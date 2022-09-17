@@ -65,7 +65,7 @@ function App() {
             artists: artists.map(({name}) => name),
             album: album.name,
           };
-        }).filter(({name, artists, album}) => (`${name} ${artists.join(' ')} ${album}`.toLowerCase().includes(searchTerm)))
+        }).filter(({name, artists, album}) => (`${name} ${artists.join(' ')} ${album}`.toLowerCase().includes(searchTerm.toLowerCase())))
       };
     }).filter(({playlist, tracks}) => !!playlist && tracks.length > 0));
   }, [searchTerm, playlistsTracks])
