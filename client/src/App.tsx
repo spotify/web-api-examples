@@ -103,6 +103,7 @@ function App() {
   const memoizedGetPlaylistTracks = useCallback((index: number) => {
     if (index >= playlists.length) {
       setLoading(false);
+      setPlaylistIndex(index);
       return;
     }
 
