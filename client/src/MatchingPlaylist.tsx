@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button } from 'reactstrap';
+import { Button, Table } from 'reactstrap';
 
 function MatchingPlaylist(
   {
@@ -14,19 +14,42 @@ function MatchingPlaylist(
 
   return (
     <div>
-      <a target="_blank" href={playlist?.url} rel="noreferrer">{playlist?.name}</a>
+      <a target="_blank" href={playlist?.url} rel="noreferrer">{playlist?.name}:</a>
+      <Button onClick={() => setExpanded(expanded => !expanded)} color='link' className="py-0 border-0 align-baseline">See {expanded ? 'less' : 'more'} song results</Button>
       {expanded ? (
         <div className="ml-1">
-          {(tracks || []).map(({ name, album }) => `${name} - ${album}`).join(', ')}
+          <Table>
+            <thead>
+              <tr>
+                <th>
+                  Song
+                </th>
+                <th>
+                  Album
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {(tracks || []).map(({ name, album }) => (
+                <tr>
+                  <td>
+                    {name}
+                  </td>
+                  <td>
+                    {album}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </Table>
         </div>
       ) : (
         <span>
           {tracks && tracks[0] && (
-            <span>: {tracks[0].name} - {tracks[0].album}</span>
+            <span>{tracks[0].name} - {tracks[0].album}</span>
           )}
         </span>
       )}
-      <Button onClick={() => setExpanded(expanded => !expanded)} color='link'>See {expanded ? 'less' : 'more'}</Button>
     </div>
   )
 }
