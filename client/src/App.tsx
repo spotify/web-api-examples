@@ -195,7 +195,7 @@ function App() {
             </div>
             <h3>Matching Playlists</h3>
             {
-              loading && (
+              loadingPlaylists && (
                 <div>
                   {
                     initialCallHitRateLimit && (
@@ -213,18 +213,18 @@ function App() {
                     style={{ color: spotifyGreen }}
                   >
                   </Spinner>
-                  <div className="text-center">
-                    Searching {playlistIndex} / {playlists.length} playlists
-                  </div>
-                  <Progress
-                    animated
-                    value={playlistIndex}
-                    max={playlists.length}
-                    barStyle={{ backgroundColor: spotifyGreen }}
-                  />
                 </div>
               )
             }
+            <div className="text-center">
+              {loading ? 'Searching' : 'Searched'} {playlistIndex} / {playlists.length} playlists
+            </div>
+            <Progress
+              animated={loading}
+              value={playlistIndex}
+              max={playlists.length}
+              barStyle={{ backgroundColor: spotifyGreen }}
+            />
             <div id="matching-playlists-links">
               {matchingPlaylists.map(({ playlist, tracks }) => (
                 <div>
