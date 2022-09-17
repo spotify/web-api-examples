@@ -38,7 +38,7 @@ function App() {
   const [profileInfo, setProfileInfo] = useState<{ display_name?: string, external_urls?: { spotify: string }}>({});
 
   const [playlists, setPlaylists] = useState<{ name: string, external_urls: { spotify: string }, tracks: { href: string }; }[]>([]);
-  const [playlistsTracks, setPlaylistsTracks] = useState<{ playlist: { name: string, external_urls: { spotify: string } }, tracks: { name: string, artists: { name: string }[] }[] }[]>([]);
+  const [playlistsTracks, setPlaylistsTracks] = useState<{ playlist: { name: string, external_urls: { spotify: string } }, tracks: { name: string, artists: { name: string }[], album: { name: string } }[] }[]>([]);
 
   const [playlistIndex, setPlaylistIndex] = useState(0);
 
@@ -47,7 +47,7 @@ function App() {
   const [initialCallHitRateLimit, setInitialCallHitRateLimit] = useState(false);
 
   const [searchTerm, setSearchTerm] = useState('');
-  const [matchingPlaylists, setMatchingPlaylists] = useState<{ playlist?: { name: string, url: string }; tracks?: { name: string, artists: string[] }[]; }[]>([]);
+  const [matchingPlaylists, setMatchingPlaylists] = useState<{ playlist?: { name: string, url: string }; tracks?: { name: string, artists: string[], album: string }[]; }[]>([]);
 
   useEffect(() => {
     if (searchTerm === '') return;
@@ -59,12 +59,13 @@ function App() {
           name: playlist.name,
           url: playlist.external_urls.spotify
         },
-        tracks: tracks.map(({name, artists}: { name: string, artists: { name: string }[] }) => {
+        tracks: tracks.map(({name, artists, album}: { name: string, artists: { name: string }[], album: { name: string } }) => {
           return {
             name,
             artists: artists.map(({name}) => name),
+            album: album.name,
           };
-        }).filter(({name, artists}: { name: string, artists: string[] }) => (`${name} ${artists.join(' ')}`.toLowerCase().includes(searchTerm))) // TODO: add search by album name
+        }).filter(({name, artists, album}) => (`${name} ${artists.join(' ')} ${album}`.toLowerCase().includes(searchTerm)))
       };
     }).filter(({playlist, tracks}) => !!playlist && tracks.length > 0));
   }, [searchTerm, playlistsTracks])
@@ -105,7 +106,7 @@ function App() {
       return;
     }
 
-    const url = `${playlists[index].tracks.href}?fields=items(track(name,artists(name)))`;
+    const url = `${playlists[index].tracks.href}?fields=items(track(name,artists(name),album(name)))`;
     setPlaylistIndex(index);
     ajax({
       url,
@@ -229,7 +230,7 @@ function App() {
               {matchingPlaylists.map(({ playlist, tracks }) => (
                 <div>
                   <a target="_blank" href={playlist?.url} rel="noreferrer">{playlist?.name}</a>
-                  : {(tracks || []).map(({ name }) => name).join(' - ')}
+                  : {(tracks || []).map(({ name, album }) => `${name} - ${album}`).join(', ')}
                 </div>
               ))}
             </div>
