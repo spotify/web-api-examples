@@ -228,7 +228,8 @@ function App() {
             <div id="matching-playlists-links">
               {matchingPlaylists.map(({ playlist, tracks }) => (
                 <div>
-                  <a target="_blank" href={playlist?.url} rel="noreferrer">{playlist?.name} - {(tracks || []).map(({ name }) => name).join(' - ')}</a>
+                  <a target="_blank" href={playlist?.url} rel="noreferrer">{playlist?.name}</a>
+                  : {(tracks || []).map(({ name }) => name).join(' - ')}
                 </div>
               ))}
             </div>
