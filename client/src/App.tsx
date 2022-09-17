@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { ajax } from "jquery";
 import './App.css';
-import { Button, Input, Label, Progress, Spinner } from 'reactstrap';
+import { Alert, Button, Input, Label, Progress, Spinner } from 'reactstrap';
 
 /* TODO: store previous versions and don't reload same version
 Use the snapshot_id
@@ -44,6 +44,7 @@ function App() {
 
   const [loading, setLoading] = useState(true);
   const [loadingPlaylists, setLoadingPlaylists] = useState(true);
+  const [initialCallHitRateLimit, setInitialCallHitRateLimit] = useState(false);
 
   const [searchTerm, setSearchTerm] = useState('');
   const [matchingPlaylists, setMatchingPlaylists] = useState<{ playlist?: { name: string, url: string }; tracks?: { name: string, artists: string[] }[]; }[]>([]);
@@ -85,13 +86,14 @@ function App() {
           'Authorization': 'Bearer ' + accessToken
         },
         success: function(response) {
+          setInitialCallHitRateLimit(false);
           setProfileInfo(response);
           recursivelyGetPlaylists();
         },
         error: function(response) {
-          if (response.status === 401) {
-            setAccessToken('');
-          }
+          if (response.status === 401) setAccessToken('');
+          else if (response.status === 429) setInitialCallHitRateLimit(true);
+          else setInitialCallHitRateLimit(false);
         }
       });
     }
@@ -195,6 +197,13 @@ function App() {
             {
               loading && (
                 <div>
+                  {
+                    initialCallHitRateLimit && (
+                      <Alert color="danger">
+                        Rate limit reached with spotify. Try refreshing in 30 seconds, otherwise the service might be down for up to a day
+                      </Alert>
+                    )
+                  }
                   <small>
                     (Still loading more playlists)
                   </small>
