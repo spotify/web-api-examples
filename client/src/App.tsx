@@ -48,7 +48,7 @@ function App() {
   const [initialCallHitRateLimit, setInitialCallHitRateLimit] = useState(false);
 
   const [searchTerm, setSearchTerm] = useState('');
-  const [matchingPlaylists, setMatchingPlaylists] = useState<{ playlist?: { name: string, url: string }; tracks?: { name: string, artists: string[], album: string }[]; }[]>([]);
+  const [matchingPlaylists, setMatchingPlaylists] = useState<{ playlist?: { name: string, url: string }; tracks?: { name: string, artists: string[], album: string, trackIndexInPlaylist: number }[]; }[]>([]);
 
   useEffect(() => {
     if (searchTerm === '') return;
@@ -60,11 +60,12 @@ function App() {
           name: playlist.name,
           url: playlist.external_urls.spotify
         },
-        tracks: tracks.map(({name, artists, album}: { name: string, artists: { name: string }[], album: { name: string } }) => {
+        tracks: tracks.map(({name, artists, album}: { name: string, artists: { name: string }[], album: { name: string } }, index) => {
           return {
             name,
             artists: artists.map(({name}) => name),
             album: album.name,
+            trackIndexInPlaylist: index,
           };
         }).filter(({name, artists, album}) => (`${name} ${artists.join(' ')} ${album}`.toLowerCase().includes(searchTerm.toLowerCase())))
       };
