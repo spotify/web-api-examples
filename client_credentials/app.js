@@ -8,9 +8,10 @@
  */
 
 var request = require('request'); // "Request" library
+var credJson = require("../credentials.json");
 
-var client_id = 'CLIENT_ID'; // Your client id
-var client_secret = 'CLIENT_SECRET'; // Your secret
+var client_id = credJson["client-id"]; // Your client id
+var client_secret = credJson["client-secret"]; // Your secret
 
 // your application requests authorization
 var authOptions = {
@@ -30,7 +31,7 @@ request.post(authOptions, function(error, response, body) {
     // use the access token to access the Spotify Web API
     var token = body.access_token;
     var options = {
-      url: 'https://api.spotify.com/v1/users/jmperezperez',
+      url: 'https://api.spotify.com/v1/users/menefee7463',
       headers: {
         'Authorization': 'Bearer ' + token
       },
