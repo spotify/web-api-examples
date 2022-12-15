@@ -13,9 +13,10 @@ var cors = require('cors');
 var querystring = require('querystring');
 var cookieParser = require('cookie-parser');
 
-var client_id = 'CLIENT_ID'; // Your client id
-var client_secret = 'CLIENT_SECRET'; // Your secret
-var redirect_uri = 'REDIRECT_URI'; // Your redirect uri
+var client_id = process.env.SPOTIFY_WEB_API_QS_CLIENT_ID || 'CLIENT_ID'; // Your client id
+var client_secret = process.env.SPOTIFY_WEB_API_QS_CLIENT_SECRET || 'CLIENT_SECRET'; // Your secret
+var redirect_uri = process.env.SPOTIFY_WEB_API_QS_REDIRECT_URI || 'REDIRECT_URI'; // Your redirect uri
+var scope = process.env.SPOTIFY_WEB_API_QS_SCOPE || 'user-read-private user-read-email'; // your application requests authorization
 
 /**
  * Generates a random string containing numbers and letters
@@ -45,8 +46,6 @@ app.get('/login', function(req, res) {
   var state = generateRandomString(16);
   res.cookie(stateKey, state);
 
-  // your application requests authorization
-  var scope = 'user-read-private user-read-email';
   res.redirect('https://accounts.spotify.com/authorize?' +
     querystring.stringify({
       response_type: 'code',
@@ -91,6 +90,8 @@ app.get('/callback', function(req, res) {
 
         var access_token = body.access_token,
             refresh_token = body.refresh_token;
+        console.log('Refresh token:', refresh_token);
+        console.log('Access token:', access_token);
 
         var options = {
           url: 'https://api.spotify.com/v1/me',
@@ -143,5 +144,6 @@ app.get('/refresh_token', function(req, res) {
   });
 });
 
-console.log('Listening on 8888');
-app.listen(8888);
+const port = parseInt(process.env.SPOTIFY_WEB_API_PORT || 8888)
+console.log(`Listening on ${port}`);
+app.listen(port);
