@@ -95,8 +95,7 @@
 
         var userProfileSource = document.getElementById('user-profile-template').innerHTML,
             userProfileTemplate = Handlebars.compile(userProfileSource),
-            userProfilePlaceholder = document.getElementById('user-profile');
-
+            userProfilePlaceholder = document.getElementById('user-profile'),
             oauthSource = document.getElementById('oauth-template').innerHTML,
             oauthTemplate = Handlebars.compile(oauthSource),
             oauthPlaceholder = document.getElementById('oauth');
@@ -122,6 +121,10 @@
 
                   $('#login').hide();
                   $('#loggedin').show();
+
+                  oauthPlaceholder.innerHTML = oauthTemplate({
+                    access_token: access_token
+                  });
                 }
             });
           } else {
@@ -151,4 +154,5 @@
         }
       })();
     </script>
+  </body>
 </html>
