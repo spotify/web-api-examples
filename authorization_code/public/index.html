@@ -60,15 +60,14 @@
     </script>
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0-alpha.1/handlebars.min.js"></script>
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script>
-      (function() {
+      (() => {
 
         /**
          * Obtains parameters from the hash of the URL
          * @return Object
          */
-        function getHashParams() {
+        getHashParams = () => {
           var hashParams = {};
           var e, r = /([^&;=]+)=?([^&;]*)/g,
               q = window.location.hash.substring(1);
@@ -102,41 +101,51 @@
               refresh_token: refresh_token
             });
 
-            $.ajax({
-                url: 'https://api.spotify.com/v1/me',
+            fetch('https://api.spotify.com/v1/me', {
                 headers: {
                   'Authorization': 'Bearer ' + access_token
-                },
-                success: function(response) {
-                  userProfilePlaceholder.innerHTML = userProfileTemplate(response);
-
-                  $('#login').hide();
-                  $('#loggedin').show();
                 }
-            });
+              })
+              .then(response => {
+                return response.json();
+              })
+              .then(response => {
+                userProfilePlaceholder.innerHTML = userProfileTemplate(response);
+                document.getElementById('login').style.display = 'none';
+                document.getElementById('loggedin').style.display = 'block';
+              })
+              .catch(err => {
+                console.error(err);
+              });
+
           } else {
               // render initial screen
-              $('#login').show();
-              $('#loggedin').hide();
+              document.getElementById('login').style.display = 'block';
+              document.getElementById('loggedin').style.display = 'none';
           }
 
-          document.getElementById('obtain-new-token').addEventListener('click', function() {
-            $.ajax({
-              url: '/refresh_token',
-              data: {
-                'refresh_token': refresh_token
-              }
-            }).done(function(data) {
+          document.getElementById('obtain-new-token').addEventListener('click',() => {
+            const refreshUrl = '/refresh_token' + '?refresh_token=' + refresh_token;
+            fetch(refreshUrl, {
+                method: "GET"
+            })
+            .then(data => {
+              return data.json();
+            })
+            .then(data => {
               access_token = data.access_token;
               oauthPlaceholder.innerHTML = oauthTemplate({
                 access_token: access_token,
                 refresh_token: refresh_token
               });
+            })
+            .catch(err => {
+              console.error(err);
             });
+
           }, false);
         }
       })();
     </script>
   </body>
 </html>
-
