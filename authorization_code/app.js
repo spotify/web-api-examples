@@ -73,16 +73,21 @@ app.get('/callback', function(req, res) {
       }));
   } else {
     res.clearCookie(stateKey);
-    var authUrl = "https://accounts.spotify.com/api/token";
-    var authData = `grant_type=authorization_code&code=${code}&redirect_uri=${redirect_uri}`;
-    var authHeaders = {
+    var authOptions = {
+      url: 'https://accounts.spotify.com/api/token',
+      form: {
+        code: code,
+        redirect_uri: redirect_uri,
+        grant_type: 'authorization_code'
+      },
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded',
-        'Authorization': 'Basic ' + (Buffer.from(`${client_id}:${client_secret}`).toString('base64'))
-      }
-    }
+        'Authorization': 'Basic ' + (new Buffer.from(`${client_id}:${client_secret}`).toString('base64'))
+      },
+      json: true
+    };
 
-    axios.post(authUrl, authData, authHeaders).then(response => {
+    axios.post(authOptions.url, querystring.stringify(authOptions.form), authOptions).then(response => {
       if (response.status === 200) {
         var access_token = response.data.access_token,
             refresh_token = response.data.refresh_token;
@@ -134,21 +139,15 @@ app.get('/refresh_token', function(req, res) {
     json: true
   };
 
-  axios.post(authOptions.url,
-    'grant_type=refresh_token&refresh_token=' + refresh_token,
-    {
-      headers: {
-        'Authorization': 'Basic ' + (Buffer.from(`${client_id}:${client_secret}`).toString('base64'))
+  axios.post(authOptions.url, querystring.stringify(authOptions.form), authOptions)
+    .then(response => {
+      if (response.status === 200) {
+        var access_token = response.data.access_token;
+        res.send({
+          'access_token': access_token
+        });
       }
-    }
-  ).then(response => {
-    if (response.status === 200) {
-      var access_token = response.data.access_token;
-      res.send({
-        'access_token': access_token
-      });
-    }
-  });
+    });
 });
 
 console.log('Listening on 8888');
