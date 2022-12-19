@@ -8,7 +8,7 @@
  */
 
 var express = require('express'); // Express web server framework
-var request = require('request'); // "Request" library
+var axios = require('axios');
 var cors = require('cors');
 var querystring = require('querystring');
 var cookieParser = require('cookie-parser');
@@ -81,16 +81,15 @@ app.get('/callback', function(req, res) {
         grant_type: 'authorization_code'
       },
       headers: {
-        'Authorization': 'Basic ' + (new Buffer(client_id + ':' + client_secret).toString('base64'))
+        'Authorization': 'Basic ' + (new Buffer.from(`${client_id}:${client_secret}`).toString('base64'))
       },
       json: true
     };
 
-    request.post(authOptions, function(error, response, body) {
-      if (!error && response.statusCode === 200) {
-
-        var access_token = body.access_token,
-            refresh_token = body.refresh_token;
+    axios.post(authOptions.url, querystring.stringify(authOptions.form), authOptions).then(response => {
+      if (response.status === 200) {
+        var access_token = response.data.access_token,
+            refresh_token = response.data.refresh_token;
 
         var options = {
           url: 'https://api.spotify.com/v1/me',
@@ -99,8 +98,8 @@ app.get('/callback', function(req, res) {
         };
 
         // use the access token to access the Spotify Web API
-        request.get(options, function(error, response, body) {
-          console.log(body);
+        axios.get(options.url, options).then(response => {
+          console.log(response.data);
         });
 
         // we can also pass the token to the browser to make requests from there
@@ -115,6 +114,12 @@ app.get('/callback', function(req, res) {
             error: 'invalid_token'
           }));
       }
+    }).catch(error => {
+      console.log(`Error: ${error}`)
+      res.redirect('/#' +
+        querystring.stringify({
+          error: 'invalid_token'
+        }));
     });
   }
 });
@@ -125,7 +130,7 @@ app.get('/refresh_token', function(req, res) {
   var refresh_token = req.query.refresh_token;
   var authOptions = {
     url: 'https://accounts.spotify.com/api/token',
-    headers: { 'Authorization': 'Basic ' + (new Buffer(client_id + ':' + client_secret).toString('base64')) },
+    headers: { 'Authorization': 'Basic ' + (Buffer.from(`${client_id}:${client_secret}`).toString('base64')) },
     form: {
       grant_type: 'refresh_token',
       refresh_token: refresh_token
@@ -133,14 +138,15 @@ app.get('/refresh_token', function(req, res) {
     json: true
   };
 
-  request.post(authOptions, function(error, response, body) {
-    if (!error && response.statusCode === 200) {
-      var access_token = body.access_token;
-      res.send({
-        'access_token': access_token
-      });
-    }
-  });
+  axios.post(authOptions.url, querystring.stringify(authOptions.form), authOptions)
+    .then(response => {
+      if (response.status === 200) {
+        var access_token = response.data.access_token;
+        res.send({
+          'access_token': access_token
+        });
+      }
+    });
 });
 
 console.log('Listening on 8888');

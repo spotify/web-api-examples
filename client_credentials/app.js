@@ -7,7 +7,8 @@
  * https://developer.spotify.com/web-api/authorization-guide/#client_credentials_flow
  */
 
-var request = require('request'); // "Request" library
+var axios = require('axios');
+var querystring = require('querystring');
 
 var client_id = 'CLIENT_ID'; // Your client id
 var client_secret = 'CLIENT_SECRET'; // Your secret
@@ -16,7 +17,7 @@ var client_secret = 'CLIENT_SECRET'; // Your secret
 var authOptions = {
   url: 'https://accounts.spotify.com/api/token',
   headers: {
-    'Authorization': 'Basic ' + (new Buffer(client_id + ':' + client_secret).toString('base64'))
+    'Authorization': 'Basic ' + (new Buffer.from(`${client_id}:${client_secret}`).toString('base64'))
   },
   form: {
     grant_type: 'client_credentials'
@@ -24,11 +25,10 @@ var authOptions = {
   json: true
 };
 
-request.post(authOptions, function(error, response, body) {
-  if (!error && response.statusCode === 200) {
-
+axios.post(authOptions.url, querystring.stringify(authOptions.form), authOptions).then(response => {
+  if (response.status === 200) {
     // use the access token to access the Spotify Web API
-    var token = body.access_token;
+    var token = response.data.access_token;
     var options = {
       url: 'https://api.spotify.com/v1/users/jmperezperez',
       headers: {
@@ -36,8 +36,8 @@ request.post(authOptions, function(error, response, body) {
       },
       json: true
     };
-    request.get(options, function(error, response, body) {
-      console.log(body);
+    axios.get(options.url, options).then(response => {
+      console.log(response.data);
     });
   }
 });
