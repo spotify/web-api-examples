@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: web-api-auth-examples
+spec:
+  type: library
+  owner: opx-partner-activation
