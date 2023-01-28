@@ -2,6 +2,7 @@
 // we detect a callback from Spotify by checking for the hash fragment
 
 const clientId = "your-client-id-here";  // Replace with your client id
+const redirect_uri = "REDIRECT_URI"; // Replace with your redirect uri
 const params = new URLSearchParams(window.location.hash.substring(1));
 const code = params.get("access_token");
 
@@ -16,7 +17,7 @@ async function redirectToAuthCodeFlow(clientId: string) {
     const params = new URLSearchParams();
     params.append("client_id", clientId);
     params.append("response_type", "token");
-    params.append("redirect_uri", "http://localhost:5173/callback");
+    params.append("redirect_uri", redirect_uri);
     params.append("scope", "user-read-private user-read-email");
 
     document.location = `https://accounts.spotify.com/authorize?${params.toString()}`;
