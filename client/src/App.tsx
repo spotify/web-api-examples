@@ -38,6 +38,8 @@ function App() {
 
   const [profileInfo, setProfileInfo] = useState<{ display_name?: string, external_urls?: { spotify: string }}>({});
 
+  const [devices, setDevices] = useState<{ id: string, is_active: boolean, name: string }[]>([]);
+
   const [playlists, setPlaylists] = useState<{ name: string, external_urls: { spotify: string }, tracks: { href: string }; uri: string; }[]>([]);
   const [playlistsTracks, setPlaylistsTracks] = useState<{ playlist: { name: string, external_urls: { spotify: string } }, tracks: { name: string, artists: { name: string }[], album: { name: string } }[] }[]>([]);
 
@@ -98,6 +100,23 @@ function App() {
           if (response.status === 401) setAccessToken('');
           else if (response.status === 429) setInitialCallHitRateLimit(true);
           else setInitialCallHitRateLimit(false);
+        }
+      });
+      ajax({
+        url: 'https://api.spotify.com/v1/me/player/devices',
+        headers: {
+          'Authorization': 'Bearer ' + accessToken
+        },
+        success: function(response) {
+          // setInitialCallHitRateLimit(false);
+          setDevices(response);
+          // recursivelyGetPlaylists();
+
+        },
+        error: function(response) {
+          // if (response.status === 401) setAccessToken('');
+          // else if (response.status === 429) setInitialCallHitRateLimit(true);
+          // else setInitialCallHitRateLimit(false);
         }
       });
     }
@@ -229,6 +248,7 @@ function App() {
               max={playlists.length}
               barStyle={{ backgroundColor: spotifyGreen }}
             />
+            <h4>Playing on {devices.find(({ is_active }) => is_active)?.name || 'NO ACTIVE DEVICE'}</h4>
             <h3>Matching Playlists</h3>
             <div id="matching-playlists-links">
               {matchingPlaylists.map(({ playlist, tracks }) => (
