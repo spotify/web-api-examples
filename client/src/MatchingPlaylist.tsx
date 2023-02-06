@@ -41,7 +41,9 @@ function MatchingPlaylist(
             <tbody>
               {(tracks || []).map(({ name, uri, album, artists, trackIndexInPlaylist }) => (
                 <tr>
-                  <td><Button onClick={() => playPlaylistTrack(uri, trackIndexInPlaylist)}>Play</Button>{playlist?.uri}</td>
+                  <td><Button onClick={() => playPlaylistTrack(uri, trackIndexInPlaylist)} color="primary">
+                    Play
+                  </Button></td>
                   <td>
                     {trackIndexInPlaylist + 1}
                   </td>
