@@ -51,7 +51,7 @@ function App() {
   const [initialCallHitRateLimit, setInitialCallHitRateLimit] = useState(false);
 
   const [searchTerm, setSearchTerm] = useState('');
-  const [matchingPlaylists, setMatchingPlaylists] = useState<{ playlist?: { name: string, url: string }; tracks?: { name: string, artists: string[], album: string, trackIndexInPlaylist: number }[]; }[]>([]);
+  const [matchingPlaylists, setMatchingPlaylists] = useState<{ playlist?: { name: string, url: string, uri: string }; tracks?: { name: string, artists: string[], album: string, trackIndexInPlaylist: number }[]; }[]>([]);
 
   useEffect(() => {
     if (searchTerm === '') return;
@@ -110,7 +110,7 @@ function App() {
         },
         success: function(response) {
           // setInitialCallHitRateLimit(false);
-          setDevices(response);
+          setDevices(response.devices);
           // recursivelyGetPlaylists();
 
         },
@@ -203,6 +203,23 @@ function App() {
     recursivelyGetPlaylists();
   }
 
+  const playPlaylistTrack = useCallback((playlistUri: string | undefined, offsetPosition: number) => {
+    ajax({
+      headers: {
+        'Authorization': 'Bearer ' + accessToken
+      },
+      url: `https://api.spotify.com/v1/me/player/play?device_id=${selectedDeviceId}`,
+      type: 'PUT',
+      data: JSON.stringify({
+        context_uri: playlistUri,
+        offset: {
+          position: offsetPosition,
+        },
+        position_ms: 0,
+      })
+    })
+  }, [accessToken, selectedDeviceId])
+
   return (
     <div className="container">
       {
@@ -251,7 +268,6 @@ function App() {
               max={playlists.length}
               barStyle={{ backgroundColor: spotifyGreen }}
             />
-            <h4>Playing on {devices.find(({ is_active }) => is_active)?.name || 'NO ACTIVE DEVICE'}</h4>
             <div>Playing on
               <Input type="select" name="select" value={selectedDeviceId} onChange={(e) => setSelectedDeviceId(e.target.value)}>
                 {devices.map(({ name, id }) => (
@@ -262,7 +278,7 @@ function App() {
             <h3>Matching Playlists</h3>
             <div id="matching-playlists-links">
               {matchingPlaylists.map(({ playlist, tracks }) => (
-                <MatchingPlaylist playlist={playlist} tracks={tracks} />
+                <MatchingPlaylist playlist={playlist} tracks={tracks} playPlaylistTrack={(index: number) => playPlaylistTrack(playlist?.uri, index)} />
               ))}
             </div>
           </div>

@@ -5,9 +5,11 @@ function MatchingPlaylist(
   {
     playlist,
     tracks,
+    playPlaylistTrack,
   } : {
     playlist?: { url: string, name: string, uri: string },
     tracks?: { name: string, album: string, artists: string[], trackIndexInPlaylist: number }[]
+    playPlaylistTrack: (index: number) => void
   }
 ) {
   const [expanded, setExpanded] = useState(false);
@@ -39,7 +41,7 @@ function MatchingPlaylist(
             <tbody>
               {(tracks || []).map(({ name, album, artists, trackIndexInPlaylist }) => (
                 <tr>
-                  <td>Play {playlist?.uri}</td>
+                  <td><Button onClick={() => playPlaylistTrack(trackIndexInPlaylist)}>Play</Button>{playlist?.uri}</td>
                   <td>
                     {trackIndexInPlaylist + 1}
                   </td>
