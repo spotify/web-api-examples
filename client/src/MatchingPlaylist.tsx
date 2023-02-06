@@ -6,7 +6,7 @@ function MatchingPlaylist(
     playlist,
     tracks,
   } : {
-    playlist?: { url: string, name: string },
+    playlist?: { url: string, name: string, uri: string },
     tracks?: { name: string, album: string, artists: string[], trackIndexInPlaylist: number }[]
   }
 ) {
@@ -21,6 +21,7 @@ function MatchingPlaylist(
           <Table>
             <thead>
               <tr>
+                <th></th>
                 <th>
                   Track # in Playlist
                 </th>
@@ -38,6 +39,7 @@ function MatchingPlaylist(
             <tbody>
               {(tracks || []).map(({ name, album, artists, trackIndexInPlaylist }) => (
                 <tr>
+                  <td>Play {playlist?.uri}</td>
                   <td>
                     {trackIndexInPlaylist + 1}
                   </td>
