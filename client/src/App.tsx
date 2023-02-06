@@ -39,6 +39,7 @@ function App() {
   const [profileInfo, setProfileInfo] = useState<{ display_name?: string, external_urls?: { spotify: string }}>({});
 
   const [devices, setDevices] = useState<{ id: string, is_active: boolean, name: string }[]>([]);
+  const [selectedDeviceId, setSelectedDeviceId] = useState('');
 
   const [playlists, setPlaylists] = useState<{ name: string, external_urls: { spotify: string }, tracks: { href: string }; uri: string; }[]>([]);
   const [playlistsTracks, setPlaylistsTracks] = useState<{ playlist: { name: string, external_urls: { spotify: string } }, tracks: { name: string, artists: { name: string }[], album: { name: string } }[] }[]>([]);
@@ -121,6 +122,8 @@ function App() {
       });
     }
   }, [accessToken])  // eslint-disable-line react-hooks/exhaustive-deps
+
+  useEffect(() => setSelectedDeviceId(devices.find(({ is_active }) => is_active)?.id || ''), [devices])
 
   const memoizedGetPlaylistTracks = useCallback((index: number) => {
     if (index >= playlists.length) {
@@ -249,6 +252,13 @@ function App() {
               barStyle={{ backgroundColor: spotifyGreen }}
             />
             <h4>Playing on {devices.find(({ is_active }) => is_active)?.name || 'NO ACTIVE DEVICE'}</h4>
+            <div>Playing on
+              <Input type="select" name="select" value={selectedDeviceId} onChange={(e) => setSelectedDeviceId(e.target.value)}>
+                {devices.map(({ name, id }) => (
+                  <option value={id}>{name}</option>
+                ))}
+              </Input>
+            </div>
             <h3>Matching Playlists</h3>
             <div id="matching-playlists-links">
               {matchingPlaylists.map(({ playlist, tracks }) => (
