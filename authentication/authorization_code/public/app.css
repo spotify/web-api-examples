@@ -1,0 +1,85 @@
+.App {
+    text-align: center;
+    background-color: #282c34;
+    cursor: crosshair;
+  }
+
+  .App-header {
+    background-color: #282c34;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    justify-content: top;
+    color: rgb(12, 170, 91);
+  }
+  
+  body{
+    background-color: #282c34;
+    cursor: grab;
+  }
+  
+  .Spotify-logo {
+    height: 2vmin;
+    pointer-events: none;
+    /*put this image to the right of the tiktok logo*/
+    justify-content: right;
+    text-align: right;
+  }
+  
+  .Tiktok-logo {
+    height: 10vmin;
+    pointer-events: none;
+    justify-content: left;
+    text-align: left;
+  }
+  
+  .arrow {
+    color: rgb(192, 124, 35);
+    height: 3vmin;
+    pointer-events: none;
+    justify-content: center;
+  }
+  
+  .button1 {
+    margin-right: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 7px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: grab;
+  }
+  .button2 {
+    margin-right: 15px;
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 7px 7px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: grab;
+  }
+  
+  .About {
+    color: white
+  }
+  
+  .about-text {
+    color: rgb(34, 173, 73);
+    font-size: 20px;
+    text-align: center;
+    width: 350px;
+    margin: 0 auto; 
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+  }
+  
+  
