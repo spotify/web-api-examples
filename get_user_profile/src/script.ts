@@ -1,25 +1,17 @@
 // Because this is a literal single page application
 // we detect a callback from Spotify by checking for the hash fragment
+import { redirectToAuth, getAccessToken } from "./authCodeWithPkce";
 
-const clientId = "your-client-id-here";  // Replace with your client id
-const params = new URLSearchParams(window.location.hash.substring(1));
-const code = params.get("access_token");
+const clientId = "your_client_id";
+const params = new URLSearchParams(window.location.search);
+const code = params.get("code");
 
 if (!code) {
-    redirectToAuthCodeFlow(clientId);
+    redirectToAuth(clientId);
 } else {
-    const profile = await fetchProfile(code);
+    const accessToken = await getAccessToken(clientId, code);
+    const profile = await fetchProfile(accessToken);
     populateUI(profile);
-}
-
-async function redirectToAuthCodeFlow(clientId: string) {
-    const params = new URLSearchParams();
-    params.append("client_id", clientId);
-    params.append("response_type", "token");
-    params.append("redirect_uri", "http://localhost:5173/callback");
-    params.append("scope", "user-read-private user-read-email");
-
-    document.location = `https://accounts.spotify.com/authorize?${params.toString()}`;
 }
 
 async function fetchProfile(code: string): Promise<UserProfile> {
@@ -41,5 +33,3 @@ function populateUI(profile: UserProfile) {
     document.getElementById("url")!.setAttribute("href", profile.href);
     document.getElementById("imgUrl")!.innerText = profile.images[0].url;
 }
-
-export { };
