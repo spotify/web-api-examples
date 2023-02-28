@@ -12,9 +12,13 @@ To run this demo you will need:
 
 ## Usage
 
-Clone the repository, cd into the `get_user_profile` directory and run:
+Create an app in your [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/), set the redirect URI to ` http://localhost:5173/callback` and `http://localhost:5173/callback/` and copy your Client ID. 
+
+Clone the repository, ensure that you are in the `get_user_profile` directory and run:
 
 ```bash
 npm install
 npm run dev
 ```
+
+Replace the value for clientId in `/src/script.ts` with your own Client ID.
