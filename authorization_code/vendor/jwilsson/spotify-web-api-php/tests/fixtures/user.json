@@ -1,0 +1,15 @@
+{
+  "display_name" : null,
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/user/mcgurk"
+  },
+  "followers" : {
+    "href" : null,
+    "total" : 1
+  },
+  "href" : "https://api.spotify.com/v1/users/mcgurk",
+  "id" : "mcgurk",
+  "images" : [ ],
+  "type" : "user",
+  "uri" : "spotify:user:mcgurk"
+}

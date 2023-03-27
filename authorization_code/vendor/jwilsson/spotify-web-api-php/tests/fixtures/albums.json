@@ -1,0 +1,828 @@
+{
+  "albums" : [ {
+    "album_type" : "album",
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/3qm84nBOXUEQ2vnTfUTTFC"
+      },
+      "href" : "https://api.spotify.com/v1/artists/3qm84nBOXUEQ2vnTfUTTFC",
+      "id" : "3qm84nBOXUEQ2vnTfUTTFC",
+      "name" : "Guns N' Roses",
+      "type" : "artist",
+      "uri" : "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+    } ],
+    "available_markets" : [ "CR", "DO", "GT", "HN", "NI", "PA", "SV" ],
+    "external_ids" : {
+      "upc" : "00720642414828"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/album/1oR3KrPIp4CbagPa3PhtPp"
+    },
+    "genres" : [ ],
+    "href" : "https://api.spotify.com/v1/albums/1oR3KrPIp4CbagPa3PhtPp",
+    "id" : "1oR3KrPIp4CbagPa3PhtPp",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/69cd6069536547d074727886fc33fb3b77dabbea",
+      "width" : 639
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/d2fdd37fa854fce9e14744ca41c8e149dc612564",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/04f56ac62c83ad6e596062be61c1a334808f2b8b",
+      "width" : 64
+    } ],
+    "name" : "Appetite For Destruction",
+    "popularity" : 28,
+    "release_date" : "1987",
+    "release_date_precision" : "year",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/albums/1oR3KrPIp4CbagPa3PhtPp/tracks?offset=0&limit=50",
+      "items" : [ {
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/3qm84nBOXUEQ2vnTfUTTFC"
+          },
+          "href" : "https://api.spotify.com/v1/artists/3qm84nBOXUEQ2vnTfUTTFC",
+          "id" : "3qm84nBOXUEQ2vnTfUTTFC",
+          "name" : "Guns N' Roses",
+          "type" : "artist",
+          "uri" : "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+        } ],
+        "available_markets" : [ "CR", "DO", "GT", "HN", "NI", "PA", "SV" ],
+        "disc_number" : 1,
+        "duration_ms" : 273600,
+        "explicit" : false,
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/track/0oWHLtxWeMJhmwxtrxhNK0"
+        },
+        "href" : "https://api.spotify.com/v1/tracks/0oWHLtxWeMJhmwxtrxhNK0",
+        "id" : "0oWHLtxWeMJhmwxtrxhNK0",
+        "name" : "Welcome To The Jungle",
+        "preview_url" : "https://p.scdn.co/mp3-preview/6ac585f7791a2ec0a60c17e04846345ed7671d0b",
+        "track_number" : 1,
+        "type" : "track",
+        "uri" : "spotify:track:0oWHLtxWeMJhmwxtrxhNK0"
+      }, {
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/3qm84nBOXUEQ2vnTfUTTFC"
+          },
+          "href" : "https://api.spotify.com/v1/artists/3qm84nBOXUEQ2vnTfUTTFC",
+          "id" : "3qm84nBOXUEQ2vnTfUTTFC",
+          "name" : "Guns N' Roses",
+          "type" : "artist",
+          "uri" : "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+        } ],
+        "available_markets" : [ "CR", "DO", "GT", "HN", "NI", "PA", "SV" ],
+        "disc_number" : 1,
+        "duration_ms" : 202893,
+        "explicit" : true,
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/track/0fu0HHl1yVC2iCUuyBT144"
+        },
+        "href" : "https://api.spotify.com/v1/tracks/0fu0HHl1yVC2iCUuyBT144",
+        "id" : "0fu0HHl1yVC2iCUuyBT144",
+        "name" : "It's So Easy",
+        "preview_url" : "https://p.scdn.co/mp3-preview/ee696163ab8f41d9bee0b44f6d2c49ab8b28e490",
+        "track_number" : 2,
+        "type" : "track",
+        "uri" : "spotify:track:0fu0HHl1yVC2iCUuyBT144"
+      }, {
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/3qm84nBOXUEQ2vnTfUTTFC"
+          },
+          "href" : "https://api.spotify.com/v1/artists/3qm84nBOXUEQ2vnTfUTTFC",
+          "id" : "3qm84nBOXUEQ2vnTfUTTFC",
+          "name" : "Guns N' Roses",
+          "type" : "artist",
+          "uri" : "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+        } ],
+        "available_markets" : [ "CR", "DO", "GT", "HN", "NI", "PA", "SV" ],
+        "disc_number" : 1,
+        "duration_ms" : 268506,
+        "explicit" : false,
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/track/23ZdycsvnFHK9NF1X2V7bc"
+        },
+        "href" : "https://api.spotify.com/v1/tracks/23ZdycsvnFHK9NF1X2V7bc",
+        "id" : "23ZdycsvnFHK9NF1X2V7bc",
+        "name" : "Nightrain",
+        "preview_url" : "https://p.scdn.co/mp3-preview/30e5ca88cae78b02dea6a718b73b7db5e8ddcac6",
+        "track_number" : 3,
+        "type" : "track",
+        "uri" : "spotify:track:23ZdycsvnFHK9NF1X2V7bc"
+      }, {
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/3qm84nBOXUEQ2vnTfUTTFC"
+          },
+          "href" : "https://api.spotify.com/v1/artists/3qm84nBOXUEQ2vnTfUTTFC",
+          "id" : "3qm84nBOXUEQ2vnTfUTTFC",
+          "name" : "Guns N' Roses",
+          "type" : "artist",
+          "uri" : "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+        } ],
+        "available_markets" : [ "CR", "DO", "GT", "HN", "NI", "PA", "SV" ],
+        "disc_number" : 1,
+        "duration_ms" : 263866,
+        "explicit" : true,
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/track/0DEGMFohkJUQprEG1wU4SN"
+        },
+        "href" : "https://api.spotify.com/v1/tracks/0DEGMFohkJUQprEG1wU4SN",
+        "id" : "0DEGMFohkJUQprEG1wU4SN",
+        "name" : "Out Ta Get Me",
+        "preview_url" : "https://p.scdn.co/mp3-preview/dc59755154bb63036390eba86ce774db660e1740",
+        "track_number" : 4,
+        "type" : "track",
+        "uri" : "spotify:track:0DEGMFohkJUQprEG1wU4SN"
+      }, {
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/3qm84nBOXUEQ2vnTfUTTFC"
+          },
+          "href" : "https://api.spotify.com/v1/artists/3qm84nBOXUEQ2vnTfUTTFC",
+          "id" : "3qm84nBOXUEQ2vnTfUTTFC",
+          "name" : "Guns N' Roses",
+          "type" : "artist",
+          "uri" : "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+        } ],
+        "available_markets" : [ "CR", "DO", "GT", "HN", "NI", "PA", "SV" ],
+        "disc_number" : 1,
+        "duration_ms" : 228893,
+        "explicit" : true,
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/track/0waeZEK1KpCuUvXkXCTOM2"
+        },
+        "href" : "https://api.spotify.com/v1/tracks/0waeZEK1KpCuUvXkXCTOM2",
+        "id" : "0waeZEK1KpCuUvXkXCTOM2",
+        "name" : "Mr. Brownstone",
+        "preview_url" : "https://p.scdn.co/mp3-preview/7ef4ea55e9a9183f9ca504ee532b23ad90b944b3",
+        "track_number" : 5,
+        "type" : "track",
+        "uri" : "spotify:track:0waeZEK1KpCuUvXkXCTOM2"
+      }, {
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/3qm84nBOXUEQ2vnTfUTTFC"
+          },
+          "href" : "https://api.spotify.com/v1/artists/3qm84nBOXUEQ2vnTfUTTFC",
+          "id" : "3qm84nBOXUEQ2vnTfUTTFC",
+          "name" : "Guns N' Roses",
+          "type" : "artist",
+          "uri" : "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+        } ],
+        "available_markets" : [ "CR", "DO", "GT", "HN", "NI", "PA", "SV" ],
+        "disc_number" : 1,
+        "duration_ms" : 406306,
+        "explicit" : false,
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/track/2pDPnlF496mf3EBwrTCHN2"
+        },
+        "href" : "https://api.spotify.com/v1/tracks/2pDPnlF496mf3EBwrTCHN2",
+        "id" : "2pDPnlF496mf3EBwrTCHN2",
+        "name" : "Paradise City",
+        "preview_url" : "https://p.scdn.co/mp3-preview/8f2880010d7b8205ee0272bef424ccee6cb0e15e",
+        "track_number" : 6,
+        "type" : "track",
+        "uri" : "spotify:track:2pDPnlF496mf3EBwrTCHN2"
+      }, {
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/3qm84nBOXUEQ2vnTfUTTFC"
+          },
+          "href" : "https://api.spotify.com/v1/artists/3qm84nBOXUEQ2vnTfUTTFC",
+          "id" : "3qm84nBOXUEQ2vnTfUTTFC",
+          "name" : "Guns N' Roses",
+          "type" : "artist",
+          "uri" : "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+        } ],
+        "available_markets" : [ "CR", "DO", "GT", "HN", "NI", "PA", "SV" ],
+        "disc_number" : 1,
+        "duration_ms" : 219933,
+        "explicit" : true,
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/track/2ybmxruJ8jlFtlb9Ui3kju"
+        },
+        "href" : "https://api.spotify.com/v1/tracks/2ybmxruJ8jlFtlb9Ui3kju",
+        "id" : "2ybmxruJ8jlFtlb9Ui3kju",
+        "name" : "My Michelle",
+        "preview_url" : "https://p.scdn.co/mp3-preview/afc8032449ed88c7bf06f6182e8300a985a5f691",
+        "track_number" : 7,
+        "type" : "track",
+        "uri" : "spotify:track:2ybmxruJ8jlFtlb9Ui3kju"
+      }, {
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/3qm84nBOXUEQ2vnTfUTTFC"
+          },
+          "href" : "https://api.spotify.com/v1/artists/3qm84nBOXUEQ2vnTfUTTFC",
+          "id" : "3qm84nBOXUEQ2vnTfUTTFC",
+          "name" : "Guns N' Roses",
+          "type" : "artist",
+          "uri" : "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+        } ],
+        "available_markets" : [ "CR", "DO", "GT", "HN", "NI", "PA", "SV" ],
+        "disc_number" : 1,
+        "duration_ms" : 229041,
+        "explicit" : true,
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/track/2DshFvtiZTTuuLPWi2m2am"
+        },
+        "href" : "https://api.spotify.com/v1/tracks/2DshFvtiZTTuuLPWi2m2am",
+        "id" : "2DshFvtiZTTuuLPWi2m2am",
+        "name" : "Think About You",
+        "preview_url" : "https://p.scdn.co/mp3-preview/d8a34af92c695c6e6a56b0a792913c5e49e36392",
+        "track_number" : 8,
+        "type" : "track",
+        "uri" : "spotify:track:2DshFvtiZTTuuLPWi2m2am"
+      }, {
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/3qm84nBOXUEQ2vnTfUTTFC"
+          },
+          "href" : "https://api.spotify.com/v1/artists/3qm84nBOXUEQ2vnTfUTTFC",
+          "id" : "3qm84nBOXUEQ2vnTfUTTFC",
+          "name" : "Guns N' Roses",
+          "type" : "artist",
+          "uri" : "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+        } ],
+        "available_markets" : [ "CR", "DO", "GT", "HN", "NI", "PA", "SV" ],
+        "disc_number" : 1,
+        "duration_ms" : 356400,
+        "explicit" : false,
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/track/1kDYCn9VIDmOIbLZ2Xc7OO"
+        },
+        "href" : "https://api.spotify.com/v1/tracks/1kDYCn9VIDmOIbLZ2Xc7OO",
+        "id" : "1kDYCn9VIDmOIbLZ2Xc7OO",
+        "name" : "Sweet Child O' Mine",
+        "preview_url" : "https://p.scdn.co/mp3-preview/6af5e89d4007d378eab8322d10c38de1b8264a92",
+        "track_number" : 9,
+        "type" : "track",
+        "uri" : "spotify:track:1kDYCn9VIDmOIbLZ2Xc7OO"
+      }, {
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/3qm84nBOXUEQ2vnTfUTTFC"
+          },
+          "href" : "https://api.spotify.com/v1/artists/3qm84nBOXUEQ2vnTfUTTFC",
+          "id" : "3qm84nBOXUEQ2vnTfUTTFC",
+          "name" : "Guns N' Roses",
+          "type" : "artist",
+          "uri" : "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+        } ],
+        "available_markets" : [ "CR", "DO", "GT", "HN", "NI", "PA", "SV" ],
+        "disc_number" : 1,
+        "duration_ms" : 197200,
+        "explicit" : true,
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/track/2xVRxDQUXxWwpfyCg0fGTB"
+        },
+        "href" : "https://api.spotify.com/v1/tracks/2xVRxDQUXxWwpfyCg0fGTB",
+        "id" : "2xVRxDQUXxWwpfyCg0fGTB",
+        "name" : "You're Crazy",
+        "preview_url" : "https://p.scdn.co/mp3-preview/5ba00454804e8c20e49856c75d97e02b252f3dd7",
+        "track_number" : 10,
+        "type" : "track",
+        "uri" : "spotify:track:2xVRxDQUXxWwpfyCg0fGTB"
+      }, {
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/3qm84nBOXUEQ2vnTfUTTFC"
+          },
+          "href" : "https://api.spotify.com/v1/artists/3qm84nBOXUEQ2vnTfUTTFC",
+          "id" : "3qm84nBOXUEQ2vnTfUTTFC",
+          "name" : "Guns N' Roses",
+          "type" : "artist",
+          "uri" : "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+        } ],
+        "available_markets" : [ "CR", "DO", "GT", "HN", "NI", "PA", "SV" ],
+        "disc_number" : 1,
+        "duration_ms" : 206360,
+        "explicit" : true,
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/track/1vcOLpfd7yeBpD5Fo2ouAJ"
+        },
+        "href" : "https://api.spotify.com/v1/tracks/1vcOLpfd7yeBpD5Fo2ouAJ",
+        "id" : "1vcOLpfd7yeBpD5Fo2ouAJ",
+        "name" : "Anything Goes",
+        "preview_url" : "https://p.scdn.co/mp3-preview/40e5f1572e5e04f969457aeb9aa4878132765a26",
+        "track_number" : 11,
+        "type" : "track",
+        "uri" : "spotify:track:1vcOLpfd7yeBpD5Fo2ouAJ"
+      }, {
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/3qm84nBOXUEQ2vnTfUTTFC"
+          },
+          "href" : "https://api.spotify.com/v1/artists/3qm84nBOXUEQ2vnTfUTTFC",
+          "id" : "3qm84nBOXUEQ2vnTfUTTFC",
+          "name" : "Guns N' Roses",
+          "type" : "artist",
+          "uri" : "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+        } ],
+        "available_markets" : [ "CR", "DO", "GT", "HN", "NI", "PA", "SV" ],
+        "disc_number" : 1,
+        "duration_ms" : 375306,
+        "explicit" : false,
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/track/0PdQL1PzkOA3SUqhedZ0KL"
+        },
+        "href" : "https://api.spotify.com/v1/tracks/0PdQL1PzkOA3SUqhedZ0KL",
+        "id" : "0PdQL1PzkOA3SUqhedZ0KL",
+        "name" : "Rocket Queen",
+        "preview_url" : "https://p.scdn.co/mp3-preview/668753daeda148ef310f00f979f68fcb27874760",
+        "track_number" : 12,
+        "type" : "track",
+        "uri" : "spotify:track:0PdQL1PzkOA3SUqhedZ0KL"
+      } ],
+      "limit" : 50,
+      "next" : null,
+      "offset" : 0,
+      "previous" : null,
+      "total" : 12
+    },
+    "type" : "album",
+    "uri" : "spotify:album:1oR3KrPIp4CbagPa3PhtPp"
+  }, {
+    "album_type" : "album",
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/2qFr8w5sWUITRlzZ9kZotF"
+      },
+      "href" : "https://api.spotify.com/v1/artists/2qFr8w5sWUITRlzZ9kZotF",
+      "id" : "2qFr8w5sWUITRlzZ9kZotF",
+      "name" : "Jefferson Airplane",
+      "type" : "artist",
+      "uri" : "spotify:artist:2qFr8w5sWUITRlzZ9kZotF"
+    } ],
+    "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GR", "GT", "HK", "HN", "HU", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TW", "US", "UY" ],
+    "external_ids" : {
+      "upc" : "828765035125"
+    },
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/album/6lPb7Eoon6QPbscWbMsk6a"
+    },
+    "genres" : [ ],
+    "href" : "https://api.spotify.com/v1/albums/6lPb7Eoon6QPbscWbMsk6a",
+    "id" : "6lPb7Eoon6QPbscWbMsk6a",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/cca72254d6884450ac4dd999ed9bf42aad7220b7",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/5dd256412a8fc02cdfd8f7bcc014d6ca0a4ed75d",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/cc4b7add5be5bfa66559aed0f7a02c72cf881f81",
+      "width" : 64
+    } ],
+    "name" : "Surrealistic Pillow",
+    "popularity" : 57,
+    "release_date" : "1967",
+    "release_date_precision" : "year",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/albums/6lPb7Eoon6QPbscWbMsk6a/tracks?offset=0&limit=50",
+      "items" : [ {
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/2qFr8w5sWUITRlzZ9kZotF"
+          },
+          "href" : "https://api.spotify.com/v1/artists/2qFr8w5sWUITRlzZ9kZotF",
+          "id" : "2qFr8w5sWUITRlzZ9kZotF",
+          "name" : "Jefferson Airplane",
+          "type" : "artist",
+          "uri" : "spotify:artist:2qFr8w5sWUITRlzZ9kZotF"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GR", "GT", "HK", "HN", "HU", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TW", "US", "UY" ],
+        "disc_number" : 1,
+        "duration_ms" : 188080,
+        "explicit" : false,
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/track/7GeQk8PqG5NAENxCRLcw0B"
+        },
+        "href" : "https://api.spotify.com/v1/tracks/7GeQk8PqG5NAENxCRLcw0B",
+        "id" : "7GeQk8PqG5NAENxCRLcw0B",
+        "name" : "She Has Funny Cars",
+        "preview_url" : "https://p.scdn.co/mp3-preview/87e9cc26016df6ab9647bece02051ba78e52ee23",
+        "track_number" : 1,
+        "type" : "track",
+        "uri" : "spotify:track:7GeQk8PqG5NAENxCRLcw0B"
+      }, {
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/2qFr8w5sWUITRlzZ9kZotF"
+          },
+          "href" : "https://api.spotify.com/v1/artists/2qFr8w5sWUITRlzZ9kZotF",
+          "id" : "2qFr8w5sWUITRlzZ9kZotF",
+          "name" : "Jefferson Airplane",
+          "type" : "artist",
+          "uri" : "spotify:artist:2qFr8w5sWUITRlzZ9kZotF"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GR", "GT", "HK", "HN", "HU", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TW", "US", "UY" ],
+        "disc_number" : 1,
+        "duration_ms" : 174840,
+        "explicit" : false,
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/track/4uGIJG1jYFonGc4LGp5uQL"
+        },
+        "href" : "https://api.spotify.com/v1/tracks/4uGIJG1jYFonGc4LGp5uQL",
+        "id" : "4uGIJG1jYFonGc4LGp5uQL",
+        "name" : "Somebody to Love - Pop #5/chart debut: 4/1/67",
+        "preview_url" : "https://p.scdn.co/mp3-preview/fa1211bd72d399d5c19724a623cd5e59c4bd7339",
+        "track_number" : 2,
+        "type" : "track",
+        "uri" : "spotify:track:4uGIJG1jYFonGc4LGp5uQL"
+      }, {
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/2qFr8w5sWUITRlzZ9kZotF"
+          },
+          "href" : "https://api.spotify.com/v1/artists/2qFr8w5sWUITRlzZ9kZotF",
+          "id" : "2qFr8w5sWUITRlzZ9kZotF",
+          "name" : "Jefferson Airplane",
+          "type" : "artist",
+          "uri" : "spotify:artist:2qFr8w5sWUITRlzZ9kZotF"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GR", "GT", "HK", "HN", "HU", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TW", "US", "UY" ],
+        "disc_number" : 1,
+        "duration_ms" : 179720,
+        "explicit" : false,
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/track/6V1f1eJ6MPNfLQXPmzqXja"
+        },
+        "href" : "https://api.spotify.com/v1/tracks/6V1f1eJ6MPNfLQXPmzqXja",
+        "id" : "6V1f1eJ6MPNfLQXPmzqXja",
+        "name" : "My Best Friend",
+        "preview_url" : "https://p.scdn.co/mp3-preview/a6bcedd49f87ec32eec5a2eb69c62bf3c73c36e1",
+        "track_number" : 3,
+        "type" : "track",
+        "uri" : "spotify:track:6V1f1eJ6MPNfLQXPmzqXja"
+      }, {
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/2qFr8w5sWUITRlzZ9kZotF"
+          },
+          "href" : "https://api.spotify.com/v1/artists/2qFr8w5sWUITRlzZ9kZotF",
+          "id" : "2qFr8w5sWUITRlzZ9kZotF",
+          "name" : "Jefferson Airplane",
+          "type" : "artist",
+          "uri" : "spotify:artist:2qFr8w5sWUITRlzZ9kZotF"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GR", "GT", "HK", "HN", "HU", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TW", "US", "UY" ],
+        "disc_number" : 1,
+        "duration_ms" : 177546,
+        "explicit" : false,
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/track/0yLfXULLuRtVj2L4DIrwO7"
+        },
+        "href" : "https://api.spotify.com/v1/tracks/0yLfXULLuRtVj2L4DIrwO7",
+        "id" : "0yLfXULLuRtVj2L4DIrwO7",
+        "name" : "Today",
+        "preview_url" : "https://p.scdn.co/mp3-preview/42f77400609ccdf9acf893da3df8328f919e894b",
+        "track_number" : 4,
+        "type" : "track",
+        "uri" : "spotify:track:0yLfXULLuRtVj2L4DIrwO7"
+      }, {
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/2qFr8w5sWUITRlzZ9kZotF"
+          },
+          "href" : "https://api.spotify.com/v1/artists/2qFr8w5sWUITRlzZ9kZotF",
+          "id" : "2qFr8w5sWUITRlzZ9kZotF",
+          "name" : "Jefferson Airplane",
+          "type" : "artist",
+          "uri" : "spotify:artist:2qFr8w5sWUITRlzZ9kZotF"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GR", "GT", "HK", "HN", "HU", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TW", "US", "UY" ],
+        "disc_number" : 1,
+        "duration_ms" : 315040,
+        "explicit" : false,
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/track/0TBntp6t4oS6UXjxikO5n7"
+        },
+        "href" : "https://api.spotify.com/v1/tracks/0TBntp6t4oS6UXjxikO5n7",
+        "id" : "0TBntp6t4oS6UXjxikO5n7",
+        "name" : "Comin' Back To Me",
+        "preview_url" : "https://p.scdn.co/mp3-preview/46878b59f747755f85edbfce9e20b695f407a79e",
+        "track_number" : 5,
+        "type" : "track",
+        "uri" : "spotify:track:0TBntp6t4oS6UXjxikO5n7"
+      }, {
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/2qFr8w5sWUITRlzZ9kZotF"
+          },
+          "href" : "https://api.spotify.com/v1/artists/2qFr8w5sWUITRlzZ9kZotF",
+          "id" : "2qFr8w5sWUITRlzZ9kZotF",
+          "name" : "Jefferson Airplane",
+          "type" : "artist",
+          "uri" : "spotify:artist:2qFr8w5sWUITRlzZ9kZotF"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GR", "GT", "HK", "HN", "HU", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TW", "US", "UY" ],
+        "disc_number" : 1,
+        "duration_ms" : 220186,
+        "explicit" : false,
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/track/5uZD2015uZBis6B2VwRYUZ"
+        },
+        "href" : "https://api.spotify.com/v1/tracks/5uZD2015uZBis6B2VwRYUZ",
+        "id" : "5uZD2015uZBis6B2VwRYUZ",
+        "name" : "3/5 of a Mile in 10 Seconds",
+        "preview_url" : "https://p.scdn.co/mp3-preview/cb6a731353b8a8185d43922b6a0525f8fd97111a",
+        "track_number" : 6,
+        "type" : "track",
+        "uri" : "spotify:track:5uZD2015uZBis6B2VwRYUZ"
+      }, {
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/2qFr8w5sWUITRlzZ9kZotF"
+          },
+          "href" : "https://api.spotify.com/v1/artists/2qFr8w5sWUITRlzZ9kZotF",
+          "id" : "2qFr8w5sWUITRlzZ9kZotF",
+          "name" : "Jefferson Airplane",
+          "type" : "artist",
+          "uri" : "spotify:artist:2qFr8w5sWUITRlzZ9kZotF"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GR", "GT", "HK", "HN", "HU", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TW", "US", "UY" ],
+        "disc_number" : 1,
+        "duration_ms" : 155586,
+        "explicit" : false,
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/track/2tjzfZvZjWbnmEqdzY8VTe"
+        },
+        "href" : "https://api.spotify.com/v1/tracks/2tjzfZvZjWbnmEqdzY8VTe",
+        "id" : "2tjzfZvZjWbnmEqdzY8VTe",
+        "name" : "D. C. B. A.-25",
+        "preview_url" : "https://p.scdn.co/mp3-preview/67425b0cc835cc9c04a086b652920d8332f6aab8",
+        "track_number" : 7,
+        "type" : "track",
+        "uri" : "spotify:track:2tjzfZvZjWbnmEqdzY8VTe"
+      }, {
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/2qFr8w5sWUITRlzZ9kZotF"
+          },
+          "href" : "https://api.spotify.com/v1/artists/2qFr8w5sWUITRlzZ9kZotF",
+          "id" : "2qFr8w5sWUITRlzZ9kZotF",
+          "name" : "Jefferson Airplane",
+          "type" : "artist",
+          "uri" : "spotify:artist:2qFr8w5sWUITRlzZ9kZotF"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GR", "GT", "HK", "HN", "HU", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TW", "US", "UY" ],
+        "disc_number" : 1,
+        "duration_ms" : 208520,
+        "explicit" : false,
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/track/0diWyRPKZD0nswFui9KTIf"
+        },
+        "href" : "https://api.spotify.com/v1/tracks/0diWyRPKZD0nswFui9KTIf",
+        "id" : "0diWyRPKZD0nswFui9KTIf",
+        "name" : "How Do You Feel",
+        "preview_url" : "https://p.scdn.co/mp3-preview/f3eb36322aea0b6326948040cf0bd80e87e96c01",
+        "track_number" : 8,
+        "type" : "track",
+        "uri" : "spotify:track:0diWyRPKZD0nswFui9KTIf"
+      }, {
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/2qFr8w5sWUITRlzZ9kZotF"
+          },
+          "href" : "https://api.spotify.com/v1/artists/2qFr8w5sWUITRlzZ9kZotF",
+          "id" : "2qFr8w5sWUITRlzZ9kZotF",
+          "name" : "Jefferson Airplane",
+          "type" : "artist",
+          "uri" : "spotify:artist:2qFr8w5sWUITRlzZ9kZotF"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GR", "GT", "HK", "HN", "HU", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TW", "US", "UY" ],
+        "disc_number" : 1,
+        "duration_ms" : 112093,
+        "explicit" : false,
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/track/2zbGXr2XCcRR40R7ymEENc"
+        },
+        "href" : "https://api.spotify.com/v1/tracks/2zbGXr2XCcRR40R7ymEENc",
+        "id" : "2zbGXr2XCcRR40R7ymEENc",
+        "name" : "Embryonic Journey",
+        "preview_url" : "https://p.scdn.co/mp3-preview/8232954035c08ee357078c264ab51e735aad82ac",
+        "track_number" : 9,
+        "type" : "track",
+        "uri" : "spotify:track:2zbGXr2XCcRR40R7ymEENc"
+      }, {
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/2qFr8w5sWUITRlzZ9kZotF"
+          },
+          "href" : "https://api.spotify.com/v1/artists/2qFr8w5sWUITRlzZ9kZotF",
+          "id" : "2qFr8w5sWUITRlzZ9kZotF",
+          "name" : "Jefferson Airplane",
+          "type" : "artist",
+          "uri" : "spotify:artist:2qFr8w5sWUITRlzZ9kZotF"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GR", "GT", "HK", "HN", "HU", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TW", "US", "UY" ],
+        "disc_number" : 1,
+        "duration_ms" : 150640,
+        "explicit" : false,
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/track/4vpeKl0vMGdAXpZiQB2Dtd"
+        },
+        "href" : "https://api.spotify.com/v1/tracks/4vpeKl0vMGdAXpZiQB2Dtd",
+        "id" : "4vpeKl0vMGdAXpZiQB2Dtd",
+        "name" : "White Rabbit",
+        "preview_url" : "https://p.scdn.co/mp3-preview/edb9c04ef6ea5d6cd6d8efc06fc8fbf63f16fd95",
+        "track_number" : 10,
+        "type" : "track",
+        "uri" : "spotify:track:4vpeKl0vMGdAXpZiQB2Dtd"
+      }, {
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/2qFr8w5sWUITRlzZ9kZotF"
+          },
+          "href" : "https://api.spotify.com/v1/artists/2qFr8w5sWUITRlzZ9kZotF",
+          "id" : "2qFr8w5sWUITRlzZ9kZotF",
+          "name" : "Jefferson Airplane",
+          "type" : "artist",
+          "uri" : "spotify:artist:2qFr8w5sWUITRlzZ9kZotF"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GR", "GT", "HK", "HN", "HU", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TW", "US", "UY" ],
+        "disc_number" : 1,
+        "duration_ms" : 153400,
+        "explicit" : false,
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/track/3fNvTmIR68qzusVAUhSwk3"
+        },
+        "href" : "https://api.spotify.com/v1/tracks/3fNvTmIR68qzusVAUhSwk3",
+        "id" : "3fNvTmIR68qzusVAUhSwk3",
+        "name" : "Plastic Fantastic Lover",
+        "preview_url" : "https://p.scdn.co/mp3-preview/51d3d2f617c9ef97bc9e719d9490ab7655acb1ab",
+        "track_number" : 11,
+        "type" : "track",
+        "uri" : "spotify:track:3fNvTmIR68qzusVAUhSwk3"
+      }, {
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/2qFr8w5sWUITRlzZ9kZotF"
+          },
+          "href" : "https://api.spotify.com/v1/artists/2qFr8w5sWUITRlzZ9kZotF",
+          "id" : "2qFr8w5sWUITRlzZ9kZotF",
+          "name" : "Jefferson Airplane",
+          "type" : "artist",
+          "uri" : "spotify:artist:2qFr8w5sWUITRlzZ9kZotF"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GR", "GT", "HK", "HN", "HU", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TW", "US", "UY" ],
+        "disc_number" : 1,
+        "duration_ms" : 380213,
+        "explicit" : false,
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/track/1FCzqMyUdl2YW1JGU2ungx"
+        },
+        "href" : "https://api.spotify.com/v1/tracks/1FCzqMyUdl2YW1JGU2ungx",
+        "id" : "1FCzqMyUdl2YW1JGU2ungx",
+        "name" : "In The Morning",
+        "preview_url" : "https://p.scdn.co/mp3-preview/e47b8eea4f796cfbd044e0bbcbec46f6c6dd7eb9",
+        "track_number" : 12,
+        "type" : "track",
+        "uri" : "spotify:track:1FCzqMyUdl2YW1JGU2ungx"
+      }, {
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/2qFr8w5sWUITRlzZ9kZotF"
+          },
+          "href" : "https://api.spotify.com/v1/artists/2qFr8w5sWUITRlzZ9kZotF",
+          "id" : "2qFr8w5sWUITRlzZ9kZotF",
+          "name" : "Jefferson Airplane",
+          "type" : "artist",
+          "uri" : "spotify:artist:2qFr8w5sWUITRlzZ9kZotF"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GR", "GT", "HK", "HN", "HU", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TW", "US", "UY" ],
+        "disc_number" : 1,
+        "duration_ms" : 156213,
+        "explicit" : false,
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/track/0zxQ5lejOpU0P1gcX44jVS"
+        },
+        "href" : "https://api.spotify.com/v1/tracks/0zxQ5lejOpU0P1gcX44jVS",
+        "id" : "0zxQ5lejOpU0P1gcX44jVS",
+        "name" : "J. P. P. Mc Step B. Blues",
+        "preview_url" : "https://p.scdn.co/mp3-preview/8cd6733471c114ce0a1374c921a0308890f2a08c",
+        "track_number" : 13,
+        "type" : "track",
+        "uri" : "spotify:track:0zxQ5lejOpU0P1gcX44jVS"
+      }, {
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/2qFr8w5sWUITRlzZ9kZotF"
+          },
+          "href" : "https://api.spotify.com/v1/artists/2qFr8w5sWUITRlzZ9kZotF",
+          "id" : "2qFr8w5sWUITRlzZ9kZotF",
+          "name" : "Jefferson Airplane",
+          "type" : "artist",
+          "uri" : "spotify:artist:2qFr8w5sWUITRlzZ9kZotF"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GR", "GT", "HK", "HN", "HU", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TW", "US", "UY" ],
+        "disc_number" : 1,
+        "duration_ms" : 241666,
+        "explicit" : false,
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/track/3tOeWyjnn2iACoR8NQHwmx"
+        },
+        "href" : "https://api.spotify.com/v1/tracks/3tOeWyjnn2iACoR8NQHwmx",
+        "id" : "3tOeWyjnn2iACoR8NQHwmx",
+        "name" : "Go To Her",
+        "preview_url" : "https://p.scdn.co/mp3-preview/ee1b0fd3475734f01b06b6e5e0a50fedd3eaf841",
+        "track_number" : 14,
+        "type" : "track",
+        "uri" : "spotify:track:3tOeWyjnn2iACoR8NQHwmx"
+      }, {
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/2qFr8w5sWUITRlzZ9kZotF"
+          },
+          "href" : "https://api.spotify.com/v1/artists/2qFr8w5sWUITRlzZ9kZotF",
+          "id" : "2qFr8w5sWUITRlzZ9kZotF",
+          "name" : "Jefferson Airplane",
+          "type" : "artist",
+          "uri" : "spotify:artist:2qFr8w5sWUITRlzZ9kZotF"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GR", "GT", "HK", "HN", "HU", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TW", "US", "UY" ],
+        "disc_number" : 1,
+        "duration_ms" : 175506,
+        "explicit" : false,
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/track/6cKd2jJKrDLxhy7s3o4QKY"
+        },
+        "href" : "https://api.spotify.com/v1/tracks/6cKd2jJKrDLxhy7s3o4QKY",
+        "id" : "6cKd2jJKrDLxhy7s3o4QKY",
+        "name" : "Come Back Baby",
+        "preview_url" : "https://p.scdn.co/mp3-preview/f8b557c323f6e46046b87f102f0038152122e03e",
+        "track_number" : 15,
+        "type" : "track",
+        "uri" : "spotify:track:6cKd2jJKrDLxhy7s3o4QKY"
+      }, {
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/2qFr8w5sWUITRlzZ9kZotF"
+          },
+          "href" : "https://api.spotify.com/v1/artists/2qFr8w5sWUITRlzZ9kZotF",
+          "id" : "2qFr8w5sWUITRlzZ9kZotF",
+          "name" : "Jefferson Airplane",
+          "type" : "artist",
+          "uri" : "spotify:artist:2qFr8w5sWUITRlzZ9kZotF"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GR", "GT", "HK", "HN", "HU", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TW", "US", "UY" ],
+        "disc_number" : 1,
+        "duration_ms" : 178520,
+        "explicit" : false,
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/track/45QH00VIZ4NMOYu6GkUMNt"
+        },
+        "href" : "https://api.spotify.com/v1/tracks/45QH00VIZ4NMOYu6GkUMNt",
+        "id" : "45QH00VIZ4NMOYu6GkUMNt",
+        "name" : "Somebody To Love - mono single version",
+        "preview_url" : "https://p.scdn.co/mp3-preview/e6f3175724959bd7e3647fd804eea93aaef206c2",
+        "track_number" : 16,
+        "type" : "track",
+        "uri" : "spotify:track:45QH00VIZ4NMOYu6GkUMNt"
+      }, {
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/2qFr8w5sWUITRlzZ9kZotF"
+          },
+          "href" : "https://api.spotify.com/v1/artists/2qFr8w5sWUITRlzZ9kZotF",
+          "id" : "2qFr8w5sWUITRlzZ9kZotF",
+          "name" : "Jefferson Airplane",
+          "type" : "artist",
+          "uri" : "spotify:artist:2qFr8w5sWUITRlzZ9kZotF"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GR", "GT", "HK", "HN", "HU", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TW", "US", "UY" ],
+        "disc_number" : 1,
+        "duration_ms" : 320813,
+        "explicit" : false,
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/track/0B06qo77UwovqxOY3Mwcw4"
+        },
+        "href" : "https://api.spotify.com/v1/tracks/0B06qo77UwovqxOY3Mwcw4",
+        "id" : "0B06qo77UwovqxOY3Mwcw4",
+        "name" : "White Rabbit - mono single version",
+        "preview_url" : "https://p.scdn.co/mp3-preview/818c2357ede0ad3dab75914e7b8dc8695c0c3812",
+        "track_number" : 17,
+        "type" : "track",
+        "uri" : "spotify:track:0B06qo77UwovqxOY3Mwcw4"
+      } ],
+      "limit" : 50,
+      "next" : null,
+      "offset" : 0,
+      "previous" : null,
+      "total" : 17
+    },
+    "type" : "album",
+    "uri" : "spotify:album:6lPb7Eoon6QPbscWbMsk6a"
+  } ]
+}

@@ -1,0 +1,63 @@
+{
+  "shows" : [ {
+    "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+    "copyrights" : [ ],
+    "description" : "Candid conversations with entrepreneurs, artists, athletes, visionaries of all kinds—about their successes, and their failures, and what they learned from both. Hosted by Alex Blumberg, from Gimlet Media.",
+    "explicit" : true,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/show/5CfCWKI5pZ28U0uOzXkDHe"
+    },
+    "href" : "https://api.spotify.com/v1/shows/5CfCWKI5pZ28U0uOzXkDHe",
+    "id" : "5CfCWKI5pZ28U0uOzXkDHe",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/12903409b9e5dd26f2a41e401cd7fcabd5164ed4",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/4f19eb7986a7c2246d713dcc46684e2187ccea4f",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/c0b072976a28792a4b451dfc7011a2176ec8cd34",
+      "width" : 64
+    } ],
+    "is_externally_hosted" : false,
+    "languages" : [ "en" ],
+    "media_type" : "audio",
+    "name" : "Without Fail",
+    "publisher" : "Gimlet",
+    "type" : "show",
+    "uri" : "spotify:show:5CfCWKI5pZ28U0uOzXkDHe"
+  }, {
+    "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+    "copyrights" : [ ],
+    "description" : "Giant Bomb discusses the latest video game news and new releases, taste-test questionable beverages, and get wildly off-topic in this weekly podcast.",
+    "explicit" : false,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/show/5as3aKmN2k11yfDDDSrvaZ"
+    },
+    "href" : "https://api.spotify.com/v1/shows/5as3aKmN2k11yfDDDSrvaZ",
+    "id" : "5as3aKmN2k11yfDDDSrvaZ",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/9bd9b3be1111810a91cd768115a57ee5a08c7145",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/1f5c122086aa4602742ba2301302f2f9bc1f0345",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/b97f288023e547f40862976c89a5c342eacaaac1",
+      "width" : 64
+    } ],
+    "is_externally_hosted" : false,
+    "languages" : [ "en-US" ],
+    "media_type" : "audio",
+    "name" : "Giant Bombcast",
+    "publisher" : "Giant Bomb",
+    "type" : "show",
+    "uri" : "spotify:show:5as3aKmN2k11yfDDDSrvaZ"
+  } ]
+}

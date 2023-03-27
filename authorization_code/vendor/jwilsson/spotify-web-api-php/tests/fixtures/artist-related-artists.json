@@ -1,0 +1,631 @@
+{
+  "artists" : [ {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 1315842
+    },
+    "genres" : [ "album rock", "glam rock", "rock" ],
+    "href" : "https://api.spotify.com/v1/artists/1dfeR4HaWDbWqFHLkxsg1d",
+    "id" : "1dfeR4HaWDbWqFHLkxsg1d",
+    "images" : [ {
+      "height" : 806,
+      "url" : "https://i.scdn.co/image/f439465a43dd0e4d1aed1df5b0e3243eda49a403",
+      "width" : 999
+    }, {
+      "height" : 516,
+      "url" : "https://i.scdn.co/image/d654d928182fd66c75fb3b9a74b427317f5584c7",
+      "width" : 640
+    }, {
+      "height" : 161,
+      "url" : "https://i.scdn.co/image/19d06fdae9eeeef540a6e1b2f5cf43815512398b",
+      "width" : 200
+    }, {
+      "height" : 52,
+      "url" : "https://i.scdn.co/image/106f04597938cf8892c969fe187c2ddddc665094",
+      "width" : 64
+    } ],
+    "name" : "Queen",
+    "popularity" : 76,
+    "type" : "artist",
+    "uri" : "spotify:artist:1dfeR4HaWDbWqFHLkxsg1d"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/3qm84nBOXUEQ2vnTfUTTFC"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 746900
+    },
+    "genres" : [ "hard rock", "rock" ],
+    "href" : "https://api.spotify.com/v1/artists/3qm84nBOXUEQ2vnTfUTTFC",
+    "id" : "3qm84nBOXUEQ2vnTfUTTFC",
+    "images" : [ {
+      "height" : 1196,
+      "url" : "https://i.scdn.co/image/e5febc8c36b50a0aad9b75b44340b2c7daaf7304",
+      "width" : 1000
+    }, {
+      "height" : 765,
+      "url" : "https://i.scdn.co/image/e710440d0d23f6d2045edf7c48e189c32775df1e",
+      "width" : 640
+    }, {
+      "height" : 239,
+      "url" : "https://i.scdn.co/image/d9f697b417282c3f77cd88cb7d1241f95b5e3482",
+      "width" : 200
+    }, {
+      "height" : 77,
+      "url" : "https://i.scdn.co/image/31568da0f5b7aa7794df7c99a67d7211198e49a1",
+      "width" : 64
+    } ],
+    "name" : "Guns N' Roses",
+    "popularity" : 65,
+    "type" : "artist",
+    "uri" : "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/5hW4L92KnC6dX9t7tYM4Ve"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 98837
+    },
+    "genres" : [ "folk rock", "folk-pop", "singer-songwriter" ],
+    "href" : "https://api.spotify.com/v1/artists/5hW4L92KnC6dX9t7tYM4Ve",
+    "id" : "5hW4L92KnC6dX9t7tYM4Ve",
+    "images" : [ {
+      "height" : 784,
+      "url" : "https://i.scdn.co/image/091b12a139f5b6748389b906a7c3370256458163",
+      "width" : 1000
+    }, {
+      "height" : 502,
+      "url" : "https://i.scdn.co/image/c790fa02e5a862c89e7c2847f4ebef8b87c02f25",
+      "width" : 640
+    }, {
+      "height" : 157,
+      "url" : "https://i.scdn.co/image/6efcbe8a3af0a8191ae7b83547b3363ce34ef51f",
+      "width" : 200
+    }, {
+      "height" : 50,
+      "url" : "https://i.scdn.co/image/0b1efcf69be53242fbaab33752e937c335d4c690",
+      "width" : 64
+    } ],
+    "name" : "Joni Mitchell",
+    "popularity" : 60,
+    "type" : "artist",
+    "uri" : "spotify:artist:5hW4L92KnC6dX9t7tYM4Ve"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/5a2EaR3hamoenG9rDuVn8j"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 230869
+    },
+    "genres" : [ "classic funk rock", "funk rock" ],
+    "href" : "https://api.spotify.com/v1/artists/5a2EaR3hamoenG9rDuVn8j",
+    "id" : "5a2EaR3hamoenG9rDuVn8j",
+    "images" : [ {
+      "height" : 585,
+      "url" : "https://i.scdn.co/image/6c02aa8bba022a4317b1535ed66e675d350607b4",
+      "width" : 720
+    }, {
+      "height" : 520,
+      "url" : "https://i.scdn.co/image/0dd5b7997516744e8883aadc15ba18ba05cb8e67",
+      "width" : 640
+    }, {
+      "height" : 163,
+      "url" : "https://i.scdn.co/image/f0b041537109596173216eb5cd253e1e1ce4f27d",
+      "width" : 200
+    }, {
+      "height" : 52,
+      "url" : "https://i.scdn.co/image/5d082cd14be566e41681853667ef8fc0ab2cbd32",
+      "width" : 64
+    } ],
+    "name" : "Prince",
+    "popularity" : 72,
+    "type" : "artist",
+    "uri" : "spotify:artist:5a2EaR3hamoenG9rDuVn8j"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/67ea9eGLXYMsO2eYQRui3w"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 315351
+    },
+    "genres" : [ "rock" ],
+    "href" : "https://api.spotify.com/v1/artists/67ea9eGLXYMsO2eYQRui3w",
+    "id" : "67ea9eGLXYMsO2eYQRui3w",
+    "images" : [ {
+      "height" : 1296,
+      "url" : "https://i.scdn.co/image/5304476e4596646d98a8f556d4d4ed19983c419e",
+      "width" : 1000
+    }, {
+      "height" : 829,
+      "url" : "https://i.scdn.co/image/045087373e3a23d49371d39a2d2b6d08906046af",
+      "width" : 640
+    }, {
+      "height" : 259,
+      "url" : "https://i.scdn.co/image/e6d4c88c2d2d73d0dac733e3ba6ca8b61aec1154",
+      "width" : 200
+    }, {
+      "height" : 83,
+      "url" : "https://i.scdn.co/image/9f2fcb9407b9be5eebfd40c0096c268f86f0e615",
+      "width" : 64
+    } ],
+    "name" : "The Who",
+    "popularity" : 65,
+    "type" : "artist",
+    "uri" : "spotify:artist:67ea9eGLXYMsO2eYQRui3w"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/776Uo845nYHJpNaStv1Ds4"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 366092
+    },
+    "genres" : [ "blues-rock", "classic rock" ],
+    "href" : "https://api.spotify.com/v1/artists/776Uo845nYHJpNaStv1Ds4",
+    "id" : "776Uo845nYHJpNaStv1Ds4",
+    "images" : [ {
+      "height" : 1500,
+      "url" : "https://i.scdn.co/image/080183498389e920416d15d00b34f4c5dc4bbd0b",
+      "width" : 1000
+    }, {
+      "height" : 960,
+      "url" : "https://i.scdn.co/image/ac83b1e22aa158ce554f27b26751354c8b525dee",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/a5f86ee01b063916de2b636f44f1dfccd540a786",
+      "width" : 200
+    }, {
+      "height" : 96,
+      "url" : "https://i.scdn.co/image/577c11dbd9c88cf8872c938d2ce85d0a699a7c02",
+      "width" : 64
+    } ],
+    "name" : "Jimi Hendrix",
+    "popularity" : 67,
+    "type" : "artist",
+    "uri" : "spotify:artist:776Uo845nYHJpNaStv1Ds4"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/1SQRv42e4PjEYfPhS0Tk9E"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 172330
+    },
+    "genres" : [ "british invasion", "glam rock" ],
+    "href" : "https://api.spotify.com/v1/artists/1SQRv42e4PjEYfPhS0Tk9E",
+    "id" : "1SQRv42e4PjEYfPhS0Tk9E",
+    "images" : [ {
+      "height" : 1203,
+      "url" : "https://i.scdn.co/image/2d5581f6949dda0687df4fee5ec990a216a182f9",
+      "width" : 1000
+    }, {
+      "height" : 770,
+      "url" : "https://i.scdn.co/image/d401f647a39eeeb589d1fb6fcb3ef2905f774dd0",
+      "width" : 640
+    }, {
+      "height" : 241,
+      "url" : "https://i.scdn.co/image/8594e0c7fff54add04aa56467cc5030b7422d519",
+      "width" : 200
+    }, {
+      "height" : 77,
+      "url" : "https://i.scdn.co/image/46376c0868912939513116b021b129ac69fca016",
+      "width" : 64
+    } ],
+    "name" : "The Kinks",
+    "popularity" : 60,
+    "type" : "artist",
+    "uri" : "spotify:artist:1SQRv42e4PjEYfPhS0Tk9E"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/0f8MDDzIc6M4uH1xH0o0gy"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 45434
+    },
+    "genres" : [ "acoustic blues", "blues", "delta blues", "traditional blues" ],
+    "href" : "https://api.spotify.com/v1/artists/0f8MDDzIc6M4uH1xH0o0gy",
+    "id" : "0f8MDDzIc6M4uH1xH0o0gy",
+    "images" : [ {
+      "height" : 1268,
+      "url" : "https://i.scdn.co/image/8cc55abbc1ed7527d40903f9d4a4dcbe51f514f3",
+      "width" : 968
+    }, {
+      "height" : 838,
+      "url" : "https://i.scdn.co/image/c71361d94ef194e26c432887b2295fdec78f2043",
+      "width" : 640
+    }, {
+      "height" : 262,
+      "url" : "https://i.scdn.co/image/8b2fc1fb2070a5437d518e4ff6b7946e5d410d9e",
+      "width" : 200
+    }, {
+      "height" : 84,
+      "url" : "https://i.scdn.co/image/ec4640d494630c33ca6f14e0e711c91a7461c3fd",
+      "width" : 64
+    } ],
+    "name" : "Robert Johnson",
+    "popularity" : 60,
+    "type" : "artist",
+    "uri" : "spotify:artist:0f8MDDzIc6M4uH1xH0o0gy"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/43ZHCT0cAZBISjO8DG9PnE"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 640755
+    },
+    "genres" : [ "rock-and-roll", "rockabilly" ],
+    "href" : "https://api.spotify.com/v1/artists/43ZHCT0cAZBISjO8DG9PnE",
+    "id" : "43ZHCT0cAZBISjO8DG9PnE",
+    "images" : [ {
+      "height" : 1296,
+      "url" : "https://i.scdn.co/image/c7b8708eab6d0f0902908c1b9f9ba1daaeed06af",
+      "width" : 1000
+    }, {
+      "height" : 829,
+      "url" : "https://i.scdn.co/image/e25cb372ca9a5317c17d5f62b3556f76ce2edde8",
+      "width" : 640
+    }, {
+      "height" : 259,
+      "url" : "https://i.scdn.co/image/7d0e683d6bb4cbb384586cd6d9007f5a40928251",
+      "width" : 200
+    }, {
+      "height" : 83,
+      "url" : "https://i.scdn.co/image/16045a251c9e9f5772d4aeb3f6fa23fe4fdeb54a",
+      "width" : 64
+    } ],
+    "name" : "Elvis Presley",
+    "popularity" : 94,
+    "type" : "artist",
+    "uri" : "spotify:artist:43ZHCT0cAZBISjO8DG9PnE"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/7Ey4PD4MYsKc5I2dolUwbH"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 416034
+    },
+    "genres" : [ "album rock", "hard rock", "rock" ],
+    "href" : "https://api.spotify.com/v1/artists/7Ey4PD4MYsKc5I2dolUwbH",
+    "id" : "7Ey4PD4MYsKc5I2dolUwbH",
+    "images" : [ {
+      "height" : 665,
+      "url" : "https://i.scdn.co/image/e0ea6225a3f89374d53ba1344c73ae2819cd2020",
+      "width" : 999
+    }, {
+      "height" : 426,
+      "url" : "https://i.scdn.co/image/58a89627ce645efd86a2d8b8140e9bc1378bdaca",
+      "width" : 640
+    }, {
+      "height" : 133,
+      "url" : "https://i.scdn.co/image/c26e4282a450cc2d85c2d8f28b7859a14b541f81",
+      "width" : 200
+    }, {
+      "height" : 43,
+      "url" : "https://i.scdn.co/image/3a98016f33459c8ac23333787a24a0e0b124170a",
+      "width" : 64
+    } ],
+    "name" : "Aerosmith",
+    "popularity" : 69,
+    "type" : "artist",
+    "uri" : "spotify:artist:7Ey4PD4MYsKc5I2dolUwbH"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/2ye2Wgw4gimLv2eAKyk1NB"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 854158
+    },
+    "genres" : [ "metal" ],
+    "href" : "https://api.spotify.com/v1/artists/2ye2Wgw4gimLv2eAKyk1NB",
+    "id" : "2ye2Wgw4gimLv2eAKyk1NB",
+    "images" : [ {
+      "height" : 960,
+      "url" : "https://i.scdn.co/image/3e77faaefed7e976999d5d40b02c2d0cae173a5a",
+      "width" : 960
+    }, {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/2cfbc8c8e6af445b4323a3eda3ae97fe1bba8935",
+      "width" : 640
+    }, {
+      "height" : 200,
+      "url" : "https://i.scdn.co/image/15d9ccb37a96d49f69f44f999fb1e9e46f9b3ccd",
+      "width" : 200
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/412a8f3a40f44fcfadb53bcecef2434f45fdd015",
+      "width" : 64
+    } ],
+    "name" : "Metallica",
+    "popularity" : 63,
+    "type" : "artist",
+    "uri" : "spotify:artist:2ye2Wgw4gimLv2eAKyk1NB"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/4pejUc4iciQfgdX6OKulQn"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 357259
+    },
+    "genres" : [ ],
+    "href" : "https://api.spotify.com/v1/artists/4pejUc4iciQfgdX6OKulQn",
+    "id" : "4pejUc4iciQfgdX6OKulQn",
+    "images" : [ {
+      "height" : 792,
+      "url" : "https://i.scdn.co/image/02b4438a838006c6f99602728675b9b4954e8782",
+      "width" : 1000
+    }, {
+      "height" : 507,
+      "url" : "https://i.scdn.co/image/fbdc1b85274ac5b7dc3b1f03576080dc220c7484",
+      "width" : 640
+    }, {
+      "height" : 158,
+      "url" : "https://i.scdn.co/image/18acb48c4a8e43883ace161d1a774745fbe7401b",
+      "width" : 199
+    }, {
+      "height" : 51,
+      "url" : "https://i.scdn.co/image/101bfa10aae7177f78b128640cda367ab9943c62",
+      "width" : 64
+    } ],
+    "name" : "Queens Of The Stone Age",
+    "popularity" : 67,
+    "type" : "artist",
+    "uri" : "spotify:artist:4pejUc4iciQfgdX6OKulQn"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/74oJ4qxwOZvX6oSsu1DGnw"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 94659
+    },
+    "genres" : [ "blues-rock", "british blues", "classic rock", "psychedelic rock" ],
+    "href" : "https://api.spotify.com/v1/artists/74oJ4qxwOZvX6oSsu1DGnw",
+    "id" : "74oJ4qxwOZvX6oSsu1DGnw",
+    "images" : [ {
+      "height" : 792,
+      "url" : "https://i.scdn.co/image/a791d69ef7b3de518520a210acc349ea638ba3c7",
+      "width" : 999
+    }, {
+      "height" : 507,
+      "url" : "https://i.scdn.co/image/c9f01ba48dd7696fa5182154671c7cf33b740e7a",
+      "width" : 640
+    }, {
+      "height" : 158,
+      "url" : "https://i.scdn.co/image/6f78a9dbe221c14610b32829c8d5f550049c898d",
+      "width" : 199
+    }, {
+      "height" : 51,
+      "url" : "https://i.scdn.co/image/3e68373fb30b02cf7b80d7617b2663d406209a0c",
+      "width" : 64
+    } ],
+    "name" : "Cream",
+    "popularity" : 54,
+    "type" : "artist",
+    "uri" : "spotify:artist:74oJ4qxwOZvX6oSsu1DGnw"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/3kQzSlXUpRIJtIG0IVQp7S"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 191
+    },
+    "genres" : [ ],
+    "href" : "https://api.spotify.com/v1/artists/3kQzSlXUpRIJtIG0IVQp7S",
+    "id" : "3kQzSlXUpRIJtIG0IVQp7S",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/581341b83669793a4722070bd63d16b0f800fdcb",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/cba9176381b827d4125b53e925765404e72a4ad7",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/2ddf6a3aa2a5ebb01e1002542e9614535f7a6f43",
+      "width" : 64
+    } ],
+    "name" : "The Master Musicians of Joujouka",
+    "popularity" : 0,
+    "type" : "artist",
+    "uri" : "spotify:artist:3kQzSlXUpRIJtIG0IVQp7S"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/6olE6TJLqED3rqDCT0FyPh"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 962886
+    },
+    "genres" : [ "alternative rock", "grunge", "permanent wave" ],
+    "href" : "https://api.spotify.com/v1/artists/6olE6TJLqED3rqDCT0FyPh",
+    "id" : "6olE6TJLqED3rqDCT0FyPh",
+    "images" : [ {
+      "height" : 1057,
+      "url" : "https://i.scdn.co/image/5d66307bbf73337bb073bfb2bf242e099a47e219",
+      "width" : 1000
+    }, {
+      "height" : 677,
+      "url" : "https://i.scdn.co/image/695867a7c6a0df25c5bddf0b00cc2cfde35b3ffc",
+      "width" : 640
+    }, {
+      "height" : 211,
+      "url" : "https://i.scdn.co/image/3a9c12e86ad8e2bbecb0e919b80bb5ece6f1dbe3",
+      "width" : 200
+    }, {
+      "height" : 68,
+      "url" : "https://i.scdn.co/image/5ae6f10633adc53210cd18a4f216f27de330f19d",
+      "width" : 64
+    } ],
+    "name" : "Nirvana",
+    "popularity" : 67,
+    "type" : "artist",
+    "uri" : "spotify:artist:6olE6TJLqED3rqDCT0FyPh"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/5M52tdBnJaKSvOpJGz8mfZ"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 316643
+    },
+    "genres" : [ ],
+    "href" : "https://api.spotify.com/v1/artists/5M52tdBnJaKSvOpJGz8mfZ",
+    "id" : "5M52tdBnJaKSvOpJGz8mfZ",
+    "images" : [ {
+      "height" : 1059,
+      "url" : "https://i.scdn.co/image/c9d282ee411315454e6533474bf6bc6e2306c093",
+      "width" : 1000
+    }, {
+      "height" : 678,
+      "url" : "https://i.scdn.co/image/fb7ab8ca0d767e1b919acf1371cdc8719f72cedc",
+      "width" : 640
+    }, {
+      "height" : 212,
+      "url" : "https://i.scdn.co/image/7ff395e1ee99bcec086b7cc7164de410a13cfb3c",
+      "width" : 200
+    }, {
+      "height" : 68,
+      "url" : "https://i.scdn.co/image/a4dbc85fb3d2fe694d1de5119c44a514ede6fd1d",
+      "width" : 64
+    } ],
+    "name" : "Black Sabbath",
+    "popularity" : 62,
+    "type" : "artist",
+    "uri" : "spotify:artist:5M52tdBnJaKSvOpJGz8mfZ"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/0k17h0D3J5VfsdmQ1iZtE9"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 579320
+    },
+    "genres" : [ "art rock" ],
+    "href" : "https://api.spotify.com/v1/artists/0k17h0D3J5VfsdmQ1iZtE9",
+    "id" : "0k17h0D3J5VfsdmQ1iZtE9",
+    "images" : [ {
+      "height" : 977,
+      "url" : "https://i.scdn.co/image/b954149fed21dcbafe1cee4c30454eb934c384ee",
+      "width" : 1000
+    }, {
+      "height" : 625,
+      "url" : "https://i.scdn.co/image/63562bf58a1af52f9800c3ae225d49a476af212f",
+      "width" : 640
+    }, {
+      "height" : 195,
+      "url" : "https://i.scdn.co/image/792a417e8500405180a7746908afd7d5e3a30585",
+      "width" : 200
+    }, {
+      "height" : 63,
+      "url" : "https://i.scdn.co/image/a9b0636c32bb27f0590dbb283019614e861b2ed2",
+      "width" : 64
+    } ],
+    "name" : "Pink Floyd",
+    "popularity" : 61,
+    "type" : "artist",
+    "uri" : "spotify:artist:0k17h0D3J5VfsdmQ1iZtE9"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/4xls23Ye9WR9yy3yYMpAMm"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 40749
+    },
+    "genres" : [ "rock-and-roll", "rockabilly" ],
+    "href" : "https://api.spotify.com/v1/artists/4xls23Ye9WR9yy3yYMpAMm",
+    "id" : "4xls23Ye9WR9yy3yYMpAMm",
+    "images" : [ {
+      "height" : 596,
+      "url" : "https://i.scdn.co/image/225b21b951a28509cc944ddc3ff046a6dadfc58d",
+      "width" : 477
+    }, {
+      "height" : 250,
+      "url" : "https://i.scdn.co/image/10f5e668f76ad7e313ad1c523f6a67ee6f5dd9fc",
+      "width" : 200
+    }, {
+      "height" : 80,
+      "url" : "https://i.scdn.co/image/cfcab8b4b9caa4a8f05ebcc9e98d4f3d3ac4640b",
+      "width" : 64
+    } ],
+    "name" : "Little Richard",
+    "popularity" : 69,
+    "type" : "artist",
+    "uri" : "spotify:artist:4xls23Ye9WR9yy3yYMpAMm"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/7jy3rLJdDQY21OgRLCZ9sD"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 1002790
+    },
+    "genres" : [ "alternative rock", "permanent wave", "post-grunge" ],
+    "href" : "https://api.spotify.com/v1/artists/7jy3rLJdDQY21OgRLCZ9sD",
+    "id" : "7jy3rLJdDQY21OgRLCZ9sD",
+    "images" : [ {
+      "height" : 467,
+      "url" : "https://i.scdn.co/image/7415991bc4549837fe56506389396ecc23209fda",
+      "width" : 583
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/5ce1d91816f8c7b2b4ac70cacc25c73ba330ab79",
+      "width" : 200
+    }, {
+      "height" : 51,
+      "url" : "https://i.scdn.co/image/2a65e02dc861340635db8edcb28c052bc2a5614b",
+      "width" : 64
+    } ],
+    "name" : "Foo Fighters",
+    "popularity" : 65,
+    "type" : "artist",
+    "uri" : "spotify:artist:7jy3rLJdDQY21OgRLCZ9sD"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/22bE4uQ6baNwSHPVcDxLCe"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 931999
+    },
+    "genres" : [ "blues-rock", "british blues", "classic rock" ],
+    "href" : "https://api.spotify.com/v1/artists/22bE4uQ6baNwSHPVcDxLCe",
+    "id" : "22bE4uQ6baNwSHPVcDxLCe",
+    "images" : [ {
+      "height" : 783,
+      "url" : "https://i.scdn.co/image/2b3993e967c42310876f226e5c380896e861ae8d",
+      "width" : 1000
+    }, {
+      "height" : 501,
+      "url" : "https://i.scdn.co/image/cbd1ad72d24348463379c726a65f7495c6a8c169",
+      "width" : 640
+    }, {
+      "height" : 157,
+      "url" : "https://i.scdn.co/image/839c66ae04452921f1a212823c3888a5beadac08",
+      "width" : 200
+    }, {
+      "height" : 50,
+      "url" : "https://i.scdn.co/image/2668b52807aad539039b27f69a267eb490f37ee1",
+      "width" : 64
+    } ],
+    "name" : "The Rolling Stones",
+    "popularity" : 75,
+    "type" : "artist",
+    "uri" : "spotify:artist:22bE4uQ6baNwSHPVcDxLCe"
+  } ]
+}

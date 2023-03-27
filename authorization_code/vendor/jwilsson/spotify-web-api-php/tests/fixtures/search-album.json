@@ -1,0 +1,491 @@
+{
+  "albums" : {
+    "href" : "https://api.spotify.com/v1/search?query=blur&offset=0&limit=20&type=album",
+    "items" : [ {
+      "album_type" : "album",
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/1bgkxe4t0HNeLn9rhrx79x"
+      },
+      "href" : "https://api.spotify.com/v1/albums/1bgkxe4t0HNeLn9rhrx79x",
+      "id" : "1bgkxe4t0HNeLn9rhrx79x",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/64d37b4adad0bad4c31ef0de9d499d94596a2060",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/1590a83b6e1ec12478a2fe8e993a4eecc261605e",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/77203b4469cb6dba1710c44f838ff6ab3a0433b7",
+        "width" : 64
+      } ],
+      "name" : "Blur: The Best Of",
+      "type" : "album",
+      "uri" : "spotify:album:1bgkxe4t0HNeLn9rhrx79x"
+    }, {
+      "album_type" : "album",
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/7HvIrSkKGJCzd8AKyjTJ6Q"
+      },
+      "href" : "https://api.spotify.com/v1/albums/7HvIrSkKGJCzd8AKyjTJ6Q",
+      "id" : "7HvIrSkKGJCzd8AKyjTJ6Q",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/f701e71cd440d0c39e78ae84b11b521c151ca952",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/2f86cc9cd03fd681f0047e325538204913133de9",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/266f1a256cd75a954f5490dfb6455ae5e3c75cff",
+        "width" : 64
+      } ],
+      "name" : "Blur [Special Edition]",
+      "type" : "album",
+      "uri" : "spotify:album:7HvIrSkKGJCzd8AKyjTJ6Q"
+    }, {
+      "album_type" : "album",
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/0DBkFC6739trhCoVreZyds"
+      },
+      "href" : "https://api.spotify.com/v1/albums/0DBkFC6739trhCoVreZyds",
+      "id" : "0DBkFC6739trhCoVreZyds",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/03c8065209537b0ac1c57c1ba9699b0220a4d4b8",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ff643365919768d1d742a8cd7e7e199e401169df",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/eeaa64d81f9cbe8e30671a392bba2c78de766067",
+        "width" : 64
+      } ],
+      "name" : "Parklife [Special Edition]",
+      "type" : "album",
+      "uri" : "spotify:album:0DBkFC6739trhCoVreZyds"
+    }, {
+      "album_type" : "album",
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/7BiMMjtvTX0OiB8Yi7CFB1"
+      },
+      "href" : "https://api.spotify.com/v1/albums/7BiMMjtvTX0OiB8Yi7CFB1",
+      "id" : "7BiMMjtvTX0OiB8Yi7CFB1",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/6fa8258b54a9be6d7a9f06814ff2c92514a1f873",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/b1174cbd3654639a2ac5831b2341f3a361cc568e",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/8caf4cb98b75f9adc9f172c21c5b66dbcbefaee7",
+        "width" : 64
+      } ],
+      "name" : "The Great Escape [Special Edition]",
+      "type" : "album",
+      "uri" : "spotify:album:7BiMMjtvTX0OiB8Yi7CFB1"
+    }, {
+      "album_type" : "album",
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GR", "GT", "HK", "HN", "HU", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/6P3DICUiFYGBz5Ptdn57sG"
+      },
+      "href" : "https://api.spotify.com/v1/albums/6P3DICUiFYGBz5Ptdn57sG",
+      "id" : "6P3DICUiFYGBz5Ptdn57sG",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/19363cb2140fd4e8e6dd6f028d614465ac610ec0",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/007bc152e0b27a55a488954c74498ab8d4e4f1e1",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/0fde777508651ce4d71d49da8e1f1d2f09be64cf",
+        "width" : 64
+      } ],
+      "name" : "Midlife: A Beginner's Guide To Blur",
+      "type" : "album",
+      "uri" : "spotify:album:6P3DICUiFYGBz5Ptdn57sG"
+    }, {
+      "album_type" : "album",
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/3VyHgnHE4cp7YuU7skzuJ2"
+      },
+      "href" : "https://api.spotify.com/v1/albums/3VyHgnHE4cp7YuU7skzuJ2",
+      "id" : "3VyHgnHE4cp7YuU7skzuJ2",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/39f5e076950b20d1410b95932bf6f7b62e6024f4",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ab4864c47847f5b7623197d7b13475629630b466",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/1b5c8fd40c1d7371d928ad2a99aa77fa4e34c112",
+        "width" : 64
+      } ],
+      "name" : "Blur",
+      "type" : "album",
+      "uri" : "spotify:album:3VyHgnHE4cp7YuU7skzuJ2"
+    }, {
+      "album_type" : "album",
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/5YuZ4DjvtZBywtIbHIqtGJ"
+      },
+      "href" : "https://api.spotify.com/v1/albums/5YuZ4DjvtZBywtIbHIqtGJ",
+      "id" : "5YuZ4DjvtZBywtIbHIqtGJ",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/bc4775423b7fcb1020df3bf7ca7d8eb1b17b5212",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/c3f1e7ac6a7dbcfb24bf8a34aee5e7e03520fe2f",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/c91d9f258227bc071370208cd1fc01340f524489",
+        "width" : 64
+      } ],
+      "name" : "13",
+      "type" : "album",
+      "uri" : "spotify:album:5YuZ4DjvtZBywtIbHIqtGJ"
+    }, {
+      "album_type" : "album",
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/2gu1tAkUSoe5zTJNM0qU3g"
+      },
+      "href" : "https://api.spotify.com/v1/albums/2gu1tAkUSoe5zTJNM0qU3g",
+      "id" : "2gu1tAkUSoe5zTJNM0qU3g",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/c2eeefac6a0d26abbd03fbb0754ae9e5cce0ff68",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/6c11873c57173ec992aca45083c60ae1e5c5f685",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/95b6bd634795d9a8d6577e97c5a38be68d2345d2",
+        "width" : 64
+      } ],
+      "name" : "Modern Life Is Rubbish [Special Edition]",
+      "type" : "album",
+      "uri" : "spotify:album:2gu1tAkUSoe5zTJNM0qU3g"
+    }, {
+      "album_type" : "single",
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/4KGXsaL5QHwStv15Mf7CHa"
+      },
+      "href" : "https://api.spotify.com/v1/albums/4KGXsaL5QHwStv15Mf7CHa",
+      "id" : "4KGXsaL5QHwStv15Mf7CHa",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/dc023f2adab949f4aba8bd40334492ef92de229f",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/47f06310b20144fba6168039f0ec7b1b718110c0",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/195b6f14876082aeee6a73bc24b8bd0658c9c7fd",
+        "width" : 64
+      } ],
+      "name" : "Blur",
+      "type" : "album",
+      "uri" : "spotify:album:4KGXsaL5QHwStv15Mf7CHa"
+    }, {
+      "album_type" : "single",
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "US", "UY" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/17uiLcsHcK3RcSWS8XO54y"
+      },
+      "href" : "https://api.spotify.com/v1/albums/17uiLcsHcK3RcSWS8XO54y",
+      "id" : "17uiLcsHcK3RcSWS8XO54y",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/802ccdc98212db212e8a81f12470ecacf02995a7",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/02e59e28f4cd0f2bed98478faf3ffbff7894378d",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/e9764842d735334d4da8c4a939721804684bb4d6",
+        "width" : 64
+      } ],
+      "name" : "Under the Westway - Single",
+      "type" : "album",
+      "uri" : "spotify:album:17uiLcsHcK3RcSWS8XO54y"
+    }, {
+      "album_type" : "album",
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/0egRXi9lcYlIGJZ01SpYM3"
+      },
+      "href" : "https://api.spotify.com/v1/albums/0egRXi9lcYlIGJZ01SpYM3",
+      "id" : "0egRXi9lcYlIGJZ01SpYM3",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/12e72e3e7fc9d644927bcf8bf49587a19f64f346",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/f3b3878e86ebf0a1681ccd054f89fa2c754d64bb",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/bdb16f332b3fbae09d86cafd84a86e845d82ef7f",
+        "width" : 64
+      } ],
+      "name" : "Think Tank",
+      "type" : "album",
+      "uri" : "spotify:album:0egRXi9lcYlIGJZ01SpYM3"
+    }, {
+      "album_type" : "album",
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/0cTdvscLZjCTEKxYUlJFwa"
+      },
+      "href" : "https://api.spotify.com/v1/albums/0cTdvscLZjCTEKxYUlJFwa",
+      "id" : "0cTdvscLZjCTEKxYUlJFwa",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/2a81e7aee9b439086505f04e0ea8aefa128a3979",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/cd4834221762cb4be6b4f176dba94b72d54a23bd",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/4038f8a3a836dd63eace9b9bdf3b86ff1b85ae55",
+        "width" : 64
+      } ],
+      "name" : "Leisure [Special Edition]",
+      "type" : "album",
+      "uri" : "spotify:album:0cTdvscLZjCTEKxYUlJFwa"
+    }, {
+      "album_type" : "album",
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "UY" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/7xxg6PunBVeuTliClh4H5p"
+      },
+      "href" : "https://api.spotify.com/v1/albums/7xxg6PunBVeuTliClh4H5p",
+      "id" : "7xxg6PunBVeuTliClh4H5p",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/0b9bcd0fec270a14e10c513336feca6f0311425e",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/6d3e4992a8d29e8744c76e3b788ff5581925f316",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/451d3e26a2fda68790164d546a8aa31bfcf5e12d",
+        "width" : 64
+      } ],
+      "name" : "Parklive",
+      "type" : "album",
+      "uri" : "spotify:album:7xxg6PunBVeuTliClh4H5p"
+    }, {
+      "album_type" : "album",
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/0YS25Dr3hMtMFlVTfuvzl4"
+      },
+      "href" : "https://api.spotify.com/v1/albums/0YS25Dr3hMtMFlVTfuvzl4",
+      "id" : "0YS25Dr3hMtMFlVTfuvzl4",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/03c8065209537b0ac1c57c1ba9699b0220a4d4b8",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/ff643365919768d1d742a8cd7e7e199e401169df",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/eeaa64d81f9cbe8e30671a392bba2c78de766067",
+        "width" : 64
+      } ],
+      "name" : "Parklife",
+      "type" : "album",
+      "uri" : "spotify:album:0YS25Dr3hMtMFlVTfuvzl4"
+    }, {
+      "album_type" : "album",
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/1uF9iZYiDY2p5yhRFNJzjW"
+      },
+      "href" : "https://api.spotify.com/v1/albums/1uF9iZYiDY2p5yhRFNJzjW",
+      "id" : "1uF9iZYiDY2p5yhRFNJzjW",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/1bcea0cb3c994418cc5a5937337b06bf35cd96c2",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/49114f3245eaa8028a193085bf6a2177f41e12cf",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/99bf65de703ff621a24affe84483ff1a042f7627",
+        "width" : 64
+      } ],
+      "name" : "13 [Special Edition]",
+      "type" : "album",
+      "uri" : "spotify:album:1uF9iZYiDY2p5yhRFNJzjW"
+    }, {
+      "album_type" : "album",
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "UY" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/4s4QIAQ1gpnuGWT5KZKjtr"
+      },
+      "href" : "https://api.spotify.com/v1/albums/4s4QIAQ1gpnuGWT5KZKjtr",
+      "id" : "4s4QIAQ1gpnuGWT5KZKjtr",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ffeafc4bbf32b429983b18e6fefae3e8627156e2",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/b6fdcc68c0b7e4b3f2284993e5537b6b911ebf5a",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/e9fb4c60c04fd64342b616656c1e6f1fd919a502",
+        "width" : 64
+      } ],
+      "name" : "All The People... Blur Live At Hyde Park 02/07/2009",
+      "type" : "album",
+      "uri" : "spotify:album:4s4QIAQ1gpnuGWT5KZKjtr"
+    }, {
+      "album_type" : "album",
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/68P7oIUK327pt5tDIZJd63"
+      },
+      "href" : "https://api.spotify.com/v1/albums/68P7oIUK327pt5tDIZJd63",
+      "id" : "68P7oIUK327pt5tDIZJd63",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/12e72e3e7fc9d644927bcf8bf49587a19f64f346",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/f3b3878e86ebf0a1681ccd054f89fa2c754d64bb",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/bdb16f332b3fbae09d86cafd84a86e845d82ef7f",
+        "width" : 64
+      } ],
+      "name" : "Think Tank [Special Edition]",
+      "type" : "album",
+      "uri" : "spotify:album:68P7oIUK327pt5tDIZJd63"
+    }, {
+      "album_type" : "album",
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/3rXnMAuqzR6UQl6gBlJrDL"
+      },
+      "href" : "https://api.spotify.com/v1/albums/3rXnMAuqzR6UQl6gBlJrDL",
+      "id" : "3rXnMAuqzR6UQl6gBlJrDL",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/ece34ad19a2dcb5e1376026bf329bc875fef4f99",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/0eb45530a7e13aef826c7c7acbec7233d5ed8b2a",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/0fdc38bd236f028f7a6fde5ba152779a90031d46",
+        "width" : 64
+      } ],
+      "name" : "The Great Escape",
+      "type" : "album",
+      "uri" : "spotify:album:3rXnMAuqzR6UQl6gBlJrDL"
+    }, {
+      "album_type" : "album",
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/2AAx5D9aJnP6XK859Q1Pyl"
+      },
+      "href" : "https://api.spotify.com/v1/albums/2AAx5D9aJnP6XK859Q1Pyl",
+      "id" : "2AAx5D9aJnP6XK859Q1Pyl",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/731f004ddd99490e1e5b30de9f14a21a3ca7d212",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/1f504d0cfdf0454b616046f7d00d40540f70791f",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/7cb6254c5ec1e25eb71789966b7a0d5ab8f7dd3d",
+        "width" : 64
+      } ],
+      "name" : "Leisure",
+      "type" : "album",
+      "uri" : "spotify:album:2AAx5D9aJnP6XK859Q1Pyl"
+    }, {
+      "album_type" : "album",
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/23mDNB6otna4M0e8MORCsZ"
+      },
+      "href" : "https://api.spotify.com/v1/albums/23mDNB6otna4M0e8MORCsZ",
+      "id" : "23mDNB6otna4M0e8MORCsZ",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/c2eeefac6a0d26abbd03fbb0754ae9e5cce0ff68",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/6c11873c57173ec992aca45083c60ae1e5c5f685",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/95b6bd634795d9a8d6577e97c5a38be68d2345d2",
+        "width" : 64
+      } ],
+      "name" : "Modern Life Is Rubbish",
+      "type" : "album",
+      "uri" : "spotify:album:23mDNB6otna4M0e8MORCsZ"
+    } ],
+    "limit" : 20,
+    "next" : "https://api.spotify.com/v1/search?query=blur&offset=20&limit=20&type=album",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 251
+  }
+}

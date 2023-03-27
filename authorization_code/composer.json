@@ -1,0 +1,5 @@
+{
+    "require": {
+        "jwilsson/spotify-web-api-php": "^5.4"
+    }
+}

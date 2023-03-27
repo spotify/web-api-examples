@@ -1,0 +1,191 @@
+{
+  "categories" : {
+    "href" : "https://api.spotify.com/v1/browse/categories?country=FR&offset=0&limit=20",
+    "items" : [ {
+      "href" : "https://api.spotify.com/v1/browse/categories/toplists",
+      "icons" : [ {
+        "height" : 275,
+        "url" : "https://datsnxq1rwndn.cloudfront.net/media/derived/toplists_11160599e6a04ac5d6f2757f5511778f_0_0_275_275.jpg",
+        "width" : 275
+      } ],
+      "id" : "toplists",
+      "name" : "Top Lists"
+    }, {
+      "href" : "https://api.spotify.com/v1/browse/categories/mood",
+      "icons" : [ {
+        "height" : 274,
+        "url" : "https://datsnxq1rwndn.cloudfront.net/media/original/mood-274x274_976986a31ac8c49794cbdc7246fd5ad7_274x274.jpg",
+        "width" : 274
+      } ],
+      "id" : "mood",
+      "name" : "Mood"
+    }, {
+      "href" : "https://api.spotify.com/v1/browse/categories/party",
+      "icons" : [ {
+        "height" : 274,
+        "url" : "https://datsnxq1rwndn.cloudfront.net/media/derived/party-274x274_73d1907a7371c3bb96a288390a96ee27_0_0_274_274.jpg",
+        "width" : 274
+      } ],
+      "id" : "party",
+      "name" : "Party"
+    }, {
+      "href" : "https://api.spotify.com/v1/browse/categories/pop",
+      "icons" : [ {
+        "height" : 274,
+        "url" : "https://datsnxq1rwndn.cloudfront.net/media/derived/pop-274x274_447148649685019f5e2a03a39e78ba52_0_0_274_274.jpg",
+        "width" : 274
+      } ],
+      "id" : "pop",
+      "name" : "Pop Culture"
+    }, {
+      "href" : "https://api.spotify.com/v1/browse/categories/workout",
+      "icons" : [ {
+        "height" : 275,
+        "url" : "https://datsnxq1rwndn.cloudfront.net/media/derived/workout_856581c1c545a5305e49a3cd8be804a0_0_0_275_275.jpg",
+        "width" : 275
+      } ],
+      "id" : "workout",
+      "name" : "Workout"
+    }, {
+      "href" : "https://api.spotify.com/v1/browse/categories/focus",
+      "icons" : [ {
+        "height" : 274,
+        "url" : "https://datsnxq1rwndn.cloudfront.net/media/original/genre-images-square-274x274_5e50d72b846a198fcd2ca9b3aef5f0c8_274x274.jpg",
+        "width" : 274
+      } ],
+      "id" : "focus",
+      "name" : "Focus"
+    }, {
+      "href" : "https://api.spotify.com/v1/browse/categories/rock",
+      "icons" : [ {
+        "height" : 274,
+        "url" : "https://datsnxq1rwndn.cloudfront.net/media/derived/rock_9ce79e0a4ef901bbd10494f5b855d3cc_0_0_274_274.jpg",
+        "width" : 274
+      } ],
+      "id" : "rock",
+      "name" : "Rock"
+    }, {
+      "href" : "https://api.spotify.com/v1/browse/categories/indie_alt",
+      "icons" : [ {
+        "height" : 274,
+        "url" : "https://datsnxq1rwndn.cloudfront.net/media/derived/indie-274x274_add35b2b767ff7f3897262ad86809bdb_0_0_274_274.jpg",
+        "width" : 274
+      } ],
+      "id" : "indie_alt",
+      "name" : "Indie/Alternative"
+    }, {
+      "href" : "https://api.spotify.com/v1/browse/categories/edm_dance",
+      "icons" : [ {
+        "height" : 274,
+        "url" : "https://datsnxq1rwndn.cloudfront.net/media/derived/edm-274x274_0ef612604200a9c14995432994455a6d_0_0_274_274.jpg",
+        "width" : 274
+      } ],
+      "id" : "edm_dance",
+      "name" : "EDM/Dance"
+    }, {
+      "href" : "https://api.spotify.com/v1/browse/categories/chill",
+      "icons" : [ {
+        "height" : 274,
+        "url" : "https://datsnxq1rwndn.cloudfront.net/media/derived/chill-274x274_4c46374f007813dd10b37e8d8fd35b4b_0_0_274_274.jpg",
+        "width" : 274
+      } ],
+      "id" : "chill",
+      "name" : "Chill"
+    }, {
+      "href" : "https://api.spotify.com/v1/browse/categories/dinner",
+      "icons" : [ {
+        "height" : 274,
+        "url" : "https://datsnxq1rwndn.cloudfront.net/media/original/dinner_1b6506abba0ba52c54e6d695c8571078_274x274.jpg",
+        "width" : 274
+      } ],
+      "id" : "dinner",
+      "name" : "Dinner"
+    }, {
+      "href" : "https://api.spotify.com/v1/browse/categories/sleep",
+      "icons" : [ {
+        "height" : 274,
+        "url" : "https://datsnxq1rwndn.cloudfront.net/media/derived/sleep-274x274_0d4f836af8fab7bf31526968073e671c_0_0_274_274.jpg",
+        "width" : 274
+      } ],
+      "id" : "sleep",
+      "name" : "Sleep"
+    }, {
+      "href" : "https://api.spotify.com/v1/browse/categories/hiphop",
+      "icons" : [ {
+        "height" : 274,
+        "url" : "https://datsnxq1rwndn.cloudfront.net/media/original/hip-274_0a661854d61e29eace5fe63f73495e68_274x274.jpg",
+        "width" : 274
+      } ],
+      "id" : "hiphop",
+      "name" : "Hip Hop"
+    }, {
+      "href" : "https://api.spotify.com/v1/browse/categories/rnb",
+      "icons" : [ {
+        "height" : 274,
+        "url" : "https://datsnxq1rwndn.cloudfront.net/media/derived/rb-274x274_a0e7a187f9449dd7722e1ddbd6191f48_0_0_274_274.jpg",
+        "width" : 274
+      } ],
+      "id" : "rnb",
+      "name" : "RnB"
+    }, {
+      "href" : "https://api.spotify.com/v1/browse/categories/country",
+      "icons" : [ {
+        "height" : 274,
+        "url" : "https://datsnxq1rwndn.cloudfront.net/media/derived/country-folk_dd35e932222c37ea75623a5788a12935_0_0_274_274.jpg",
+        "width" : 274
+      } ],
+      "id" : "country",
+      "name" : "Country"
+    }, {
+      "href" : "https://api.spotify.com/v1/browse/categories/folk_americana",
+      "icons" : [ {
+        "height" : 274,
+        "url" : "https://datsnxq1rwndn.cloudfront.net/media/derived/folk-icon_1682b3a3e59b9a351243e6b7b26129fb_0_0_274_274.jpg",
+        "width" : 274
+      } ],
+      "id" : "folk_americana",
+      "name" : "Folk & Americana"
+    }, {
+      "href" : "https://api.spotify.com/v1/browse/categories/metal",
+      "icons" : [ {
+        "height" : 274,
+        "url" : "https://datsnxq1rwndn.cloudfront.net/media/original/metal_27c921443fd0a5ba95b1b2c2ae654b2b_274x274.jpg",
+        "width" : 274
+      } ],
+      "id" : "metal",
+      "name" : "Metal"
+    }, {
+      "href" : "https://api.spotify.com/v1/browse/categories/soul",
+      "icons" : [ {
+        "height" : 274,
+        "url" : "https://datsnxq1rwndn.cloudfront.net/media/derived/soul-274x274_266bc900b35dda8956380cffc73a4d8c_0_0_274_274.jpg",
+        "width" : 274
+      } ],
+      "id" : "soul",
+      "name" : "Soul"
+    }, {
+      "href" : "https://api.spotify.com/v1/browse/categories/travel",
+      "icons" : [ {
+        "height" : 274,
+        "url" : "https://datsnxq1rwndn.cloudfront.net/media/derived/travel-274x274_1e89cd5b42cf8bd2ff8fc4fb26f2e955_0_0_274_274.jpg",
+        "width" : 274
+      } ],
+      "id" : "travel",
+      "name" : "Travel"
+    }, {
+      "href" : "https://api.spotify.com/v1/browse/categories/decades",
+      "icons" : [ {
+        "height" : 274,
+        "url" : "https://datsnxq1rwndn.cloudfront.net/media/derived/decades_9ad8e458242b2ac8b184e79ef336c455_0_0_274_274.jpg",
+        "width" : 274
+      } ],
+      "id" : "decades",
+      "name" : "Decades"
+    } ],
+    "limit" : 20,
+    "next" : "https://api.spotify.com/v1/browse/categories?country=FR&offset=20&limit=20",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 31
+  }
+}

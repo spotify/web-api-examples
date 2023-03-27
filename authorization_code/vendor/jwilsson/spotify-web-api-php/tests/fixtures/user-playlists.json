@@ -1,0 +1,134 @@
+{
+  "href" : "https://api.spotify.com/v1/users/mcgurk/playlists?offset=0&limit=5",
+  "items" : [ {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/mcgurk/playlist/4YOPp7RlelOVGJ1d4CZBqW"
+    },
+    "href" : "https://api.spotify.com/v1/users/mcgurk/playlists/4YOPp7RlelOVGJ1d4CZBqW",
+    "id" : "4YOPp7RlelOVGJ1d4CZBqW",
+    "images" : [ ],
+    "name" : "Soft chill",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/mcgurk"
+      },
+      "href" : "https://api.spotify.com/v1/users/mcgurk",
+      "id" : "mcgurk",
+      "type" : "user",
+      "uri" : "spotify:user:mcgurk"
+    },
+    "public" : false,
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/mcgurk/playlists/4YOPp7RlelOVGJ1d4CZBqW/tracks",
+      "total" : 7
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:mcgurk:playlist:4YOPp7RlelOVGJ1d4CZBqW"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/mcgurk/playlist/2zNRHPRBynwGI2qIZZ2EGp"
+    },
+    "href" : "https://api.spotify.com/v1/users/mcgurk/playlists/2zNRHPRBynwGI2qIZZ2EGp",
+    "id" : "2zNRHPRBynwGI2qIZZ2EGp",
+    "images" : [ ],
+    "name" : "Liked from Radio",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/mcgurk"
+      },
+      "href" : "https://api.spotify.com/v1/users/mcgurk",
+      "id" : "mcgurk",
+      "type" : "user",
+      "uri" : "spotify:user:mcgurk"
+    },
+    "public" : false,
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/mcgurk/playlists/2zNRHPRBynwGI2qIZZ2EGp/tracks",
+      "total" : 66
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:mcgurk:playlist:2zNRHPRBynwGI2qIZZ2EGp"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/mcgurk/playlist/0CQyRJcgAUtu3HXedHTukP"
+    },
+    "href" : "https://api.spotify.com/v1/users/mcgurk/playlists/0CQyRJcgAUtu3HXedHTukP",
+    "id" : "0CQyRJcgAUtu3HXedHTukP",
+    "images" : [ ],
+    "name" : "Musica",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/mcgurk"
+      },
+      "href" : "https://api.spotify.com/v1/users/mcgurk",
+      "id" : "mcgurk",
+      "type" : "user",
+      "uri" : "spotify:user:mcgurk"
+    },
+    "public" : false,
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/mcgurk/playlists/0CQyRJcgAUtu3HXedHTukP/tracks",
+      "total" : 774
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:mcgurk:playlist:0CQyRJcgAUtu3HXedHTukP"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/mcgurk/playlist/0dWICxwZcXNTxavch2ViJl"
+    },
+    "href" : "https://api.spotify.com/v1/users/mcgurk/playlists/0dWICxwZcXNTxavch2ViJl",
+    "id" : "0dWICxwZcXNTxavch2ViJl",
+    "images" : [ ],
+    "name" : "Mmmh marabou",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/mcgurk"
+      },
+      "href" : "https://api.spotify.com/v1/users/mcgurk",
+      "id" : "mcgurk",
+      "type" : "user",
+      "uri" : "spotify:user:mcgurk"
+    },
+    "public" : false,
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/mcgurk/playlists/0dWICxwZcXNTxavch2ViJl/tracks",
+      "total" : 58
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:mcgurk:playlist:0dWICxwZcXNTxavch2ViJl"
+  }, {
+    "collaborative" : false,
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/mcgurk/playlist/1f1zO9SrQXk9X0bY59HS5r"
+    },
+    "href" : "https://api.spotify.com/v1/users/mcgurk/playlists/1f1zO9SrQXk9X0bY59HS5r",
+    "id" : "1f1zO9SrQXk9X0bY59HS5r",
+    "images" : [ ],
+    "name" : "Mys",
+    "owner" : {
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/mcgurk"
+      },
+      "href" : "https://api.spotify.com/v1/users/mcgurk",
+      "id" : "mcgurk",
+      "type" : "user",
+      "uri" : "spotify:user:mcgurk"
+    },
+    "public" : false,
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/users/mcgurk/playlists/1f1zO9SrQXk9X0bY59HS5r/tracks",
+      "total" : 4
+    },
+    "type" : "playlist",
+    "uri" : "spotify:user:mcgurk:playlist:1f1zO9SrQXk9X0bY59HS5r"
+  } ],
+  "limit" : 5,
+  "next" : "https://api.spotify.com/v1/users/mcgurk/playlists?offset=5&limit=5",
+  "offset" : 0,
+  "previous" : null,
+  "total" : 8
+}

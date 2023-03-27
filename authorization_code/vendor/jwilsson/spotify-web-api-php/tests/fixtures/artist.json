@@ -1,0 +1,29 @@
+{
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp"
+  },
+  "followers" : {
+    "href" : null,
+    "total" : 499010
+  },
+  "genres" : [ "album rock", "blues-rock", "classic rock", "rock" ],
+  "href" : "https://api.spotify.com/v1/artists/36QJpDe2go2KgaRleHCDTp",
+  "id" : "36QJpDe2go2KgaRleHCDTp",
+  "images" : [ {
+    "height" : 600,
+    "url" : "https://i.scdn.co/image/f66bcaf9b7d00b6bd5dafa1d99586390a23f4935",
+    "width" : 600
+  }, {
+    "height" : 200,
+    "url" : "https://i.scdn.co/image/89f85b03f128056ea2d0ca941be999853bea3d7c",
+    "width" : 200
+  }, {
+    "height" : 64,
+    "url" : "https://i.scdn.co/image/f0959931aeb8aa174ef264d0b1ab7dd99cd22c03",
+    "width" : 64
+  } ],
+  "name" : "Led Zeppelin",
+  "popularity" : 56,
+  "type" : "artist",
+  "uri" : "spotify:artist:36QJpDe2go2KgaRleHCDTp"
+}

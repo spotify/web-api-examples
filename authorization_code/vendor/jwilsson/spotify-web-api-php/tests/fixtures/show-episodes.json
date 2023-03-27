@@ -1,0 +1,72 @@
+{
+  "href" : "https://api.spotify.com/v1/shows/38bS44xjbVVZ3No3ByF1dJ/episodes?offset=1&limit=2",
+  "items" : [ {
+    "audio_preview_url" : "https://p.scdn.co/mp3-preview/83bc7f2d40e850582a4ca118b33c256358de06ff",
+    "description" : "Följ med Tobias Svanelid till Sveriges äldsta tegelkyrka, till Edsleskog mitt i den dalsländska granskogen, där ett religiöst skrytbygge skulle resas över ett skändligt brott.  I Edsleskog i Dalsland gräver arkeologerna nu ut vad som en gång verkar ha varit en av Sveriges största medeltidskyrkor, och kanske också den äldsta som byggts i tegel, 1200-talets high-tech-material. Tobias Svanelid reser dit för att höra historien om den märkliga och bortglömda kyrkan som grundlades på platsen för ett prästmord och dessutom kan ha varit Skarabiskopens försök att lägga beslag på det vilda Dalsland. Dessutom om sjudagarsveckan  idag ett välkänt koncept runt hela världen, men hur gammal är egentligen veckans historia? Dick Harrison vet svaret.",
+    "duration_ms" : 2685023,
+    "explicit" : false,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/episode/0Q86acNRm6V9GYx55SXKwf"
+    },
+    "href" : "https://api.spotify.com/v1/episodes/0Q86acNRm6V9GYx55SXKwf",
+    "id" : "0Q86acNRm6V9GYx55SXKwf",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/b2398424d6158a21fe8677e2de5f6f3d1dc4a04f",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/a52780a1d7e1bc42619413c3dea7042396c87f49",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/88e21be860cf11f0b95ee8dfb47ddb08a13319a7",
+      "width" : 64
+    } ],
+    "is_externally_hosted" : false,
+    "is_playable" : true,
+    "language" : "sv",
+    "languages" : [ "sv" ],
+    "name" : "Okända katedralen i Dalsland",
+    "release_date" : "2019-09-03",
+    "release_date_precision" : "day",
+    "type" : "episode",
+    "uri" : "spotify:episode:0Q86acNRm6V9GYx55SXKwf"
+  }, {
+    "audio_preview_url" : "https://p.scdn.co/mp3-preview/a712dea885b8d4090a61f0a903094181bd7d2005",
+    "description" : "Electrolux firar hundra år av att ha dammsugit folkhemmet rent. Följ med Tobias Svanelid genom företagets historia och hör om dess grundare Axel Wenner-Gren - folkhemmets Elon Musk.  1919 drog Axel Wenner-Gren igång företaget som skulle komma att städa rent i folkhemmet Sverige och samtidigt göra sin grundare ofantligt rik. Författaren Ronald Fagerfjäll har färdigställt Electrolux jubileumsbok och guidar runt bland hundraåriga dammsugare och kylskåp. Men Wenner-grens sista projekt skulle bli ett fiasko, i Wennergrenland i British Columbia krossades de flesta av entreprenörens drömmar berättar den kanadensiske historikern Frank Leonard. Dessutom reder Dick Harrison ut huruvida Julius Caesar fått gå på plankan.",
+    "duration_ms" : 2685023,
+    "explicit" : false,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/episode/1spUiev4ggXPq95a7KKHjW"
+    },
+    "href" : "https://api.spotify.com/v1/episodes/1spUiev4ggXPq95a7KKHjW",
+    "id" : "1spUiev4ggXPq95a7KKHjW",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/0bcb5e368982156f9da093d1e471b188af184559",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/2023d6f3dc774a89e26b607e25c3b08ecaede0e9",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/a2fa6895a86e61c149083adce7aa5f0404a19d8c",
+      "width" : 64
+    } ],
+    "is_externally_hosted" : false,
+    "is_playable" : true,
+    "language" : "sv",
+    "name" : "Electrolux och folkhemmets Elon Musk",
+    "release_date" : "2019-08-27",
+    "release_date_precision" : "day",
+    "type" : "episode",
+    "uri" : "spotify:episode:1spUiev4ggXPq95a7KKHjW"
+  } ],
+  "limit" : 2,
+  "next" : "https://api.spotify.com/v1/shows/38bS44xjbVVZ3No3ByF1dJ/episodes?offset=3&limit=2",
+  "offset" : 1,
+  "previous" : "https://api.spotify.com/v1/shows/38bS44xjbVVZ3No3ByF1dJ/episodes?offset=0&limit=2",
+  "total" : 499
+}

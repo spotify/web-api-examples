@@ -1,0 +1,129 @@
+{
+  "href" : "https://api.spotify.com/v1/artists/6v8FB84lnmJs434UJf2Mrm/albums?offset=0&limit=5&album_type=single,album,compilation,appears_on",
+  "items" : [ {
+    "album_type" : "album",
+    "available_markets" : [ "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IT", "LT", "LU", "LV", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/album/361dgrFRURo9gwWnSQG6Uu"
+    },
+    "href" : "https://api.spotify.com/v1/albums/361dgrFRURo9gwWnSQG6Uu",
+    "id" : "361dgrFRURo9gwWnSQG6Uu",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/e052cc9842df2738bf2c3368bafa49c43fad83a4",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/4996a3b2db84b5d121b54e457d8b173d7162f917",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/db0c983e1171f03186b61213ce9fe1f718b56ed1",
+      "width" : 64
+    } ],
+    "name" : "Storytone",
+    "type" : "album",
+    "uri" : "spotify:album:361dgrFRURo9gwWnSQG6Uu"
+  }, {
+    "album_type" : "album",
+    "available_markets" : [ "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IT", "LT", "LU", "LV", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/album/1HhdHx1asrL4Uf6rlQxCx1"
+    },
+    "href" : "https://api.spotify.com/v1/albums/1HhdHx1asrL4Uf6rlQxCx1",
+    "id" : "1HhdHx1asrL4Uf6rlQxCx1",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/709702b800b5239e4bf345dbeb4fe78cd8e068b1",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/637262e8c1c45457ec8773ecd08eef81f9cdb41d",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/976b30553009b1866368a2afd01b336a2a36f180",
+      "width" : 64
+    } ],
+    "name" : "Storytone (Deluxe Version)",
+    "type" : "album",
+    "uri" : "spotify:album:1HhdHx1asrL4Uf6rlQxCx1"
+  }, {
+    "album_type" : "album",
+    "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/album/0qeBoQjqVd5L0T93Pf7Vwm"
+    },
+    "href" : "https://api.spotify.com/v1/albums/0qeBoQjqVd5L0T93Pf7Vwm",
+    "id" : "0qeBoQjqVd5L0T93Pf7Vwm",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/aef94edcf57574157875dd9b7d496656b25d4aec",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/6bac516642b884fb5661fa0c109bd3a5933d2b51",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/2cc77e54f4519bfa72566fa293fbbd912c33d0bc",
+      "width" : 64
+    } ],
+    "name" : "A Letter Home",
+    "type" : "album",
+    "uri" : "spotify:album:0qeBoQjqVd5L0T93Pf7Vwm"
+  }, {
+    "album_type" : "album",
+    "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/album/2h2zv7tulv5460Ijs1tpxs"
+    },
+    "href" : "https://api.spotify.com/v1/albums/2h2zv7tulv5460Ijs1tpxs",
+    "id" : "2h2zv7tulv5460Ijs1tpxs",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/a042e0e50696368635ba9df8c598f79d856e4b92",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/adf120673a98a0dec42bb9cde4b8a437ec60ec97",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/e2ee2d191ca0b30e417a1ae0d8889a0f365b8d37",
+      "width" : 64
+    } ],
+    "name" : "Live At The Cellar Door",
+    "type" : "album",
+    "uri" : "spotify:album:2h2zv7tulv5460Ijs1tpxs"
+  }, {
+    "album_type" : "album",
+    "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/album/4j9JVeEgEEiwYyYMiueTvG"
+    },
+    "href" : "https://api.spotify.com/v1/albums/4j9JVeEgEEiwYyYMiueTvG",
+    "id" : "4j9JVeEgEEiwYyYMiueTvG",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/65d3f76280a7dd0344e26529792711c42c182d01",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/48faa882bceddcf24bc9c867ec600ccb3a6f250f",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/94f0b553fd359907deb913aa4ffdeaad9cf09148",
+      "width" : 64
+    } ],
+    "name" : "Le Noise",
+    "type" : "album",
+    "uri" : "spotify:album:4j9JVeEgEEiwYyYMiueTvG"
+  } ],
+  "limit" : 5,
+  "next" : "https://api.spotify.com/v1/artists/6v8FB84lnmJs434UJf2Mrm/albums?offset=5&limit=5&album_type=single,album,compilation,appears_on",
+  "offset" : 0,
+  "previous" : null,
+  "total" : 113
+}

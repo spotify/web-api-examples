@@ -1,0 +1,131 @@
+{
+  "albums" : {
+    "href" : "https://api.spotify.com/v1/browse/new-releases?country=SE&offset=0&limit=5",
+    "items" : [ {
+      "album_type" : "album",
+      "available_markets" : [ "AT", "AU", "CH", "CZ", "DE", "FI", "IE", "NL", "NZ", "SI", "SK", "HK", "MY", "PH", "SG", "TW", "BG", "CY", "EE", "GR", "LT", "LV", "RO", "TR", "AD", "BE", "DK", "ES", "FR", "HU", "IT", "LI", "LU", "MC", "MT", "NO", "PL", "SE", "GB", "PT", "IS", "UY", "AR", "CL", "PY", "BO", "BR", "DO", "CO", "EC", "PA", "PE", "CR", "GT", "HN", "NI", "SV" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/59Mjf7KcSU7niudeL4JsmQ"
+      },
+      "href" : "https://api.spotify.com/v1/albums/59Mjf7KcSU7niudeL4JsmQ",
+      "id" : "59Mjf7KcSU7niudeL4JsmQ",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/34ad44065027a8e99b5fc071b09b8109928a1e59",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/b9fc808bcf4a9e1d9576489e3f90ec6bfbf762df",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/7319c88ba4e6c9a091dd62a1bfbc1f72fe68e779",
+        "width" : 64
+      } ],
+      "name" : "Feels So Good",
+      "type" : "album",
+      "uri" : "spotify:album:59Mjf7KcSU7niudeL4JsmQ"
+    }, {
+      "album_type" : "album",
+      "available_markets" : [ "AT", "BE", "CH", "CZ", "DE", "EE", "FI", "IE", "LI", "LT", "LU", "LV", "NL", "SE", "SK", "TR" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/4KyyjcX6N1xcxTqdOTOghN"
+      },
+      "href" : "https://api.spotify.com/v1/albums/4KyyjcX6N1xcxTqdOTOghN",
+      "id" : "4KyyjcX6N1xcxTqdOTOghN",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/4b12129e2b6630cab568c2941835d0e28f85840b",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/c9ed2290296aa4038139f708ff7b6cefa65b98af",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/e8dd9b7e27363122b27eb99e63bf274a0849bd5f",
+        "width" : 64
+      } ],
+      "name" : "Back to Earth",
+      "type" : "album",
+      "uri" : "spotify:album:4KyyjcX6N1xcxTqdOTOghN"
+    }, {
+      "album_type" : "album",
+      "available_markets" : [ "AT", "CH", "CZ", "DE", "FI", "NL", "NZ", "SE", "SI", "SK" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/7yYva2MJYef1aOFVBtlA8I"
+      },
+      "href" : "https://api.spotify.com/v1/albums/7yYva2MJYef1aOFVBtlA8I",
+      "id" : "7yYva2MJYef1aOFVBtlA8I",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/a904eaf3c6440542493b10ef552cd955a8b1515a",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/c9bbdc3adc7a8a2f159f31da13a989457572353d",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/fdaa69c01adb12a603a7af8f4bfbce39a413ef21",
+        "width" : 64
+      } ],
+      "name" : "Nostalgia",
+      "type" : "album",
+      "uri" : "spotify:album:7yYva2MJYef1aOFVBtlA8I"
+    }, {
+      "album_type" : "album",
+      "available_markets" : [ "SE" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/517pAxOuxIz2HyltDuBWYf"
+      },
+      "href" : "https://api.spotify.com/v1/albums/517pAxOuxIz2HyltDuBWYf",
+      "id" : "517pAxOuxIz2HyltDuBWYf",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/8db1fb7e5589d4d98022f3cc4ec0175a8bbc9b0e",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/1342d206b6f1191c7b900878e1b2d1f147215d9d",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/091236fc857a1c13a84319e614a0611d6829324f",
+        "width" : 64
+      } ],
+      "name" : "Så mycket bättre 5 - Orups dag",
+      "type" : "album",
+      "uri" : "spotify:album:517pAxOuxIz2HyltDuBWYf"
+    }, {
+      "album_type" : "single",
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "UY" ],
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/album/50nrlTw0DWxBBvjNh1aiaq"
+      },
+      "href" : "https://api.spotify.com/v1/albums/50nrlTw0DWxBBvjNh1aiaq",
+      "id" : "50nrlTw0DWxBBvjNh1aiaq",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/e351bd24bd85140f3558022a101363bfc61c7e30",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/159230ff048626f793c86c7763c2dc782430d95e",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/8118a38f53efeb1dc9049d673851ed0ae3b6ac08",
+        "width" : 64
+      } ],
+      "name" : "Skuggor från Karelen",
+      "type" : "album",
+      "uri" : "spotify:album:50nrlTw0DWxBBvjNh1aiaq"
+    } ],
+    "limit" : 5,
+    "next" : "https://api.spotify.com/v1/browse/new-releases?country=SE&offset=5&limit=5",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 500
+  }
+}

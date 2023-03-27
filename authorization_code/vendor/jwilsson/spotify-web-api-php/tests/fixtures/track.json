@@ -1,0 +1,55 @@
+{
+  "album" : {
+    "album_type" : "album",
+    "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/album/3tpJtzZm4Urb0n2ITN5mwF"
+    },
+    "href" : "https://api.spotify.com/v1/albums/3tpJtzZm4Urb0n2ITN5mwF",
+    "id" : "3tpJtzZm4Urb0n2ITN5mwF",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/42f1407919f09c53af5cac7290f5224cc098b6cc",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/1844e9ff8ea90e78e62ca892900c1c36e98a58ee",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/7c5288b11adf33302a5eef5a722372494335114a",
+      "width" : 64
+    } ],
+    "name" : "Original Motion Picture Soundtrack - Full Metal Jacket",
+    "type" : "album",
+    "uri" : "spotify:album:3tpJtzZm4Urb0n2ITN5mwF"
+  },
+  "artists" : [ {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/5QEA3sofVt5QckQA6QX2nN"
+    },
+    "href" : "https://api.spotify.com/v1/artists/5QEA3sofVt5QckQA6QX2nN",
+    "id" : "5QEA3sofVt5QckQA6QX2nN",
+    "name" : "The Trashmen",
+    "type" : "artist",
+    "uri" : "spotify:artist:5QEA3sofVt5QckQA6QX2nN"
+  } ],
+  "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+  "disc_number" : 1,
+  "duration_ms" : 137133,
+  "explicit" : false,
+  "external_ids" : {
+    "isrc" : "USWB10102873"
+  },
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/track/7EjyzZcbLxW7PaaLua9Ksb"
+  },
+  "href" : "https://api.spotify.com/v1/tracks/7EjyzZcbLxW7PaaLua9Ksb",
+  "id" : "7EjyzZcbLxW7PaaLua9Ksb",
+  "name" : "Surfin' Bird",
+  "popularity" : 53,
+  "preview_url" : "https://p.scdn.co/mp3-preview/c1a3f50a46ad126ec97442119bf912fc4017c2a5",
+  "track_number" : 7,
+  "type" : "track",
+  "uri" : "spotify:track:7EjyzZcbLxW7PaaLua9Ksb"
+}

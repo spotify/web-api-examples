@@ -1,0 +1,141 @@
+{
+  "href" : "https://api.spotify.com/v1/me/tracks?offset=0&limit=5",
+  "items" : [ {
+    "added_at" : "2014-10-26T14:22:34Z",
+    "track" : {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/4m2880jivSbbyEGAKfITCa"
+        },
+        "href" : "https://api.spotify.com/v1/albums/4m2880jivSbbyEGAKfITCa",
+        "id" : "4m2880jivSbbyEGAKfITCa",
+        "images" : [ {
+          "height" : 636,
+          "url" : "https://i.scdn.co/image/6710552422788861893233437ad9f0830b95c07c",
+          "width" : 640
+        }, {
+          "height" : 298,
+          "url" : "https://i.scdn.co/image/4df66c8b705efa6dd3be4e884fe2ca8779fd4fc9",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/a3d945a1c9de931ed6eeb3dbca90579f6a6388c8",
+          "width" : 64
+        } ],
+        "name" : "Random Access Memories",
+        "type" : "album",
+        "uri" : "spotify:album:4m2880jivSbbyEGAKfITCa"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4tZwfgrHOc3mvqYlEYSvVi"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4tZwfgrHOc3mvqYlEYSvVi",
+        "id" : "4tZwfgrHOc3mvqYlEYSvVi",
+        "name" : "Daft Punk",
+        "type" : "artist",
+        "uri" : "spotify:artist:4tZwfgrHOc3mvqYlEYSvVi"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 544626,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USQX91300103"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/0oks4FnzhNp5QPTZtoet7c"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/0oks4FnzhNp5QPTZtoet7c",
+      "id" : "0oks4FnzhNp5QPTZtoet7c",
+      "name" : "Giorgio by Moroder",
+      "popularity" : 68,
+      "preview_url" : "https://p.scdn.co/mp3-preview/9f30c1ab377fab3d5fba3c376ce32174f70d5546",
+      "track_number" : 3,
+      "type" : "track",
+      "uri" : "spotify:track:0oks4FnzhNp5QPTZtoet7c"
+    }
+  }, {
+    "added_at" : "2014-10-26T14:22:29Z",
+    "track" : {
+      "album" : {
+        "album_type" : "album",
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/4m2880jivSbbyEGAKfITCa"
+        },
+        "href" : "https://api.spotify.com/v1/albums/4m2880jivSbbyEGAKfITCa",
+        "id" : "4m2880jivSbbyEGAKfITCa",
+        "images" : [ {
+          "height" : 636,
+          "url" : "https://i.scdn.co/image/6710552422788861893233437ad9f0830b95c07c",
+          "width" : 640
+        }, {
+          "height" : 298,
+          "url" : "https://i.scdn.co/image/4df66c8b705efa6dd3be4e884fe2ca8779fd4fc9",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/a3d945a1c9de931ed6eeb3dbca90579f6a6388c8",
+          "width" : 64
+        } ],
+        "name" : "Random Access Memories",
+        "type" : "album",
+        "uri" : "spotify:album:4m2880jivSbbyEGAKfITCa"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4tZwfgrHOc3mvqYlEYSvVi"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4tZwfgrHOc3mvqYlEYSvVi",
+        "id" : "4tZwfgrHOc3mvqYlEYSvVi",
+        "name" : "Daft Punk",
+        "type" : "artist",
+        "uri" : "spotify:artist:4tZwfgrHOc3mvqYlEYSvVi"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/2RdwBSPQiwcmiDo9kixcl8"
+        },
+        "href" : "https://api.spotify.com/v1/artists/2RdwBSPQiwcmiDo9kixcl8",
+        "id" : "2RdwBSPQiwcmiDo9kixcl8",
+        "name" : "Pharrell Williams",
+        "type" : "artist",
+        "uri" : "spotify:artist:2RdwBSPQiwcmiDo9kixcl8"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/3yDIp0kaq9EFKe07X1X2rz"
+        },
+        "href" : "https://api.spotify.com/v1/artists/3yDIp0kaq9EFKe07X1X2rz",
+        "id" : "3yDIp0kaq9EFKe07X1X2rz",
+        "name" : "Nile Rodgers",
+        "type" : "artist",
+        "uri" : "spotify:artist:3yDIp0kaq9EFKe07X1X2rz"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 369626,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USQX91300108"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/69kOkLUCkxIZYexIgSG8rq"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/69kOkLUCkxIZYexIgSG8rq",
+      "id" : "69kOkLUCkxIZYexIgSG8rq",
+      "name" : "Get Lucky",
+      "popularity" : 78,
+      "preview_url" : "https://p.scdn.co/mp3-preview/31208a018b7ab55969b945200901b7ef371c3a72",
+      "track_number" : 8,
+      "type" : "track",
+      "uri" : "spotify:track:69kOkLUCkxIZYexIgSG8rq"
+    }
+  } ],
+  "limit" : 5,
+  "next" : null,
+  "offset" : 0,
+  "previous" : null,
+  "total" : 2
+}

@@ -1,0 +1,134 @@
+{
+  "href" : "https://api.spotify.com/v1/albums/1oR3KrPIp4CbagPa3PhtPp/tracks?offset=0&limit=5",
+  "items" : [ {
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/3qm84nBOXUEQ2vnTfUTTFC"
+      },
+      "href" : "https://api.spotify.com/v1/artists/3qm84nBOXUEQ2vnTfUTTFC",
+      "id" : "3qm84nBOXUEQ2vnTfUTTFC",
+      "name" : "Guns N' Roses",
+      "type" : "artist",
+      "uri" : "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+    } ],
+    "available_markets" : [ "CR", "DO", "GT", "HN", "NI", "PA", "SV" ],
+    "disc_number" : 1,
+    "duration_ms" : 273600,
+    "explicit" : false,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/0oWHLtxWeMJhmwxtrxhNK0"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/0oWHLtxWeMJhmwxtrxhNK0",
+    "id" : "0oWHLtxWeMJhmwxtrxhNK0",
+    "name" : "Welcome To The Jungle",
+    "preview_url" : "https://p.scdn.co/mp3-preview/6ac585f7791a2ec0a60c17e04846345ed7671d0b",
+    "track_number" : 1,
+    "type" : "track",
+    "uri" : "spotify:track:0oWHLtxWeMJhmwxtrxhNK0"
+  }, {
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/3qm84nBOXUEQ2vnTfUTTFC"
+      },
+      "href" : "https://api.spotify.com/v1/artists/3qm84nBOXUEQ2vnTfUTTFC",
+      "id" : "3qm84nBOXUEQ2vnTfUTTFC",
+      "name" : "Guns N' Roses",
+      "type" : "artist",
+      "uri" : "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+    } ],
+    "available_markets" : [ "CR", "DO", "GT", "HN", "NI", "PA", "SV" ],
+    "disc_number" : 1,
+    "duration_ms" : 202893,
+    "explicit" : true,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/0fu0HHl1yVC2iCUuyBT144"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/0fu0HHl1yVC2iCUuyBT144",
+    "id" : "0fu0HHl1yVC2iCUuyBT144",
+    "name" : "It's So Easy",
+    "preview_url" : "https://p.scdn.co/mp3-preview/ee696163ab8f41d9bee0b44f6d2c49ab8b28e490",
+    "track_number" : 2,
+    "type" : "track",
+    "uri" : "spotify:track:0fu0HHl1yVC2iCUuyBT144"
+  }, {
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/3qm84nBOXUEQ2vnTfUTTFC"
+      },
+      "href" : "https://api.spotify.com/v1/artists/3qm84nBOXUEQ2vnTfUTTFC",
+      "id" : "3qm84nBOXUEQ2vnTfUTTFC",
+      "name" : "Guns N' Roses",
+      "type" : "artist",
+      "uri" : "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+    } ],
+    "available_markets" : [ "CR", "DO", "GT", "HN", "NI", "PA", "SV" ],
+    "disc_number" : 1,
+    "duration_ms" : 268506,
+    "explicit" : false,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/23ZdycsvnFHK9NF1X2V7bc"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/23ZdycsvnFHK9NF1X2V7bc",
+    "id" : "23ZdycsvnFHK9NF1X2V7bc",
+    "name" : "Nightrain",
+    "preview_url" : "https://p.scdn.co/mp3-preview/30e5ca88cae78b02dea6a718b73b7db5e8ddcac6",
+    "track_number" : 3,
+    "type" : "track",
+    "uri" : "spotify:track:23ZdycsvnFHK9NF1X2V7bc"
+  }, {
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/3qm84nBOXUEQ2vnTfUTTFC"
+      },
+      "href" : "https://api.spotify.com/v1/artists/3qm84nBOXUEQ2vnTfUTTFC",
+      "id" : "3qm84nBOXUEQ2vnTfUTTFC",
+      "name" : "Guns N' Roses",
+      "type" : "artist",
+      "uri" : "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+    } ],
+    "available_markets" : [ "CR", "DO", "GT", "HN", "NI", "PA", "SV" ],
+    "disc_number" : 1,
+    "duration_ms" : 263866,
+    "explicit" : true,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/0DEGMFohkJUQprEG1wU4SN"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/0DEGMFohkJUQprEG1wU4SN",
+    "id" : "0DEGMFohkJUQprEG1wU4SN",
+    "name" : "Out Ta Get Me",
+    "preview_url" : "https://p.scdn.co/mp3-preview/dc59755154bb63036390eba86ce774db660e1740",
+    "track_number" : 4,
+    "type" : "track",
+    "uri" : "spotify:track:0DEGMFohkJUQprEG1wU4SN"
+  }, {
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/3qm84nBOXUEQ2vnTfUTTFC"
+      },
+      "href" : "https://api.spotify.com/v1/artists/3qm84nBOXUEQ2vnTfUTTFC",
+      "id" : "3qm84nBOXUEQ2vnTfUTTFC",
+      "name" : "Guns N' Roses",
+      "type" : "artist",
+      "uri" : "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+    } ],
+    "available_markets" : [ "CR", "DO", "GT", "HN", "NI", "PA", "SV" ],
+    "disc_number" : 1,
+    "duration_ms" : 228893,
+    "explicit" : true,
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/track/0waeZEK1KpCuUvXkXCTOM2"
+    },
+    "href" : "https://api.spotify.com/v1/tracks/0waeZEK1KpCuUvXkXCTOM2",
+    "id" : "0waeZEK1KpCuUvXkXCTOM2",
+    "name" : "Mr. Brownstone",
+    "preview_url" : "https://p.scdn.co/mp3-preview/7ef4ea55e9a9183f9ca504ee532b23ad90b944b3",
+    "track_number" : 5,
+    "type" : "track",
+    "uri" : "spotify:track:0waeZEK1KpCuUvXkXCTOM2"
+  } ],
+  "limit" : 5,
+  "next" : "https://api.spotify.com/v1/albums/1oR3KrPIp4CbagPa3PhtPp/tracks?offset=5&limit=5",
+  "offset" : 0,
+  "previous" : null,
+  "total" : 12
+}

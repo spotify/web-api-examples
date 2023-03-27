@@ -1,0 +1,44 @@
+{
+  "artists" : {
+    "items" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/4tZwfgrHOc3mvqYlEYSvVi"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 2371485
+      },
+      "genres" : [ "house" ],
+      "href" : "https://api.spotify.com/v1/artists/4tZwfgrHOc3mvqYlEYSvVi",
+      "id" : "4tZwfgrHOc3mvqYlEYSvVi",
+      "images" : [ {
+        "height" : 751,
+        "url" : "https://i.scdn.co/image/e52651f03da8c9bf264f75cdabf39cf039606ddc",
+        "width" : 999
+      }, {
+        "height" : 481,
+        "url" : "https://i.scdn.co/image/b96d08f790bf2be50fee0aa490a7d06d40ba36bb",
+        "width" : 640
+      }, {
+        "height" : 150,
+        "url" : "https://i.scdn.co/image/5bafab32f2eb71e881de73ec4b088e106feb9e3f",
+        "width" : 200
+      }, {
+        "height" : 48,
+        "url" : "https://i.scdn.co/image/809d6b89f4bb3f0f42f86c953a8b312234a31f31",
+        "width" : 64
+      } ],
+      "name" : "Daft Punk",
+      "popularity" : 85,
+      "type" : "artist",
+      "uri" : "spotify:artist:4tZwfgrHOc3mvqYlEYSvVi"
+    } ],
+    "next" : null,
+    "total" : 1,
+    "cursors" : {
+      "after" : null
+    },
+    "limit" : 20,
+    "href" : "https://api.spotify.com/v1/users/mcgurk/following?type=artist&limit=20"
+  }
+}

@@ -1,0 +1,161 @@
+{
+    "items": [
+        {
+            "track": {
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/5EGOerlVYxwqxaTLEWumBR"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/5EGOerlVYxwqxaTLEWumBR",
+                        "id": "5EGOerlVYxwqxaTLEWumBR",
+                        "name": "Synapson",
+                        "type": "artist",
+                        "uri": "spotify:artist:5EGOerlVYxwqxaTLEWumBR"
+                    },
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/1FCJ4zmRfkGUOtY65Jettg"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/1FCJ4zmRfkGUOtY65Jettg",
+                        "id": "1FCJ4zmRfkGUOtY65Jettg",
+                        "name": "Victor D\u00e9m\u00e9",
+                        "type": "artist",
+                        "uri": "spotify:artist:1FCJ4zmRfkGUOtY65Jettg"
+                    }
+                ],
+                "available_markets": [
+                    "AD",
+                    "BE",
+                    "CH",
+                    "FR",
+                    "MC"
+                ],
+                "disc_number": 1,
+                "duration_ms": 194706,
+                "explicit": false,
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/track/3hxRKXzZS0XRYGZ123JDNH"
+                },
+                "href": "https://api.spotify.com/v1/tracks/3hxRKXzZS0XRYGZ123JDNH",
+                "id": "3hxRKXzZS0XRYGZ123JDNH",
+                "name": "Djon Maya Ma\u00ef - feat. Victor D\u00e9m\u00e9 [Original Mix]",
+                "preview_url": "https://p.scdn.co/mp3-preview/000f50cee43b1dad8ba39983b519615f2db52265?cid=63c1bb278a88426aa745cb4d887e4054",
+                "track_number": 1,
+                "type": "track",
+                "uri": "spotify:track:3hxRKXzZS0XRYGZ123JDNH"
+            },
+            "context": {
+                "uri": "spotify:user:spotify_france:playlist:2sxfgEZ1yRhGo0mF3v8YSM",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/spotify_france/playlist/2sxfgEZ1yRhGo0mF3v8YSM"
+                },
+                "href": "https://api.spotify.com/v1/users/spotify_france/playlists/2sxfgEZ1yRhGo0mF3v8YSM",
+                "type": "playlist"
+            },
+            "played_at": "2017-03-05T10:07:38.946Z"
+        },
+        {
+            "track": {
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/1BNQnTVxfQqeMxr6xBi8X6"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/1BNQnTVxfQqeMxr6xBi8X6",
+                        "id": "1BNQnTVxfQqeMxr6xBi8X6",
+                        "name": "Puggy",
+                        "type": "artist",
+                        "uri": "spotify:artist:1BNQnTVxfQqeMxr6xBi8X6"
+                    }
+                ],
+                "available_markets": [
+                    "AD",
+                    "AR",
+                    "AT",
+                    "AU",
+                    "BE",
+                    "BG",
+                    "BO",
+                    "BR",
+                    "CH",
+                    "CL",
+                    "CO",
+                    "CR",
+                    "CY",
+                    "CZ",
+                    "DE",
+                    "DK",
+                    "DO",
+                    "EC",
+                    "EE",
+                    "ES",
+                    "FI",
+                    "FR",
+                    "GB",
+                    "GR",
+                    "GT",
+                    "HK",
+                    "HN",
+                    "HU",
+                    "ID",
+                    "IE",
+                    "IS",
+                    "IT",
+                    "LI",
+                    "LT",
+                    "LU",
+                    "LV",
+                    "MC",
+                    "MT",
+                    "MY",
+                    "NI",
+                    "NO",
+                    "NZ",
+                    "PA",
+                    "PE",
+                    "PH",
+                    "PL",
+                    "PT",
+                    "PY",
+                    "SE",
+                    "SG",
+                    "SK",
+                    "SV",
+                    "TR",
+                    "TW",
+                    "UY"
+                ],
+                "disc_number": 1,
+                "duration_ms": 284026,
+                "explicit": false,
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/track/5ebiH7S9MKr4xRGXm7Wc8o"
+                },
+                "href": "https://api.spotify.com/v1/tracks/5ebiH7S9MKr4xRGXm7Wc8o",
+                "id": "5ebiH7S9MKr4xRGXm7Wc8o",
+                "name": "Lonely Town",
+                "preview_url": "https://p.scdn.co/mp3-preview/e18ca6560f3bb74e661677e57741d527a9ae5747?cid=63c1bb278a88426aa745cb4d887e4054",
+                "track_number": 4,
+                "type": "track",
+                "uri": "spotify:track:5ebiH7S9MKr4xRGXm7Wc8o"
+            },
+            "context": {
+                "uri": "spotify:user:spotify_france:playlist:2sxfgEZ1yRhGo0mF3v8YSM",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/spotify_france/playlist/2sxfgEZ1yRhGo0mF3v8YSM"
+                },
+                "href": "https://api.spotify.com/v1/users/spotify_france/playlists/2sxfgEZ1yRhGo0mF3v8YSM",
+                "type": "playlist"
+            },
+            "played_at": "2017-03-05T09:46:23.542Z"
+        }
+    ],
+    "next": "https://api.spotify.com/v1/me/player/recently-played?before=1488707183542&limit=2",
+    "cursors": {
+        "after": "1488708458946",
+        "before": "1488707183542"
+    },
+    "limit": 2,
+    "href": "https://api.spotify.com/v1/me/player/recently-played?before=1488708498755&limit=2"
+}

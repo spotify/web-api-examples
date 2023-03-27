@@ -1,0 +1,249 @@
+{
+  "currently_playing": {
+    "album": {
+      "album_type": "album",
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/3Mcii5XWf6E0lrY3Uky4cA"
+          },
+          "href": "https://api.spotify.com/v1/artists/3Mcii5XWf6E0lrY3Uky4cA",
+          "id": "3Mcii5XWf6E0lrY3Uky4cA",
+          "name": "Ice Cube",
+          "type": "artist",
+          "uri": "spotify:artist:3Mcii5XWf6E0lrY3Uky4cA"
+        }
+      ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "UY" ],
+      "external_urls": {
+        "spotify": "https://open.spotify.com/album/3xbWu3mLkkWZvgHtExIaKZ"
+      },
+      "href": "https://api.spotify.com/v1/albums/3xbWu3mLkkWZvgHtExIaKZ",
+      "id": "3xbWu3mLkkWZvgHtExIaKZ",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b273e83d58253e2e7c6742bbf9e4",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/ab67616d00001e02e83d58253e2e7c6742bbf9e4",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/ab67616d00004851e83d58253e2e7c6742bbf9e4",
+          "width": 64
+        }
+      ],
+      "name": "Raw Footage",
+      "release_date": "2008-01-01",
+      "release_date_precision": "day",
+      "total_tracks": 16,
+      "type": "album",
+      "uri": "spotify:album:3xbWu3mLkkWZvgHtExIaKZ"
+    },
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3Mcii5XWf6E0lrY3Uky4cA"
+        },
+        "href": "https://api.spotify.com/v1/artists/3Mcii5XWf6E0lrY3Uky4cA",
+        "id": "3Mcii5XWf6E0lrY3Uky4cA",
+        "name": "Ice Cube",
+        "type": "artist",
+        "uri": "spotify:artist:3Mcii5XWf6E0lrY3Uky4cA"
+      }
+    ],
+    "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "UY" ],
+    "disc_number": 1,
+    "duration_ms": 247893,
+    "explicit": true,
+    "external_ids": { "isrc": "USNPD0800740" },
+    "external_urls": {
+      "spotify": "https://open.spotify.com/track/5RAMj0e8KWDBYXZeWYmfEx"
+    },
+    "href": "https://api.spotify.com/v1/tracks/5RAMj0e8KWDBYXZeWYmfEx",
+    "id": "5RAMj0e8KWDBYXZeWYmfEx",
+    "is_local": false,
+    "name": "Get Money, Spend Money, No Money",
+    "popularity": 29,
+    "preview_url": "https://p.scdn.co/mp3-preview/9ed43baa5752713105962f8bcaa8ea092cb17764?cid=ab12ee273d0b40b38b78f557aaccc0fe",
+    "track_number": 12,
+    "type": "track",
+    "uri": "spotify:track:5RAMj0e8KWDBYXZeWYmfEx"
+  },
+  "queue": [
+    {
+      "album": {
+        "album_type": "album",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6NyJIFHAePjHR1pFxwisqz"
+            },
+            "href": "https://api.spotify.com/v1/artists/6NyJIFHAePjHR1pFxwisqz",
+            "id": "6NyJIFHAePjHR1pFxwisqz",
+            "name": "Kurupt",
+            "type": "artist",
+            "uri": "spotify:artist:6NyJIFHAePjHR1pFxwisqz"
+          }
+        ],
+        "available_markets": [ "AE", "BH", "CA", "DZ", "EG", "IQ", "JO", "KW", "LB", "LY", "MA", "MX", "OM", "QA", "SA", "TN", "US" ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/4dSH1oNZoziNjKAanUimWd"
+        },
+        "href": "https://api.spotify.com/v1/albums/4dSH1oNZoziNjKAanUimWd",
+        "id": "4dSH1oNZoziNjKAanUimWd",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b2730c46f1a7e2cb5ebfd4714b28",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e020c46f1a7e2cb5ebfd4714b28",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048510c46f1a7e2cb5ebfd4714b28",
+            "width": 64
+          }
+        ],
+        "name": "Kuruption!",
+        "release_date": "1998-10-06",
+        "release_date_precision": "day",
+        "total_tracks": 23,
+        "type": "album",
+        "uri": "spotify:album:4dSH1oNZoziNjKAanUimWd"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/6NyJIFHAePjHR1pFxwisqz"
+          },
+          "href": "https://api.spotify.com/v1/artists/6NyJIFHAePjHR1pFxwisqz",
+          "id": "6NyJIFHAePjHR1pFxwisqz",
+          "name": "Kurupt",
+          "type": "artist",
+          "uri": "spotify:artist:6NyJIFHAePjHR1pFxwisqz"
+        },
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/0bqBpcIABLyrGD6e6llQ1S"
+          },
+          "href": "https://api.spotify.com/v1/artists/0bqBpcIABLyrGD6e6llQ1S",
+          "id": "0bqBpcIABLyrGD6e6llQ1S",
+          "name": "Tray Dee",
+          "type": "artist",
+          "uri": "spotify:artist:0bqBpcIABLyrGD6e6llQ1S"
+        },
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/197MEJ6lXwJXav4BstjTxl"
+          },
+          "href": "https://api.spotify.com/v1/artists/197MEJ6lXwJXav4BstjTxl",
+          "id": "197MEJ6lXwJXav4BstjTxl",
+          "name": "Slip Capone",
+          "type": "artist",
+          "uri": "spotify:artist:197MEJ6lXwJXav4BstjTxl"
+        }
+      ],
+      "available_markets": [ "AE", "BH", "CA", "DZ", "EG", "IQ", "JO", "KW", "LB", "LY", "MA", "MX", "OM", "QA", "SA", "TN", "US" ],
+      "disc_number": 1,
+      "duration_ms": 311666,
+      "explicit": true,
+      "external_ids": { "isrc": "USAM19800243" },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/6S1oHrwjeF66VRUl1b76P6"
+      },
+      "href": "https://api.spotify.com/v1/tracks/6S1oHrwjeF66VRUl1b76P6",
+      "id": "6S1oHrwjeF66VRUl1b76P6",
+      "is_local": false,
+      "name": "C-Walk",
+      "popularity": 55,
+      "preview_url": "https://p.scdn.co/mp3-preview/34ba7cde30c9ece93e927db9f90d29484a2aa712?cid=ab12ee273d0b40b38b78f557aaccc0fe",
+      "track_number": 7,
+      "type": "track",
+      "uri": "spotify:track:6S1oHrwjeF66VRUl1b76P6"
+    },
+    {
+      "album": {
+        "album_type": "single",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7B4hKK0S9QYnaoqa9OuwgX"
+            },
+            "href": "https://api.spotify.com/v1/artists/7B4hKK0S9QYnaoqa9OuwgX",
+            "id": "7B4hKK0S9QYnaoqa9OuwgX",
+            "name": "Eazy-E",
+            "type": "artist",
+            "uri": "spotify:artist:7B4hKK0S9QYnaoqa9OuwgX"
+          }
+        ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "UY" ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/65bIyEn06DYO7oFkEYKOdl"
+        },
+        "href": "https://api.spotify.com/v1/albums/65bIyEn06DYO7oFkEYKOdl",
+        "id": "65bIyEn06DYO7oFkEYKOdl",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273edfb9175857fb59639e148e0",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e02edfb9175857fb59639e148e0",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d00004851edfb9175857fb59639e148e0",
+            "width": 64
+          }
+        ],
+        "name": "5150 Home 4 Tha Sick",
+        "release_date": "1992-12-10",
+        "release_date_precision": "day",
+        "total_tracks": 5,
+        "type": "album",
+        "uri": "spotify:album:65bIyEn06DYO7oFkEYKOdl"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/7B4hKK0S9QYnaoqa9OuwgX"
+          },
+          "href": "https://api.spotify.com/v1/artists/7B4hKK0S9QYnaoqa9OuwgX",
+          "id": "7B4hKK0S9QYnaoqa9OuwgX",
+          "name": "Eazy-E",
+          "type": "artist",
+          "uri": "spotify:artist:7B4hKK0S9QYnaoqa9OuwgX"
+        }
+      ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SI", "SK", "SV", "TR", "TW", "UY" ],
+      "disc_number": 1,
+      "duration_ms": 183333,
+      "explicit": true,
+      "external_ids": { "isrc": "USPO19200009" },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/217m5TxpXyqbpR7WWmoSqO"
+      },
+      "href": "https://api.spotify.com/v1/tracks/217m5TxpXyqbpR7WWmoSqO",
+      "id": "217m5TxpXyqbpR7WWmoSqO",
+      "is_local": false,
+      "name": "Only If You Want It",
+      "popularity": 50,
+      "preview_url": "https://p.scdn.co/mp3-preview/7d638c71412ab30df978e5684e04d86c50b84a7e?cid=ab12ee273d0b40b38b78f557aaccc0fe",
+      "track_number": 2,
+      "type": "track",
+      "uri": "spotify:track:217m5TxpXyqbpR7WWmoSqO"
+    }
+  ]
+}

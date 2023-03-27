@@ -1,0 +1,69 @@
+{
+  "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "RO", "SE", "SG", "SK", "SV", "TH", "TR", "TW", "US", "UY", "VN", "ZA" ],
+  "copyrights" : [ ],
+  "description" : "Vi är där historien är. Ansvarig utgivare: Nina Glans",
+  "episodes" : {
+    "href" : "https://api.spotify.com/v1/shows/38bS44xjbVVZ3No3ByF1dJ/episodes?offset=0&limit=50",
+    "items" : [ {
+      "audio_preview_url" : "https://p.scdn.co/mp3-preview/7a785904a33e34b0b2bd382c82fca16be7060c36",
+      "description" : "Hör Tobias Svanelid och hans bok- och spelpaneler tipsa om de bästa historiska böckerna och spelen att njuta av i sommar!  Hör Vetenskapsradion Historias Tobias Svanelid tipsa tillsammans med Kristina Ekero Eriksson och Urban Björstadius om de bästa böckerna att ta med till hängmattan i sommar. Något för alla utlovas  såsom stormande 1700-talskärlek, seglivade småfolk och kvinnliga bågskyttar under korstågen. Dessutom tipsas om två historiska brädspel, där spelarna i det ena förflyttas till medeltidens Orléans, i det andra ska överleva på Robinson Kruses öde ö, bland annat genom att tillaga tigerstek! De böcker som nämns i programmet är: Völvor, krigare och vanligt folk av Kent Andersson Kvinnliga krigare av Stefan Högberg De små folkens historia av Ingmar Karlsson Jugoslaviens undergång av Sanimir Resic Venedig: En vägvisare i tid och rum av Carin Norberg och Carl Tham Samlare, jägare och andra fågelskådare av Susanne Nylund Skog Ebba Hochschild: Att leva efter döden av Caroline Ranby 68 av Henrik Berggren Förnuft eller känsla av Brita Planck Finanskrascher av Lars Magnusson   Spelen som testas är: Orléans av Reiner Stockhausen Robinson Crusoe - Adventures on the Cursed Island av Ignazy Trzewiczek",
+      "duration_ms" : 2677448,
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/episode/4d237GqKH4NP1jtgwy6bP3"
+      },
+      "href" : "https://api.spotify.com/v1/episodes/4d237GqKH4NP1jtgwy6bP3",
+      "id" : "4d237GqKH4NP1jtgwy6bP3",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/606eba074860660c91819636bcb5e141ddf4e23d",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/245062bc785bb8672cd002cb96b518a4f50e9067",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/cc0797a99e21733caf0f4e23685a173033fdaa49",
+        "width" : 64
+      } ],
+      "is_externally_hosted" : false,
+      "language" : "sv",
+      "name" : "Pyttefolk och tigerstekar i hängmattan",
+      "release_date" : "2018-06-19",
+      "release_date_precision" : "day",
+      "type" : "episode",
+      "uri" : "spotify:episode:4d237GqKH4NP1jtgwy6bP3"
+    } ],
+    "limit" : 50,
+    "next" : "https://api.spotify.com/v1/shows/38bS44xjbVVZ3No3ByF1dJ/episodes?offset=50&limit=50",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 520
+  },
+  "explicit" : false,
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/show/38bS44xjbVVZ3No3ByF1dJ"
+  },
+  "href" : "https://api.spotify.com/v1/shows/38bS44xjbVVZ3No3ByF1dJ",
+  "id" : "38bS44xjbVVZ3No3ByF1dJ",
+  "images" : [ {
+    "height" : 640,
+    "url" : "https://i.scdn.co/image/3c59a8b611000c8b10c8013013c3783dfb87a3bc",
+    "width" : 640
+  }, {
+    "height" : 300,
+    "url" : "https://i.scdn.co/image/2d70c06ac70d8c6144c94cabf7f4abcf85c4b7e4",
+    "width" : 300
+  }, {
+    "height" : 64,
+    "url" : "https://i.scdn.co/image/3dc007829bc0663c24089e46743a9f4ae15e65f8",
+    "width" : 64
+  } ],
+  "is_externally_hosted" : false,
+  "languages" : [ "sv" ],
+  "media_type" : "audio",
+  "name" : "Vetenskapsradion Historia",
+  "publisher" : "Sveriges Radio",
+  "type" : "show",
+  "uri" : "spotify:show:38bS44xjbVVZ3No3ByF1dJ"
+}

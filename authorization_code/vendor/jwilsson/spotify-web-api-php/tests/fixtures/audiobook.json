@@ -1,0 +1,499 @@
+{
+  "authors": [{ "name": "Sam Harris" }],
+  "chapters": {
+    "href": "https://api.spotify.com/v1/audiobooks/4x3Y9YYK84XJSTTJp2atHe/chapters",
+    "items": [
+      {
+        "id": "4uGM8lfEQeljIkJlFQLPtT",
+        "description": "",
+        "chapter_number": 0,
+        "duration_ms": 31000,
+        "explicit": false,
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab676663000022a8823058311b4bb6716fd91813",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab6766630000db5b823058311b4bb6716fd91813",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab6766630000703b823058311b4bb6716fd91813",
+            "width": 64
+          }
+        ],
+        "languages": [""],
+        "name": "Opening Credits",
+        "audio_preview_url": null,
+        "release_date": "0000",
+        "release_date_precision": "year",
+        "resume_point": {
+          "fully_played": true,
+          "resume_position_ms": 0
+        },
+        "is_playable": true,
+        "html_description": "",
+        "type": "chapter",
+        "uri": "spotify:episode:4uGM8lfEQeljIkJlFQLPtT",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/4uGM8lfEQeljIkJlFQLPtT"
+        },
+        "href": "https://api.spotify.com/v1/chapters/4uGM8lfEQeljIkJlFQLPtT"
+      },
+      {
+        "id": "6QYoIxxar5q4AfdTOGsZqE",
+        "description": "",
+        "chapter_number": 1,
+        "duration_ms": 425000,
+        "explicit": false,
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab676663000022a8823058311b4bb6716fd91813",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab6766630000db5b823058311b4bb6716fd91813",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab6766630000703b823058311b4bb6716fd91813",
+            "width": 64
+          }
+        ],
+        "languages": [""],
+        "name": "Chapter 1",
+        "audio_preview_url": null,
+        "release_date": "0000",
+        "release_date_precision": "year",
+        "resume_point": {
+          "fully_played": false,
+          "resume_position_ms": 135000
+        },
+        "is_playable": true,
+        "html_description": "",
+        "type": "chapter",
+        "uri": "spotify:episode:6QYoIxxar5q4AfdTOGsZqE",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/6QYoIxxar5q4AfdTOGsZqE"
+        },
+        "href": "https://api.spotify.com/v1/chapters/6QYoIxxar5q4AfdTOGsZqE"
+      },
+      {
+        "id": "70yieYbr9tuu1aSgu0cmzb",
+        "description": "",
+        "chapter_number": 2,
+        "duration_ms": 499000,
+        "explicit": false,
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab676663000022a8823058311b4bb6716fd91813",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab6766630000db5b823058311b4bb6716fd91813",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab6766630000703b823058311b4bb6716fd91813",
+            "width": 64
+          }
+        ],
+        "languages": [""],
+        "name": "Chapter 2",
+        "audio_preview_url": null,
+        "release_date": "0000",
+        "release_date_precision": "year",
+        "resume_point": {
+          "fully_played": false,
+          "resume_position_ms": 0
+        },
+        "is_playable": true,
+        "html_description": "",
+        "type": "chapter",
+        "uri": "spotify:episode:70yieYbr9tuu1aSgu0cmzb",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/70yieYbr9tuu1aSgu0cmzb"
+        },
+        "href": "https://api.spotify.com/v1/chapters/70yieYbr9tuu1aSgu0cmzb"
+      },
+      {
+        "id": "39k2xZuSzfDKOaYd4SIf90",
+        "description": "",
+        "chapter_number": 3,
+        "duration_ms": 810000,
+        "explicit": false,
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab676663000022a8823058311b4bb6716fd91813",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab6766630000db5b823058311b4bb6716fd91813",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab6766630000703b823058311b4bb6716fd91813",
+            "width": 64
+          }
+        ],
+        "languages": [""],
+        "name": "Chapter 3",
+        "audio_preview_url": null,
+        "release_date": "0000",
+        "release_date_precision": "year",
+        "resume_point": {
+          "fully_played": false,
+          "resume_position_ms": 0
+        },
+        "is_playable": true,
+        "html_description": "",
+        "type": "chapter",
+        "uri": "spotify:episode:39k2xZuSzfDKOaYd4SIf90",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/39k2xZuSzfDKOaYd4SIf90"
+        },
+        "href": "https://api.spotify.com/v1/chapters/39k2xZuSzfDKOaYd4SIf90"
+      },
+      {
+        "id": "4K8cBhSa7J8hs8aQolX9Pr",
+        "description": "",
+        "chapter_number": 4,
+        "duration_ms": 220000,
+        "explicit": false,
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab676663000022a8823058311b4bb6716fd91813",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab6766630000db5b823058311b4bb6716fd91813",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab6766630000703b823058311b4bb6716fd91813",
+            "width": 64
+          }
+        ],
+        "languages": [""],
+        "name": "Chapter 4",
+        "audio_preview_url": null,
+        "release_date": "0000",
+        "release_date_precision": "year",
+        "resume_point": {
+          "fully_played": false,
+          "resume_position_ms": 0
+        },
+        "is_playable": true,
+        "html_description": "",
+        "type": "chapter",
+        "uri": "spotify:episode:4K8cBhSa7J8hs8aQolX9Pr",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/4K8cBhSa7J8hs8aQolX9Pr"
+        },
+        "href": "https://api.spotify.com/v1/chapters/4K8cBhSa7J8hs8aQolX9Pr"
+      },
+      {
+        "id": "0BQpGw8WjyW66NTeB43vSX",
+        "description": "",
+        "chapter_number": 5,
+        "duration_ms": 982000,
+        "explicit": false,
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab676663000022a8823058311b4bb6716fd91813",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab6766630000db5b823058311b4bb6716fd91813",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab6766630000703b823058311b4bb6716fd91813",
+            "width": 64
+          }
+        ],
+        "languages": [""],
+        "name": "Chapter 5",
+        "audio_preview_url": null,
+        "release_date": "0000",
+        "release_date_precision": "year",
+        "resume_point": {
+          "fully_played": false,
+          "resume_position_ms": 0
+        },
+        "is_playable": true,
+        "html_description": "",
+        "type": "chapter",
+        "uri": "spotify:episode:0BQpGw8WjyW66NTeB43vSX",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/0BQpGw8WjyW66NTeB43vSX"
+        },
+        "href": "https://api.spotify.com/v1/chapters/0BQpGw8WjyW66NTeB43vSX"
+      },
+      {
+        "id": "79JmvSTN5qe5pqwby9a2EI",
+        "description": "",
+        "chapter_number": 6,
+        "duration_ms": 174000,
+        "explicit": false,
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab676663000022a8823058311b4bb6716fd91813",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab6766630000db5b823058311b4bb6716fd91813",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab6766630000703b823058311b4bb6716fd91813",
+            "width": 64
+          }
+        ],
+        "languages": [""],
+        "name": "Chapter 6",
+        "audio_preview_url": null,
+        "release_date": "0000",
+        "release_date_precision": "year",
+        "resume_point": {
+          "fully_played": false,
+          "resume_position_ms": 0
+        },
+        "is_playable": true,
+        "html_description": "",
+        "type": "chapter",
+        "uri": "spotify:episode:79JmvSTN5qe5pqwby9a2EI",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/79JmvSTN5qe5pqwby9a2EI"
+        },
+        "href": "https://api.spotify.com/v1/chapters/79JmvSTN5qe5pqwby9a2EI"
+      },
+      {
+        "id": "2mktZRz3WikSKvs1tTNCC7",
+        "description": "",
+        "chapter_number": 7,
+        "duration_ms": 934000,
+        "explicit": false,
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab676663000022a8823058311b4bb6716fd91813",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab6766630000db5b823058311b4bb6716fd91813",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab6766630000703b823058311b4bb6716fd91813",
+            "width": 64
+          }
+        ],
+        "languages": [""],
+        "name": "Chapter 7",
+        "audio_preview_url": null,
+        "release_date": "0000",
+        "release_date_precision": "year",
+        "resume_point": {
+          "fully_played": false,
+          "resume_position_ms": 0
+        },
+        "is_playable": true,
+        "html_description": "",
+        "type": "chapter",
+        "uri": "spotify:episode:2mktZRz3WikSKvs1tTNCC7",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/2mktZRz3WikSKvs1tTNCC7"
+        },
+        "href": "https://api.spotify.com/v1/chapters/2mktZRz3WikSKvs1tTNCC7"
+      },
+      {
+        "id": "3LdcW0rY9kfaKGykoWDUUV",
+        "description": "",
+        "chapter_number": 8,
+        "duration_ms": 156000,
+        "explicit": false,
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab676663000022a8823058311b4bb6716fd91813",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab6766630000db5b823058311b4bb6716fd91813",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab6766630000703b823058311b4bb6716fd91813",
+            "width": 64
+          }
+        ],
+        "languages": [""],
+        "name": "Chapter 8",
+        "audio_preview_url": null,
+        "release_date": "0000",
+        "release_date_precision": "year",
+        "resume_point": {
+          "fully_played": false,
+          "resume_position_ms": 0
+        },
+        "is_playable": true,
+        "html_description": "",
+        "type": "chapter",
+        "uri": "spotify:episode:3LdcW0rY9kfaKGykoWDUUV",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/3LdcW0rY9kfaKGykoWDUUV"
+        },
+        "href": "https://api.spotify.com/v1/chapters/3LdcW0rY9kfaKGykoWDUUV"
+      },
+      {
+        "id": "66yM123UFvb4QDSIUSdrZx",
+        "description": "",
+        "chapter_number": 9,
+        "duration_ms": 191000,
+        "explicit": false,
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab676663000022a8823058311b4bb6716fd91813",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab6766630000db5b823058311b4bb6716fd91813",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab6766630000703b823058311b4bb6716fd91813",
+            "width": 64
+          }
+        ],
+        "languages": [""],
+        "name": "Conclusion",
+        "audio_preview_url": null,
+        "release_date": "0000",
+        "release_date_precision": "year",
+        "resume_point": {
+          "fully_played": false,
+          "resume_position_ms": 0
+        },
+        "is_playable": true,
+        "html_description": "",
+        "type": "chapter",
+        "uri": "spotify:episode:66yM123UFvb4QDSIUSdrZx",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/66yM123UFvb4QDSIUSdrZx"
+        },
+        "href": "https://api.spotify.com/v1/chapters/66yM123UFvb4QDSIUSdrZx"
+      },
+      {
+        "id": "6kbaTOLPUK6KQrcoOeXc1m",
+        "description": "",
+        "chapter_number": 10,
+        "duration_ms": 77000,
+        "explicit": false,
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab676663000022a8823058311b4bb6716fd91813",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab6766630000db5b823058311b4bb6716fd91813",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab6766630000703b823058311b4bb6716fd91813",
+            "width": 64
+          }
+        ],
+        "languages": [""],
+        "name": "Ending Credits",
+        "audio_preview_url": null,
+        "release_date": "0000",
+        "release_date_precision": "year",
+        "resume_point": {
+          "fully_played": false,
+          "resume_position_ms": 0
+        },
+        "is_playable": true,
+        "html_description": "",
+        "type": "chapter",
+        "uri": "spotify:episode:6kbaTOLPUK6KQrcoOeXc1m",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/6kbaTOLPUK6KQrcoOeXc1m"
+        },
+        "href": "https://api.spotify.com/v1/chapters/6kbaTOLPUK6KQrcoOeXc1m"
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 11
+  },
+  "copyrights": [{ "text": "Simon & Schuster 2012", "type": "C" }],
+  "description": "Author(s): Sam Harris\nNarrator(s): Sam Harris\n\nA BELIEF IN FREE WILL touches nearly everything that human beings value. It is difficult to think about law, politics, religion, public policy, intimate relationships, morality—as well as feelings of remorse or personal achievement—without first imagining that every person is the true source of his or her thoughts and actions. And yet the facts tell us that free will is an illusion. <br><br>In this enlightening book, Sam Harris argues that this truth about the human mind does not undermine morality or diminish the importance of social and political freedom, but it can and should change the way we think about some of the most important questions in life.",
+  "edition": "Unabridged",
+  "explicit": false,
+  "external_urls": {
+    "spotify": "https://open.spotify.com/show/4x3Y9YYK84XJSTTJp2atHe"
+  },
+  "href": "https://api.spotify.com/v1/audiobooks/4x3Y9YYK84XJSTTJp2atHe",
+  "html_description": "Author(s): Sam Harris<br/>Narrator(s): Sam Harris<br/>A BELIEF IN FREE WILL touches nearly everything that human beings value. It is difficult to think about law, politics, religion, public policy, intimate relationships, morality—as well as feelings of remorse or personal achievement—without first imagining that every person is the true source of his or her thoughts and actions. And yet the facts tell us that free will is an illusion. &lt;br&gt;&lt;br&gt;In this enlightening book, Sam Harris argues that this truth about the human mind does not undermine morality or diminish the importance of social and political freedom, but it can and should change the way we think about some of the most important questions in life.",
+  "id": "4x3Y9YYK84XJSTTJp2atHe",
+  "images": [
+    {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab676663000022a8823058311b4bb6716fd91813",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://i.scdn.co/image/ab6766630000db5b823058311b4bb6716fd91813",
+      "width": 300
+    },
+    {
+      "height": 64,
+      "url": "https://i.scdn.co/image/ab6766630000703b823058311b4bb6716fd91813",
+      "width": 64
+    }
+  ],
+  "languages": ["English"],
+  "media_type": "audio",
+  "name": "Free Will",
+  "narrators": [{ "name": "Sam Harris" }],
+  "publisher": "Simon & Schuster",
+  "total_chapters": 11,
+  "type": "audiobook",
+  "uri": "spotify:show:4x3Y9YYK84XJSTTJp2atHe"
+}

@@ -1,0 +1,67 @@
+{
+  "artists" : [ {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/6v8FB84lnmJs434UJf2Mrm"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 353848
+    },
+    "genres" : [ "country rock", "folk rock", "roots rock", "singer-songwriter" ],
+    "href" : "https://api.spotify.com/v1/artists/6v8FB84lnmJs434UJf2Mrm",
+    "id" : "6v8FB84lnmJs434UJf2Mrm",
+    "images" : [ {
+      "height" : 667,
+      "url" : "https://i.scdn.co/image/9cf3c4417d299cd974c156636aed25cf776cc588",
+      "width" : 1000
+    }, {
+      "height" : 427,
+      "url" : "https://i.scdn.co/image/28056039df6056d8cadc9f10a6bf407af316bf32",
+      "width" : 640
+    }, {
+      "height" : 133,
+      "url" : "https://i.scdn.co/image/fe3f3cc057d65f0a3425f1b95f589f0a894bac56",
+      "width" : 200
+    }, {
+      "height" : 43,
+      "url" : "https://i.scdn.co/image/fe257b86f46d004487856f413d4e1e8f505986de",
+      "width" : 64
+    } ],
+    "name" : "Neil Young",
+    "popularity" : 65,
+    "type" : "artist",
+    "uri" : "spotify:artist:6v8FB84lnmJs434UJf2Mrm"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/6olE6TJLqED3rqDCT0FyPh"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 962884
+    },
+    "genres" : [ "alternative rock", "grunge", "permanent wave" ],
+    "href" : "https://api.spotify.com/v1/artists/6olE6TJLqED3rqDCT0FyPh",
+    "id" : "6olE6TJLqED3rqDCT0FyPh",
+    "images" : [ {
+      "height" : 1057,
+      "url" : "https://i.scdn.co/image/5d66307bbf73337bb073bfb2bf242e099a47e219",
+      "width" : 1000
+    }, {
+      "height" : 677,
+      "url" : "https://i.scdn.co/image/695867a7c6a0df25c5bddf0b00cc2cfde35b3ffc",
+      "width" : 640
+    }, {
+      "height" : 211,
+      "url" : "https://i.scdn.co/image/3a9c12e86ad8e2bbecb0e919b80bb5ece6f1dbe3",
+      "width" : 200
+    }, {
+      "height" : 68,
+      "url" : "https://i.scdn.co/image/5ae6f10633adc53210cd18a4f216f27de330f19d",
+      "width" : 64
+    } ],
+    "name" : "Nirvana",
+    "popularity" : 67,
+    "type" : "artist",
+    "uri" : "spotify:artist:6olE6TJLqED3rqDCT0FyPh"
+  } ]
+}

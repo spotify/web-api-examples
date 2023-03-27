@@ -1,0 +1,25 @@
+name: build
+
+on: [push, pull_request]
+
+env:
+  COVERALLS_REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        php-versions: ['7.3', '7.4', '8.0', '8.1']
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - uses: shivammathur/setup-php@v2
+      with:
+        php-version: ${{ matrix.php-versions }}
+        coverage: pcov
+
+    - run: composer install
+    - run: composer test
+    - run: php vendor/bin/php-coveralls -v

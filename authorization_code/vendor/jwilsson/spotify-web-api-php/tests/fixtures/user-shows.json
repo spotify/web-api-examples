@@ -1,0 +1,139 @@
+{
+    "href": "https://api.spotify.com/v1/me/shows?offset=0&limit=20",
+    "items": [
+        {
+            "added_at": "2019-12-08T21:14:30Z",
+            "show": {
+                "available_markets": [
+                    "AD",
+                    "AE"
+                ],
+                "copyrights": [],
+                "description": "Explore the dark side of the Internet with host Jack Rhysider as he takes you on a journey through the chilling world of privacy hacks, data breaches, and cyber crime. The masterful criminal hackers who dwell on the dark side show us just how vulnerable we all are.",
+                "explicit": false,
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/show/4XPl3uEEL9hvqMkoZrzbx5"
+                },
+                "href": "https://api.spotify.com/v1/shows/4XPl3uEEL9hvqMkoZrzbx5",
+                "id": "4XPl3uEEL9hvqMkoZrzbx5",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/53ba2adaaf2d3e47898aed9edb64026145032e7b",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/5f4726afb1e227c80f228b6b1ea7a6a1209ebe97",
+                        "width": 300
+                    },
+                    {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/33cf2b6fea8d62ab730f902b52b0dc1f676cf015",
+                        "width": 64
+                    }
+                ],
+                "is_externally_hosted": false,
+                "languages": [
+                    "en"
+                ],
+                "media_type": "audio",
+                "name": "Darknet Diaries",
+                "publisher": "Jack Rhysider",
+                "type": "show",
+                "uri": "spotify:show:4XPl3uEEL9hvqMkoZrzbx5"
+            }
+        },
+        {
+            "added_at": "2019-11-22T11:08:10Z",
+            "show": {
+                "available_markets": [
+                    "AD",
+                    "AE"
+                ],
+                "copyrights": [],
+                "description": "Fest & Flauschig mit Jan Böhmermann und Olli Schulz. Der preisgekrönte, verblüffend fabelhafte, grenzenlos fantastische Podcast für sie, ihn und es.",
+                "explicit": false,
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/show/1OLcQdw2PFDPG1jo3s0wbp"
+                },
+                "href": "https://api.spotify.com/v1/shows/1OLcQdw2PFDPG1jo3s0wbp",
+                "id": "1OLcQdw2PFDPG1jo3s0wbp",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/79364dab39c9d3757838940fc7cb133c75fdaad2",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/eaf33726dff2bcafeff475813f5bd18ddf51b89d",
+                        "width": 300
+                    },
+                    {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/a6514cfa222d1ee22ece832500334903154ffa83",
+                        "width": 64
+                    }
+                ],
+                "is_externally_hosted": false,
+                "languages": [
+                    "de"
+                ],
+                "media_type": "audio",
+                "name": "Fest & Flauschig",
+                "publisher": "Jan Böhmermann & Olli Schulz",
+                "type": "show",
+                "uri": "spotify:show:1OLcQdw2PFDPG1jo3s0wbp"
+            }
+        },
+        {
+            "added_at": "2019-10-19T10:57:38Z",
+            "show": {
+                "available_markets": [
+                    "AD",
+                    "AE"
+                ],
+                "copyrights": [],
+                "description": "A series about what it's really like to start a business.",
+                "explicit": false,
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/show/5CnDmMUG0S5bSSw612fs8C"
+                },
+                "href": "https://api.spotify.com/v1/shows/5CnDmMUG0S5bSSw612fs8C",
+                "id": "5CnDmMUG0S5bSSw612fs8C",
+                "images": [
+                    {
+                        "height": 640,
+                        "url": "https://i.scdn.co/image/6fe88d8c175bdec76c7f9f204c60f4331ce89bdc",
+                        "width": 640
+                    },
+                    {
+                        "height": 300,
+                        "url": "https://i.scdn.co/image/00511e028a3b993efaf5e2e12b552cda1e979206",
+                        "width": 300
+                    },
+                    {
+                        "height": 64,
+                        "url": "https://i.scdn.co/image/aa1dbf8c6c545c623d088d5e432afdf8dee3029d",
+                        "width": 64
+                    }
+                ],
+                "is_externally_hosted": false,
+                "languages": [
+                    "en"
+                ],
+                "media_type": "audio",
+                "name": "StartUp Podcast",
+                "publisher": "Gimlet",
+                "type": "show",
+                "uri": "spotify:show:5CnDmMUG0S5bSSw612fs8C"
+            }
+        }
+    ],
+    "limit": 20,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 3
+}

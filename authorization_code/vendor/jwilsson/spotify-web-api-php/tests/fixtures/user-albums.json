@@ -1,0 +1,111 @@
+{
+  "href": "https://api.spotify.com/v1/me/albums?offset=0&limit=20",
+  "items": [
+    {
+      "added_at": "2014-07-08T18:18:33Z",
+      "album": {
+        "album_type": "album",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/44gRHbEm4Uqa0ykW0rDTNk"
+            },
+            "href": "https://api.spotify.com/v1/artists/44gRHbEm4Uqa0ykW0rDTNk",
+            "id": "44gRHbEm4Uqa0ykW0rDTNk",
+            "name": "Ben Folds Five",
+            "type": "artist",
+            "uri": "spotify:artist:44gRHbEm4Uqa0ykW0rDTNk"
+          }
+        ],
+        "available_markets": [
+          "AD",
+          "AR",
+          "AT",
+          "TW",
+          "US",
+          "UY"
+        ],
+        "external_ids": {
+          "upc": "074646776223"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/7ggEMmVTUloqdMw18rv0ve"
+        },
+        "genres": [
+          "Adult Alternative Pop/Rock",
+          "Alternative Pop/Rock",
+          "Alternative/Indie Rock",
+          "Contemporary Pop/Rock",
+          "Pop/Rock"
+        ],
+        "href": "https://api.spotify.com/v1/albums/7ggEMmVTUloqdMw18rv0ve",
+        "id": "7ggEMmVTUloqdMw18rv0ve",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/8b5b036272caf598e4d708e4db4a418031486cca",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/47030c6e70229ba53fcb752d6114813e893d8b40",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/2e8be5564680cccbe6888e57ba2f00521381c8f5",
+            "width": 64
+          }
+        ],
+        "name": "Whatever and Ever Amen",
+        "popularity": 53,
+        "release_date": "1997-02-10",
+        "release_date_precision": "day",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/albums/7ggEMmVTUloqdMw18rv0ve/tracks?offset=0&limit=50",
+          "items": [
+            {
+              "artists": [
+                {
+                  "external_urls": {
+                    "spotify": "https://open.spotify.com/artist/44gRHbEm4Uqa0ykW0rDTNk"
+                  },
+                  "href": "https://api.spotify.com/v1/artists/44gRHbEm4Uqa0ykW0rDTNk",
+                  "id": "44gRHbEm4Uqa0ykW0rDTNk",
+                  "name": "Ben Folds Five",
+                  "type": "artist",
+                  "uri": "spotify:artist:44gRHbEm4Uqa0ykW0rDTNk"
+                }
+              ],
+              "disc_number": 1,
+              "duration_ms": 232293,
+              "explicit": false,
+              "external_urls": {
+                "spotify": "https://open.spotify.com/track/4rOPzC3EoK0v3EDQW3V4oD"
+              },
+              "href": "https://api.spotify.com/v1/tracks/4rOPzC3EoK0v3EDQW3V4oD",
+              "id": "4rOPzC3EoK0v3EDQW3V4oD",
+              "name": "One Angry Dwarf and 200 Solemn Faces",
+              "preview_url": "https://p.scdn.co/mp3-preview/921ae28a02ddb95da1f34606ab0b18a92f29c253",
+              "track_number": 1,
+              "type": "track",
+              "uri": "spotify:track:4rOPzC3EoK0v3EDQW3V4oD"
+            }
+          ],
+          "limit": 50,
+          "next": null,
+          "offset": 0,
+          "previous": null,
+          "total": 12
+        },
+        "type": "album",
+        "uri": "spotify:album:7ggEMmVTUloqdMw18rv0ve"
+      }
+    }
+  ],
+  "limit": 20,
+  "next": null,
+  "offset": 0,
+  "previous": null,
+  "total": 9
+}

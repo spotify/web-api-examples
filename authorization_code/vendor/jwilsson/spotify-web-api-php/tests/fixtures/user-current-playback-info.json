@@ -1,0 +1,25 @@
+{
+  "timestamp": 1490252122574,
+  "device": {
+    "id": "3f228e06c8562e2f439e22932da6c3231715ed53",
+    "is_active": false,
+    "is_restricted2": false,
+    "name": "Xperia Z5 Compact",
+    "type": "Smartphone",
+    "volume_percent": 54
+  },
+  "progress_ms": "44272",
+  "is_playing": true,
+  "item": {
+  },
+  "shuffle_state": false,
+  "repeat_state": "off",
+  "context": {
+    "external_urls" : {
+      "spotify" : "http://open.spotify.com/user/spotify/playlist/49znshcYJROspEqBoHg3Sv"
+    },
+    "href" : "https://api.spotify.com/v1/users/spotify/playlists/49znshcYJROspEqBoHg3Sv",
+    "type" : "playlist",
+    "uri" : "spotify:user:spotify:playlist:49znshcYJROspEqBoHg3Sv"
+  }
+}

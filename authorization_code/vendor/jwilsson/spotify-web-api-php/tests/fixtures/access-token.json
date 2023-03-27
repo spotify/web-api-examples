@@ -1,0 +1,7 @@
+{
+   "access_token": "75a25c2be83fdfa0bb221b04cf3a4525e9f1203a",
+   "token_type": "Bearer",
+   "expires_in": 3600,
+   "refresh_token": "030b53252ef9f646d2981f9a2bc92353c32f5f22",
+   "scope": "user-follow-read user-follow-modify user-library-read user-library-modify"
+}

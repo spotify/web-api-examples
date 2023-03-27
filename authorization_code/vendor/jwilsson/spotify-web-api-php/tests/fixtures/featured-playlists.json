@@ -1,0 +1,147 @@
+{
+  "message" : "Your Saturday night just got so much better...",
+  "playlists" : {
+    "href" : "https://api.spotify.com/v1/browse/featured-playlists?country=SE&locale=sv_SE&timestamp=2014-10-25T21:00:00&offset=0&limit=5",
+    "items" : [ {
+      "collaborative" : false,
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/spotify/playlist/5Oo5QuAOjjXMMXphFqC6eo"
+      },
+      "href" : "https://api.spotify.com/v1/users/spotify/playlists/5Oo5QuAOjjXMMXphFqC6eo",
+      "id" : "5Oo5QuAOjjXMMXphFqC6eo",
+      "images" : [ {
+        "url" : "https://i.scdn.co/image/48294c9d3d171ac4c5b6400e0d8f2c357569ce75"
+      } ],
+      "name" : "Weekend Hangouts",
+      "owner" : {
+        "external_urls" : {
+          "spotify" : "http://open.spotify.com/user/spotify"
+        },
+        "href" : "https://api.spotify.com/v1/users/spotify",
+        "id" : "spotify",
+        "type" : "user",
+        "uri" : "spotify:user:spotify"
+      },
+      "public" : null,
+      "tracks" : {
+        "href" : "https://api.spotify.com/v1/users/spotify/playlists/5Oo5QuAOjjXMMXphFqC6eo/tracks",
+        "total" : 223
+      },
+      "type" : "playlist",
+      "uri" : "spotify:user:spotify:playlist:5Oo5QuAOjjXMMXphFqC6eo"
+    }, {
+      "collaborative" : false,
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/tv4se/playlist/6gI54Ois1dlCKZJqrLyVKN"
+      },
+      "href" : "https://api.spotify.com/v1/users/tv4se/playlists/6gI54Ois1dlCKZJqrLyVKN",
+      "id" : "6gI54Ois1dlCKZJqrLyVKN",
+      "images" : [ {
+        "url" : "https://i.scdn.co/image/3be6c5a5879dc630c7136a63e30ad61f55c64ec6"
+      } ],
+      "name" : "SÅ MYCKET BÄTTRE 2014",
+      "owner" : {
+        "external_urls" : {
+          "spotify" : "http://open.spotify.com/user/tv4se"
+        },
+        "href" : "https://api.spotify.com/v1/users/tv4se",
+        "id" : "tv4se",
+        "type" : "user",
+        "uri" : "spotify:user:tv4se"
+      },
+      "public" : null,
+      "tracks" : {
+        "href" : "https://api.spotify.com/v1/users/tv4se/playlists/6gI54Ois1dlCKZJqrLyVKN/tracks",
+        "total" : 12
+      },
+      "type" : "playlist",
+      "uri" : "spotify:user:tv4se:playlist:6gI54Ois1dlCKZJqrLyVKN"
+    }, {
+      "collaborative" : false,
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/spotify/playlist/63UdjnaWDFp0VNrwQ28qUw"
+      },
+      "href" : "https://api.spotify.com/v1/users/spotify/playlists/63UdjnaWDFp0VNrwQ28qUw",
+      "id" : "63UdjnaWDFp0VNrwQ28qUw",
+      "images" : [ {
+        "url" : "https://i.scdn.co/image/68dc8102daec4e47d501f5f83f0ed7c59e14ab23"
+      } ],
+      "name" : "Dinner Party",
+      "owner" : {
+        "external_urls" : {
+          "spotify" : "http://open.spotify.com/user/spotify"
+        },
+        "href" : "https://api.spotify.com/v1/users/spotify",
+        "id" : "spotify",
+        "type" : "user",
+        "uri" : "spotify:user:spotify"
+      },
+      "public" : null,
+      "tracks" : {
+        "href" : "https://api.spotify.com/v1/users/spotify/playlists/63UdjnaWDFp0VNrwQ28qUw/tracks",
+        "total" : 121
+      },
+      "type" : "playlist",
+      "uri" : "spotify:user:spotify:playlist:63UdjnaWDFp0VNrwQ28qUw"
+    }, {
+      "collaborative" : false,
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/spotify/playlist/5ILSWr90l2Bgk89xuhsysy"
+      },
+      "href" : "https://api.spotify.com/v1/users/spotify/playlists/5ILSWr90l2Bgk89xuhsysy",
+      "id" : "5ILSWr90l2Bgk89xuhsysy",
+      "images" : [ {
+        "url" : "https://i.scdn.co/image/b15df0f45ccf5b0b4ac97674658de5b42c342df1"
+      } ],
+      "name" : "Pre-Party",
+      "owner" : {
+        "external_urls" : {
+          "spotify" : "http://open.spotify.com/user/spotify"
+        },
+        "href" : "https://api.spotify.com/v1/users/spotify",
+        "id" : "spotify",
+        "type" : "user",
+        "uri" : "spotify:user:spotify"
+      },
+      "public" : null,
+      "tracks" : {
+        "href" : "https://api.spotify.com/v1/users/spotify/playlists/5ILSWr90l2Bgk89xuhsysy/tracks",
+        "total" : 106
+      },
+      "type" : "playlist",
+      "uri" : "spotify:user:spotify:playlist:5ILSWr90l2Bgk89xuhsysy"
+    }, {
+      "collaborative" : false,
+      "external_urls" : {
+        "spotify" : "http://open.spotify.com/user/spotify/playlist/7BixMZxL4bhgULJQ5wPbUz"
+      },
+      "href" : "https://api.spotify.com/v1/users/spotify/playlists/7BixMZxL4bhgULJQ5wPbUz",
+      "id" : "7BixMZxL4bhgULJQ5wPbUz",
+      "images" : [ {
+        "url" : "https://i.scdn.co/image/202df3b14174a06f1cd9541302d51c291eed8bee"
+      } ],
+      "name" : "Chillax",
+      "owner" : {
+        "external_urls" : {
+          "spotify" : "http://open.spotify.com/user/spotify"
+        },
+        "href" : "https://api.spotify.com/v1/users/spotify",
+        "id" : "spotify",
+        "type" : "user",
+        "uri" : "spotify:user:spotify"
+      },
+      "public" : null,
+      "tracks" : {
+        "href" : "https://api.spotify.com/v1/users/spotify/playlists/7BixMZxL4bhgULJQ5wPbUz/tracks",
+        "total" : 102
+      },
+      "type" : "playlist",
+      "uri" : "spotify:user:spotify:playlist:7BixMZxL4bhgULJQ5wPbUz"
+    } ],
+    "limit" : 5,
+    "next" : "https://api.spotify.com/v1/browse/featured-playlists?country=SE&locale=sv_SE&timestamp=2014-10-25T21:00:00&offset=5&limit=5",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 12
+  }
+}

@@ -1,0 +1,827 @@
+{
+  "authors": [{ "name": "J.K. Rowling" }],
+  "chapters": {
+    "href": "https://api.spotify.com/v1/audiobooks/2IEBhnu61ieYGFRPEJIO40/chapters",
+    "items": [
+      {
+        "restriction": { "reason": "payment_required" },
+        "id": "5HQIsy4eLtirwOw1rQ9ENK",
+        "description": "",
+        "chapter_number": 0,
+        "duration_ms": 26000,
+        "explicit": false,
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab676663000022a8ac734445b32f837c9a1b6d13",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab6766630000db5bac734445b32f837c9a1b6d13",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab6766630000703bac734445b32f837c9a1b6d13",
+            "width": 64
+          }
+        ],
+        "languages": [""],
+        "name": "Opening Credits",
+        "audio_preview_url": null,
+        "release_date": "0000",
+        "release_date_precision": "year",
+        "resume_point": { "fully_played": false, "resume_position_ms": 0 },
+        "is_playable": false,
+        "html_description": "",
+        "type": "chapter",
+        "uri": "spotify:episode:5HQIsy4eLtirwOw1rQ9ENK",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/5HQIsy4eLtirwOw1rQ9ENK"
+        },
+        "href": "https://api.spotify.com/v1/chapters/5HQIsy4eLtirwOw1rQ9ENK"
+      },
+      {
+        "restriction": { "reason": "payment_required" },
+        "id": "2i47HuOBSV2XaJNy0NCZXM",
+        "description": "",
+        "chapter_number": 1,
+        "duration_ms": 1733000,
+        "explicit": false,
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab676663000022a8ac734445b32f837c9a1b6d13",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab6766630000db5bac734445b32f837c9a1b6d13",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab6766630000703bac734445b32f837c9a1b6d13",
+            "width": 64
+          }
+        ],
+        "languages": [""],
+        "name": "Chapter 1: The Who Boy Lived",
+        "audio_preview_url": null,
+        "release_date": "0000",
+        "release_date_precision": "year",
+        "resume_point": { "fully_played": false, "resume_position_ms": 0 },
+        "is_playable": false,
+        "html_description": "",
+        "type": "chapter",
+        "uri": "spotify:episode:2i47HuOBSV2XaJNy0NCZXM",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/2i47HuOBSV2XaJNy0NCZXM"
+        },
+        "href": "https://api.spotify.com/v1/chapters/2i47HuOBSV2XaJNy0NCZXM"
+      },
+      {
+        "restriction": { "reason": "payment_required" },
+        "id": "2GUbORsUnP1qVVlLwd9DzP",
+        "description": "",
+        "chapter_number": 2,
+        "duration_ms": 1306000,
+        "explicit": false,
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab676663000022a8ac734445b32f837c9a1b6d13",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab6766630000db5bac734445b32f837c9a1b6d13",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab6766630000703bac734445b32f837c9a1b6d13",
+            "width": 64
+          }
+        ],
+        "languages": [""],
+        "name": "Chapter 2: The Vanishing Glass",
+        "audio_preview_url": null,
+        "release_date": "0000",
+        "release_date_precision": "year",
+        "resume_point": { "fully_played": false, "resume_position_ms": 0 },
+        "is_playable": false,
+        "html_description": "",
+        "type": "chapter",
+        "uri": "spotify:episode:2GUbORsUnP1qVVlLwd9DzP",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/2GUbORsUnP1qVVlLwd9DzP"
+        },
+        "href": "https://api.spotify.com/v1/chapters/2GUbORsUnP1qVVlLwd9DzP"
+      },
+      {
+        "restriction": { "reason": "payment_required" },
+        "id": "7I0QJbXLIiVqQoZj959cRO",
+        "description": "",
+        "chapter_number": 3,
+        "duration_ms": 1455000,
+        "explicit": false,
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab676663000022a8ac734445b32f837c9a1b6d13",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab6766630000db5bac734445b32f837c9a1b6d13",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab6766630000703bac734445b32f837c9a1b6d13",
+            "width": 64
+          }
+        ],
+        "languages": [""],
+        "name": "Chapter 3: The Letters from No One",
+        "audio_preview_url": null,
+        "release_date": "0000",
+        "release_date_precision": "year",
+        "resume_point": { "fully_played": false, "resume_position_ms": 0 },
+        "is_playable": false,
+        "html_description": "",
+        "type": "chapter",
+        "uri": "spotify:episode:7I0QJbXLIiVqQoZj959cRO",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/7I0QJbXLIiVqQoZj959cRO"
+        },
+        "href": "https://api.spotify.com/v1/chapters/7I0QJbXLIiVqQoZj959cRO"
+      },
+      {
+        "restriction": { "reason": "payment_required" },
+        "id": "5q9RB4Nbvsy0z6EX7pMGmA",
+        "description": "",
+        "chapter_number": 4,
+        "duration_ms": 1463000,
+        "explicit": false,
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab676663000022a8ac734445b32f837c9a1b6d13",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab6766630000db5bac734445b32f837c9a1b6d13",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab6766630000703bac734445b32f837c9a1b6d13",
+            "width": 64
+          }
+        ],
+        "languages": [""],
+        "name": "Chapter 4: The Keeper of the Keys",
+        "audio_preview_url": null,
+        "release_date": "0000",
+        "release_date_precision": "year",
+        "resume_point": { "fully_played": false, "resume_position_ms": 0 },
+        "is_playable": false,
+        "html_description": "",
+        "type": "chapter",
+        "uri": "spotify:episode:5q9RB4Nbvsy0z6EX7pMGmA",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/5q9RB4Nbvsy0z6EX7pMGmA"
+        },
+        "href": "https://api.spotify.com/v1/chapters/5q9RB4Nbvsy0z6EX7pMGmA"
+      },
+      {
+        "restriction": { "reason": "payment_required" },
+        "id": "4VFIZovdCZym8yV1ZaB0xp",
+        "description": "",
+        "chapter_number": 5,
+        "duration_ms": 2635000,
+        "explicit": false,
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab676663000022a8ac734445b32f837c9a1b6d13",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab6766630000db5bac734445b32f837c9a1b6d13",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab6766630000703bac734445b32f837c9a1b6d13",
+            "width": 64
+          }
+        ],
+        "languages": [""],
+        "name": "Chapter 5: Diagon Alley",
+        "audio_preview_url": null,
+        "release_date": "0000",
+        "release_date_precision": "year",
+        "resume_point": { "fully_played": false, "resume_position_ms": 0 },
+        "is_playable": false,
+        "html_description": "",
+        "type": "chapter",
+        "uri": "spotify:episode:4VFIZovdCZym8yV1ZaB0xp",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/4VFIZovdCZym8yV1ZaB0xp"
+        },
+        "href": "https://api.spotify.com/v1/chapters/4VFIZovdCZym8yV1ZaB0xp"
+      },
+      {
+        "restriction": { "reason": "payment_required" },
+        "id": "5Mgn4sfbWN6VLuwINbT06r",
+        "description": "",
+        "chapter_number": 6,
+        "duration_ms": 2294000,
+        "explicit": false,
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab676663000022a8ac734445b32f837c9a1b6d13",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab6766630000db5bac734445b32f837c9a1b6d13",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab6766630000703bac734445b32f837c9a1b6d13",
+            "width": 64
+          }
+        ],
+        "languages": [""],
+        "name": "Chapter 6: The Journey from Platform Nine and Three-quarters",
+        "audio_preview_url": null,
+        "release_date": "0000",
+        "release_date_precision": "year",
+        "resume_point": { "fully_played": false, "resume_position_ms": 0 },
+        "is_playable": false,
+        "html_description": "",
+        "type": "chapter",
+        "uri": "spotify:episode:5Mgn4sfbWN6VLuwINbT06r",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/5Mgn4sfbWN6VLuwINbT06r"
+        },
+        "href": "https://api.spotify.com/v1/chapters/5Mgn4sfbWN6VLuwINbT06r"
+      },
+      {
+        "restriction": { "reason": "payment_required" },
+        "id": "1s1HEMeiDZKQ3z1UK3J6Kb",
+        "description": "",
+        "chapter_number": 7,
+        "duration_ms": 1729000,
+        "explicit": false,
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab676663000022a8ac734445b32f837c9a1b6d13",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab6766630000db5bac734445b32f837c9a1b6d13",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab6766630000703bac734445b32f837c9a1b6d13",
+            "width": 64
+          }
+        ],
+        "languages": [""],
+        "name": "Chapter 7: The Sorting Hat",
+        "audio_preview_url": null,
+        "release_date": "0000",
+        "release_date_precision": "year",
+        "resume_point": { "fully_played": false, "resume_position_ms": 0 },
+        "is_playable": false,
+        "html_description": "",
+        "type": "chapter",
+        "uri": "spotify:episode:1s1HEMeiDZKQ3z1UK3J6Kb",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/1s1HEMeiDZKQ3z1UK3J6Kb"
+        },
+        "href": "https://api.spotify.com/v1/chapters/1s1HEMeiDZKQ3z1UK3J6Kb"
+      },
+      {
+        "restriction": { "reason": "payment_required" },
+        "id": "08UNiUH5DXmHoetGm22Os0",
+        "description": "",
+        "chapter_number": 8,
+        "duration_ms": 1112000,
+        "explicit": false,
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab676663000022a8ac734445b32f837c9a1b6d13",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab6766630000db5bac734445b32f837c9a1b6d13",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab6766630000703bac734445b32f837c9a1b6d13",
+            "width": 64
+          }
+        ],
+        "languages": [""],
+        "name": "Chapter 8: The Potions Master",
+        "audio_preview_url": null,
+        "release_date": "0000",
+        "release_date_precision": "year",
+        "resume_point": { "fully_played": false, "resume_position_ms": 0 },
+        "is_playable": false,
+        "html_description": "",
+        "type": "chapter",
+        "uri": "spotify:episode:08UNiUH5DXmHoetGm22Os0",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/08UNiUH5DXmHoetGm22Os0"
+        },
+        "href": "https://api.spotify.com/v1/chapters/08UNiUH5DXmHoetGm22Os0"
+      },
+      {
+        "restriction": { "reason": "payment_required" },
+        "id": "0jlXkZEe4xh8Xs7TRxsU1A",
+        "description": "",
+        "chapter_number": 9,
+        "duration_ms": 1858000,
+        "explicit": false,
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab676663000022a8ac734445b32f837c9a1b6d13",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab6766630000db5bac734445b32f837c9a1b6d13",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab6766630000703bac734445b32f837c9a1b6d13",
+            "width": 64
+          }
+        ],
+        "languages": [""],
+        "name": "Chapter 9: The Midnight Duel",
+        "audio_preview_url": null,
+        "release_date": "0000",
+        "release_date_precision": "year",
+        "resume_point": { "fully_played": false, "resume_position_ms": 0 },
+        "is_playable": false,
+        "html_description": "",
+        "type": "chapter",
+        "uri": "spotify:episode:0jlXkZEe4xh8Xs7TRxsU1A",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/0jlXkZEe4xh8Xs7TRxsU1A"
+        },
+        "href": "https://api.spotify.com/v1/chapters/0jlXkZEe4xh8Xs7TRxsU1A"
+      },
+      {
+        "restriction": { "reason": "payment_required" },
+        "id": "7dMoLM0MolXl16OOpqvtq2",
+        "description": "",
+        "chapter_number": 10,
+        "duration_ms": 1532000,
+        "explicit": false,
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab676663000022a8ac734445b32f837c9a1b6d13",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab6766630000db5bac734445b32f837c9a1b6d13",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab6766630000703bac734445b32f837c9a1b6d13",
+            "width": 64
+          }
+        ],
+        "languages": [""],
+        "name": "Chapter 10: Halloween",
+        "audio_preview_url": null,
+        "release_date": "0000",
+        "release_date_precision": "year",
+        "resume_point": { "fully_played": false, "resume_position_ms": 0 },
+        "is_playable": false,
+        "html_description": "",
+        "type": "chapter",
+        "uri": "spotify:episode:7dMoLM0MolXl16OOpqvtq2",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/7dMoLM0MolXl16OOpqvtq2"
+        },
+        "href": "https://api.spotify.com/v1/chapters/7dMoLM0MolXl16OOpqvtq2"
+      },
+      {
+        "restriction": { "reason": "payment_required" },
+        "id": "4pbTjPqU7wLmRbpoG9Gojm",
+        "description": "",
+        "chapter_number": 11,
+        "duration_ms": 1274000,
+        "explicit": false,
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab676663000022a8ac734445b32f837c9a1b6d13",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab6766630000db5bac734445b32f837c9a1b6d13",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab6766630000703bac734445b32f837c9a1b6d13",
+            "width": 64
+          }
+        ],
+        "languages": [""],
+        "name": "Chapter 11: Quidditch",
+        "audio_preview_url": null,
+        "release_date": "0000",
+        "release_date_precision": "year",
+        "resume_point": { "fully_played": false, "resume_position_ms": 0 },
+        "is_playable": false,
+        "html_description": "",
+        "type": "chapter",
+        "uri": "spotify:episode:4pbTjPqU7wLmRbpoG9Gojm",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/4pbTjPqU7wLmRbpoG9Gojm"
+        },
+        "href": "https://api.spotify.com/v1/chapters/4pbTjPqU7wLmRbpoG9Gojm"
+      },
+      {
+        "restriction": { "reason": "payment_required" },
+        "id": "7uejBgxc1awlNoWuWLgOYg",
+        "description": "",
+        "chapter_number": 12,
+        "duration_ms": 2138000,
+        "explicit": false,
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab676663000022a8ac734445b32f837c9a1b6d13",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab6766630000db5bac734445b32f837c9a1b6d13",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab6766630000703bac734445b32f837c9a1b6d13",
+            "width": 64
+          }
+        ],
+        "languages": [""],
+        "name": "Chapter 12: The Mirror of Erised",
+        "audio_preview_url": null,
+        "release_date": "0000",
+        "release_date_precision": "year",
+        "resume_point": { "fully_played": false, "resume_position_ms": 0 },
+        "is_playable": false,
+        "html_description": "",
+        "type": "chapter",
+        "uri": "spotify:episode:7uejBgxc1awlNoWuWLgOYg",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/7uejBgxc1awlNoWuWLgOYg"
+        },
+        "href": "https://api.spotify.com/v1/chapters/7uejBgxc1awlNoWuWLgOYg"
+      },
+      {
+        "restriction": { "reason": "payment_required" },
+        "id": "3hWnkMkg70QFkxvD1pHPGo",
+        "description": "",
+        "chapter_number": 13,
+        "duration_ms": 1187000,
+        "explicit": false,
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab676663000022a8ac734445b32f837c9a1b6d13",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab6766630000db5bac734445b32f837c9a1b6d13",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab6766630000703bac734445b32f837c9a1b6d13",
+            "width": 64
+          }
+        ],
+        "languages": [""],
+        "name": "Chapter 13: Nicolas Flamel",
+        "audio_preview_url": null,
+        "release_date": "0000",
+        "release_date_precision": "year",
+        "resume_point": { "fully_played": false, "resume_position_ms": 0 },
+        "is_playable": false,
+        "html_description": "",
+        "type": "chapter",
+        "uri": "spotify:episode:3hWnkMkg70QFkxvD1pHPGo",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/3hWnkMkg70QFkxvD1pHPGo"
+        },
+        "href": "https://api.spotify.com/v1/chapters/3hWnkMkg70QFkxvD1pHPGo"
+      },
+      {
+        "restriction": { "reason": "payment_required" },
+        "id": "712vg15ggWPvA0TWMyHhc6",
+        "description": "",
+        "chapter_number": 14,
+        "duration_ms": 1275000,
+        "explicit": false,
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab676663000022a8ac734445b32f837c9a1b6d13",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab6766630000db5bac734445b32f837c9a1b6d13",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab6766630000703bac734445b32f837c9a1b6d13",
+            "width": 64
+          }
+        ],
+        "languages": [""],
+        "name": "Chapter 14: Norbert The Norwegian Ridgeback",
+        "audio_preview_url": null,
+        "release_date": "0000",
+        "release_date_precision": "year",
+        "resume_point": { "fully_played": false, "resume_position_ms": 0 },
+        "is_playable": false,
+        "html_description": "",
+        "type": "chapter",
+        "uri": "spotify:episode:712vg15ggWPvA0TWMyHhc6",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/712vg15ggWPvA0TWMyHhc6"
+        },
+        "href": "https://api.spotify.com/v1/chapters/712vg15ggWPvA0TWMyHhc6"
+      },
+      {
+        "restriction": { "reason": "payment_required" },
+        "id": "6O2AblzE0miMDYnPi1ZcCb",
+        "description": "",
+        "chapter_number": 15,
+        "duration_ms": 1941000,
+        "explicit": false,
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab676663000022a8ac734445b32f837c9a1b6d13",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab6766630000db5bac734445b32f837c9a1b6d13",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab6766630000703bac734445b32f837c9a1b6d13",
+            "width": 64
+          }
+        ],
+        "languages": [""],
+        "name": "Chapter 15: The Forbidden Forest",
+        "audio_preview_url": null,
+        "release_date": "0000",
+        "release_date_precision": "year",
+        "resume_point": { "fully_played": false, "resume_position_ms": 0 },
+        "is_playable": false,
+        "html_description": "",
+        "type": "chapter",
+        "uri": "spotify:episode:6O2AblzE0miMDYnPi1ZcCb",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/6O2AblzE0miMDYnPi1ZcCb"
+        },
+        "href": "https://api.spotify.com/v1/chapters/6O2AblzE0miMDYnPi1ZcCb"
+      },
+      {
+        "restriction": { "reason": "payment_required" },
+        "id": "1gUSWzTxn4vS4OuxJJmf35",
+        "description": "",
+        "chapter_number": 16,
+        "duration_ms": 2473000,
+        "explicit": false,
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab676663000022a8ac734445b32f837c9a1b6d13",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab6766630000db5bac734445b32f837c9a1b6d13",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab6766630000703bac734445b32f837c9a1b6d13",
+            "width": 64
+          }
+        ],
+        "languages": [""],
+        "name": "Chapter 16: Through the Trapdoor",
+        "audio_preview_url": null,
+        "release_date": "0000",
+        "release_date_precision": "year",
+        "resume_point": { "fully_played": false, "resume_position_ms": 0 },
+        "is_playable": false,
+        "html_description": "",
+        "type": "chapter",
+        "uri": "spotify:episode:1gUSWzTxn4vS4OuxJJmf35",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/1gUSWzTxn4vS4OuxJJmf35"
+        },
+        "href": "https://api.spotify.com/v1/chapters/1gUSWzTxn4vS4OuxJJmf35"
+      },
+      {
+        "restriction": { "reason": "payment_required" },
+        "id": "79DToHUNETnR2liHYH0ISV",
+        "description": "",
+        "chapter_number": 17,
+        "duration_ms": 2362000,
+        "explicit": false,
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab676663000022a8ac734445b32f837c9a1b6d13",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab6766630000db5bac734445b32f837c9a1b6d13",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab6766630000703bac734445b32f837c9a1b6d13",
+            "width": 64
+          }
+        ],
+        "languages": [""],
+        "name": "Chapter 17: The Man with Two Faces",
+        "audio_preview_url": null,
+        "release_date": "0000",
+        "release_date_precision": "year",
+        "resume_point": { "fully_played": false, "resume_position_ms": 0 },
+        "is_playable": false,
+        "html_description": "",
+        "type": "chapter",
+        "uri": "spotify:episode:79DToHUNETnR2liHYH0ISV",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/79DToHUNETnR2liHYH0ISV"
+        },
+        "href": "https://api.spotify.com/v1/chapters/79DToHUNETnR2liHYH0ISV"
+      },
+      {
+        "restriction": { "reason": "payment_required" },
+        "id": "5IGgFJZtRsjaHtfSfaPBg0",
+        "description": "",
+        "chapter_number": 18,
+        "duration_ms": 97000,
+        "explicit": false,
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab676663000022a8ac734445b32f837c9a1b6d13",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab6766630000db5bac734445b32f837c9a1b6d13",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab6766630000703bac734445b32f837c9a1b6d13",
+            "width": 64
+          }
+        ],
+        "languages": [""],
+        "name": "Ending Credits",
+        "audio_preview_url": null,
+        "release_date": "0000",
+        "release_date_precision": "year",
+        "resume_point": { "fully_played": false, "resume_position_ms": 0 },
+        "is_playable": false,
+        "html_description": "",
+        "type": "chapter",
+        "uri": "spotify:episode:5IGgFJZtRsjaHtfSfaPBg0",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/5IGgFJZtRsjaHtfSfaPBg0"
+        },
+        "href": "https://api.spotify.com/v1/chapters/5IGgFJZtRsjaHtfSfaPBg0"
+      },
+      {
+        "id": "4twr9j4P9xgnyNFYpuhWDa",
+        "description": "",
+        "chapter_number": 19,
+        "duration_ms": 298656,
+        "explicit": false,
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab676663000022a8ac734445b32f837c9a1b6d13",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab6766630000db5bac734445b32f837c9a1b6d13",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab6766630000703bac734445b32f837c9a1b6d13",
+            "width": 64
+          }
+        ],
+        "languages": [""],
+        "name": "Harry Potter and the Sorcerer's Stone",
+        "audio_preview_url": null,
+        "release_date": "0000",
+        "release_date_precision": "year",
+        "resume_point": { "fully_played": false, "resume_position_ms": 0 },
+        "is_playable": true,
+        "html_description": "",
+        "type": "chapter",
+        "uri": "spotify:episode:4twr9j4P9xgnyNFYpuhWDa",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/episode/4twr9j4P9xgnyNFYpuhWDa"
+        },
+        "href": "https://api.spotify.com/v1/chapters/4twr9j4P9xgnyNFYpuhWDa"
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 20
+  },
+  "copyrights": [{ "text": "Pottermore 1997", "type": "C" }],
+  "description": "Author(s): J.K. Rowling\nNarrator(s): Jim Dale\n\n<em>\"Turning the envelope over, his hand trembling, Harry saw a purple wax seal bearing a coat of arms; a lion, an eagle, a badger and a snake surrounding a large letter 'H'.\"</em></br></br>Harry Potter has never even heard of Hogwarts when the letters start dropping on the doormat at number four, Privet Drive. Addressed in green ink on yellowish parchment with a purple seal, they are swiftly confiscated by his grisly aunt and uncle. Then, on Harry's eleventh birthday, a great beetle-eyed giant of a man called Rubeus Hagrid bursts in with some astonishing news: Harry Potter is a wizard, and he has a place at Hogwarts School of Witchcraft and Wizardry. An incredible adventure is about to begin!",
+  "edition": "Unabridged",
+  "explicit": false,
+  "external_urls": {
+    "spotify": "https://open.spotify.com/show/2IEBhnu61ieYGFRPEJIO40"
+  },
+  "href": "https://api.spotify.com/v1/audiobooks/2IEBhnu61ieYGFRPEJIO40",
+  "html_description": "Author(s): J.K. Rowling<br/>Narrator(s): Jim Dale<br/>&lt;em&gt;&#34;Turning the envelope over, his hand trembling, Harry saw a purple wax seal bearing a coat of arms; a lion, an eagle, a badger and a snake surrounding a large letter &#39;H&#39;.&#34;&lt;/em&gt;&lt;/br&gt;&lt;/br&gt;Harry Potter has never even heard of Hogwarts when the letters start dropping on the doormat at number four, Privet Drive. Addressed in green ink on yellowish parchment with a purple seal, they are swiftly confiscated by his grisly aunt and uncle. Then, on Harry&#39;s eleventh birthday, a great beetle-eyed giant of a man called Rubeus Hagrid bursts in with some astonishing news: Harry Potter is a wizard, and he has a place at Hogwarts School of Witchcraft and Wizardry. An incredible adventure is about to begin!",
+  "id": "2IEBhnu61ieYGFRPEJIO40",
+  "images": [
+    {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab676663000022a8ac734445b32f837c9a1b6d13",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://i.scdn.co/image/ab6766630000db5bac734445b32f837c9a1b6d13",
+      "width": 300
+    },
+    {
+      "height": 64,
+      "url": "https://i.scdn.co/image/ab6766630000703bac734445b32f837c9a1b6d13",
+      "width": 64
+    }
+  ],
+  "languages": ["English"],
+  "media_type": "audio",
+  "name": "Harry Potter and the Sorcerer's Stone",
+  "narrators": [{ "name": "Jim Dale" }],
+  "publisher": "Pottermore",
+  "total_chapters": 20,
+  "type": "audiobook",
+  "uri": "spotify:show:2IEBhnu61ieYGFRPEJIO40"
+}
