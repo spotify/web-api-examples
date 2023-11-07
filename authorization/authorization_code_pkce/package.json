@@ -1,0 +1,13 @@
+{
+  "name": "spotify-authorization-code-pkce",
+  "version": "1.0.0",
+  "description": "Spotify Authorization Code with PKCE flow example",
+  "scripts": {
+    "start": "http-server --cors public"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

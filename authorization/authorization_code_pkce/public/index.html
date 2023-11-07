@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Example of the Authorization Code with PKCE flow with Spotify</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="main"></div>
+  <div id="oauth"></div>
+
+  <template id="login">
+    <h1>Welcome to the OAuth2 PKCE Example</h1>
+    <button id="login-button" data-bind-onclick="loginWithSpotifyClick();"> Log in with Spotify </button>
+  </template>
+
+  <template id="logged-in-template">
+    <h1>Logged in as <span data-bind="display_name"></span></h1>
+    <img width="150" data-bind-src="images[0].url" data-bind-alt="display_name" />
+    <table>
+      <tr>
+        <td>Display name</td>
+        <td data-bind="display_name"></td>
+      </tr>
+      <tr>
+        <td>Id</td>
+        <td data-bind="id"></td>
+      </tr>
+      <tr>
+        <td>Email</td>
+        <td data-bind="email"></td>
+      </tr>
+      <tr>
+        <td>Spotify URI</td>
+        <td>
+          <a data-bind="external_urls.spotify" data-bind-href="external_urls.spotify"></a>
+        </td>
+      </tr>
+      <tr>
+        <td>Link </dt>
+        <td>
+          <a data-bind="href" data-bind-href="href"></a>
+        </td>
+      </tr>
+      <tr>
+        <td>Profile Image</td>
+        <td>
+          <a data-bind-href="images[0].url" data-bind="images[0].url"></a>
+        </td>
+      </tr>
+      <tr>
+        <td>Country</td>
+        <td data-bind="country"></td>
+      </tr>
+    </table>
+
+    <button id="refresh-token-button" data-bind-onclick="refreshTokenClick();">Refresh Token</button>
+    <button id="logout-button" data-bind-onclick="logoutClick();">Log out</button>
+  </template>
+
+  <template id="oauth-template">
+    <h2>oAuth info</h2>
+    <table>
+      <tr>
+        <td>Access token</td>
+        <td data-bind="access_token"></td>
+      </tr>
+      <tr>
+        <td>Refresh token</td>
+        <td data-bind="refresh_token"></td>
+      </tr>
+      <tr>
+        <td>Expiration at</td>
+        <td data-bind="expires">${getExpirationDate(expires_in)}</td>
+      </tr>
+    </table>
+  </template>
+
+  <script src="app.js" type="module"></script>
+</body>
+
+</html>
