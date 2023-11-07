@@ -1,0 +1,12 @@
+{
+  "name": "spotify-implicit-grant-example",
+  "version": "0.0.2",
+  "description": "Spotify Implicit Grant example",
+  "author": "Spotify",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "4.18.2"
+  }
+}

@@ -1,0 +1,39 @@
+body {
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+td:first-child {
+    font-weight: bold;
+}
+
+td {
+    white-space: nowrap;
+    padding: 10px;
+    margin-right: 1rem;
+}
+
+button {
+    margin: 1rem 1rem 0 0;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 3rem;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color:#1ed760;
+    color: black;
+}
+
+button:hover {
+    background-color: #1fdf64;
+}
+
+#logged-in {
+    display: none;
+}
