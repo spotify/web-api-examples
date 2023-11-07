@@ -1,4 +1,4 @@
-# Spotify Authorization Code example
+# Spotify Authorization Code with PKCE example
 
 This app displays your Spotify profile information using [Authorization Code with PKCE](https://developer.spotify.com/documentation/web-api/tutorials/code-pkce-flow)
 to grant permissions to the app.
