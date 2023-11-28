@@ -77,7 +77,7 @@ def callback():
 
 @app.route("/refresh_token")
 def refresh_token():
-    """making sure again that the token expired.."""
+    
     req_body = {
         "grant_type": "refresh_token",
         "refresh_token": session["refresh_token"],
