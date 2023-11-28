@@ -8,6 +8,7 @@ import urllib.parse
 from datetime import datetime
 import json
 import base64
+
 load_dotenv()  # getting credentials
 CLIENT_ID = os.getenv("CLIENT_ID")
 CLIENT_SECRET = os.getenv("CLIENT_SECRET")
@@ -16,7 +17,7 @@ REDIRECT_URI = os.getenv("REDIRECT_URI")
 """the user should add .env file with credentials"""
 CREDENTIALS = f"{CLIENT_ID}:{CLIENT_SECRET}"
 # Encode the combined string to base64
-encoded_credentials = base64.b64encode(CREDENTIALS.encode('utf-8')).decode('utf-8')
+encoded_credentials = base64.b64encode(CREDENTIALS.encode("utf-8")).decode("utf-8")
 app = Flask(__name__)
 
 app.secret_key = SESSION_SECRET
@@ -28,12 +29,11 @@ API_BASE = "https://api.spotify.com/v1/"
 
 @app.route("/")
 def index():
-    return render_template('index.html')
+    return render_template("index.html")
 
 
 @app.route("/login")
 def login():
-
     SCOPE = "user-read-private user-read-email"
 
     params = {
@@ -59,23 +59,21 @@ def callback():
             "redirect_uri": REDIRECT_URI,
             "client_id": CLIENT_ID,
             "client_secret": CLIENT_SECRET,
-            "headers":{
-                'content-type': 'application/x-www-form-urlencoded',
-                'authorization_header' : f'Basic {encoded_credentials}'
+            "headers": {
+                "content-type": "application/x-www-form-urlencoded",
+                "authorization_header": f"Basic {encoded_credentials}",
             },
-            "json":True
+            "json": True,
         }
         res = requests.post(TOKEN_URL, data=req_body)
         token_info = res.json()
-        
+
         session["access_token"] = token_info["access_token"]
         session["refresh_token"] = token_info["refresh_token"]
-        
-        
-        token_js=f'access_token={token_info["access_token"]}&refresh_token={token_info["refresh_token"]}'
+
+        token_js = f'access_token={token_info["access_token"]}&refresh_token={token_info["refresh_token"]}'
         return redirect(f"/#{token_js}")
-    #add invalid token later !!!
-    
+
 
 @app.route("/refresh_token")
 def refresh_token():
@@ -85,17 +83,21 @@ def refresh_token():
         "refresh_token": session["refresh_token"],
         "client_id": CLIENT_ID,
         "client_secret": CLIENT_SECRET,
-        "headers":{
-                'content-type': 'application/x-www-form-urlencoded',
-                'authorization_header' : f'Basic {encoded_credentials}'
-            },
+        "headers": {
+            "content-type": "application/x-www-form-urlencoded",
+            "authorization_header": f"Basic {encoded_credentials}",
+        },
     }
     res = requests.post(TOKEN_URL, data=req_body)
     new_token_info = res.json()
     session["access_token"] = new_token_info["access_token"]
-    
-    return jsonify({'access_token':new_token_info['access_token'],'refresh_token':session['refresh_token']})
 
+    return jsonify(
+        {
+            "access_token": new_token_info["access_token"],
+            "refresh_token": session["refresh_token"],
+        }
+    )
 
 
 if __name__ == "__main__":
