@@ -1,0 +1,7 @@
+spotipy
+requests
+python-dotenv
+Flask
+urllib3
+os
+datetime
