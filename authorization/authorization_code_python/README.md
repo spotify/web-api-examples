@@ -36,5 +36,5 @@ From a console shell:
 Then, open `http://localhost:8080` in a browser.
 
 ## Author
-- Create by [Leon Markovich](hhttps://github.com/LeonMar97)
+- Create by [Leon Markovich](https://github.com/LeonMar97)
 - Tested on  28/11/23.
