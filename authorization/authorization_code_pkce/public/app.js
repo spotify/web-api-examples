@@ -92,7 +92,7 @@ async function redirectToSpotifyAuthorize() {
   window.location.href = authUrl.toString(); // Redirect the user to the authorization server for login
 }
 
-// Soptify API Calls
+// Spotify API Calls
 async function getToken(code) {
   const code_verifier = localStorage.getItem('code_verifier');
 
